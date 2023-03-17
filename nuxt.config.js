@@ -1,15 +1,41 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'site',
+    title: 'WePlan | Móveis Planejados',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'pt-br',
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        property: "description",
+        content:
+          "A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.",
+      },
+      { property: "twitter:title", content: "WePlan | Móveis Planejados" },
+      {
+        property: "twitter:image",
+        content: "https://www.weplan.com.br/_nuxt/img/weplan-moveis.webp",
+      },
+      { property: "twitter:site", content: "WePlan | Móveis Planejados" },
+      {
+        property: "twitter:description",
+        content:
+          "A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.",
+      },
+      { name: "twitter:card", content: "summary" },
+      { property: "og:title", content: "WePlan | Móveis Planejados" },
+      {
+        property: "og:image",
+        content: "https://www.weplan.com.br/_nuxt/img/weplan-moveis.webp",
+      },
+      { property: "og:site_name", content: "WePlan | Móveis Planejados" },
+      { property: "og:type", content: "website" },
+      {
+        property: "og:description",
+        content:
+          "A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.",
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
