@@ -31,9 +31,10 @@
       </b-row>      
     </b-container>
     <b-container fluid class="section-3">
-      <b-row>
+      <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem faz a WePlan?</h2>
+          <span>Esta é a nossa equipe de especialistas que está preparada para atender você ou sua empresa.</span>
         </b-col>
       </b-row>
       <b-row>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark">
+    <b-navbar toggleable="lg" type="dark" class="fixed-top">
       <b-navbar-brand to="/">
         <b-img src="~/assets/images/weplan-logo.svg" width="140px" alt="WePlan" />
       </b-navbar-brand>
