@@ -1,7 +1,25 @@
 .button-link {
   text-decoration: none;
-  background-color: #4a148c;
+  font-weight: 700;
+  background-color: #ffc821;
   border-radius: 5px;
+  border: 0;
   padding: 1.2rem;
-  color: #fff;
+  color: #4a148c;
+}
+
+.button-link:hover,
+.button-link:active,
+.button-link:focus {
+  background-color: #d8a200;
+}
+
+.highlighted-words {
+  font-weight: 700;
+  text-decoration: underline #d8a200 4px;
+  text-decoration-skip-ink: none;
+}
+
+.text-shadow {
+  text-shadow: #240051 0px 0px 10px;
 }
