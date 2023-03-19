@@ -34,7 +34,7 @@
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem faz a WePlan?</h2>
-          <span>Esta é a nossa equipe de especialistas que está preparada para atender você ou sua empresa.</span>
+          <span>Esta é a nossa equipe de especialistas que está preparada para atender você e/ou sua empresa.</span>
         </b-col>
       </b-row>
       <b-row>
@@ -152,7 +152,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 8rem;
+  padding-top: 13rem;
   padding-bottom: 8rem;
   color: #fff;
   font-size: 1.1rem;
