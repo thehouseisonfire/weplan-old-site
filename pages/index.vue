@@ -152,8 +152,6 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 13rem;
-  padding-bottom: 8rem;
   color: #fff;
   font-size: 1.1rem;
 }
@@ -202,5 +200,4 @@ span.team-member-description {
 .team-member-link:focus {
   background-color: #240051;
 }
-
 </style>

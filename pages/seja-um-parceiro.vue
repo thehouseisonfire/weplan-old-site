@@ -1,9 +1,14 @@
 <template>
   <div>
-    Seja um parceiro
+    <b-container fluid class="section-1">
+      <b-row>
+        <b-col cols="12">
+          Seja um parceiro
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
-
 <script>
 export default {
   name: 'SejaUmParceiroPage',
