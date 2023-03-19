@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 40 40"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="linkedin.svg"
+   width="40"
+   height="40"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0097656"
+     inkscape:cx="156.47196"
+     inkscape:cy="98.042556"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+  <path
+     d="M 37.142858,0 H 2.8482142 C 1.2767857,0 0,1.294642 0,2.883928 V 37.116072 C 0,38.705358 1.2767857,40 2.8482142,40 H 37.142858 C 38.714286,40 40,38.705358 40,37.116072 V 2.883928 C 40,1.294642 38.714286,0 37.142858,0 Z M 12.089286,34.285714 H 6.1607142 V 15.196428 H 12.098214 V 34.285714 Z M 9.125,12.589286 c -1.9017858,0 -3.4375,-1.544644 -3.4375,-3.4375 0,-1.892858 1.5357142,-3.4375 3.4375,-3.4375 1.892857,0 3.4375,1.544642 3.4375,3.4375 0,1.901786 -1.535714,3.4375 -3.4375,3.4375 z M 34.3125,34.285714 H 28.383928 V 25 c 0,-2.214286 -0.04464,-5.0625 -3.080356,-5.0625 -3.089286,0 -3.5625,2.410714 -3.5625,4.901786 v 9.446428 H 15.8125 V 15.196428 H 21.5 v 2.607144 h 0.08036 c 0.794642,-1.5 2.732142,-3.080358 5.61607,-3.080358 6,0 7.116072,3.955358 7.116072,9.098214 z"
+     id="path2"
+     style="fill:#ffffff;stroke-width:0.089286" />
+</svg>
