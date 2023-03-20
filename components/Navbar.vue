@@ -35,6 +35,15 @@ export default {
   font-weight:500;
 }
 
+.nav-item a.nav-link:hover,
+.nav-item a.nav-link:active,
+.nav-item a.nav-link:focus,
+.nav-item a.nav-link-active {
+  color: #ffffffd9;
+  text-decoration: underline #ffc821 4px;
+  text-decoration-skip-ink: none;
+}
+
 button.navbar-toggler {
   border: 0;
 }

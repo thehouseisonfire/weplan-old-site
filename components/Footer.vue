@@ -32,6 +32,7 @@
                   <li><b-link to="/contato">Contato</b-link></li>
                   <li><b-link href="https://app.weplan.com.br/" target="_blank">Login no APP</b-link></li>
                   <li><b-link to="#">WePlan Educação</b-link></li>
+                  <li><b-link to="/#quem-faz-a-weplan">Quem faz a Weplan?</b-link></li>
                 </ul>
               </b-row>
             </b-container>
@@ -114,6 +115,7 @@ export default {
 .footer-group-links a:hover,
 .footer-group-links a:active,
 .footer-group-links a:focus {
+  color: #ffffffd9;
   text-decoration: underline #ffc821 4px;
   text-decoration-skip-ink: none;
 }
