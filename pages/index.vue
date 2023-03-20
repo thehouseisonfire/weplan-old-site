@@ -4,8 +4,8 @@
       <b-row>
         <b-col cols="12">
           <b-container>
-            <h1 class="display-4 font-weight-bold text-shadow">Móveis Planejados</h1>
-            <p class="text-shadow">
+            <h1 class="display-4 font-weight-bold text-shadow-purple">Móveis Planejados</h1>
+            <p class="text-shadow-purple">
               De maneira facilitada<br>
               De alta qualidade e sofisticação<br>
               De acordo com o seu desejo
@@ -30,10 +30,10 @@
         </b-col>
       </b-row>      
     </b-container>
-    <b-container fluid class="section-3">
+    <b-container id="quem-faz-a-weplan" fluid class="section-3">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
-          <h2 class="section-title" id="quem-faz-a-weplan">Quem faz a WePlan?</h2>
+          <h2 class="section-title">Quem faz a WePlan?</h2>
           <span>Esta é a nossa equipe de especialistas que está preparada para atender você e/ou sua empresa.</span>
         </b-col>
       </b-row>

@@ -32,6 +32,10 @@
   text-decoration-skip-ink: none;
 }
 
-.text-shadow {
+.text-shadow-purple {
   text-shadow: #240051 0px 0px 10px;
+}
+
+.text-shadow-yellow {
+  text-shadow: #ffc821 0px 0px 10px;
 }
