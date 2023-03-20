@@ -42,8 +42,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-renan.jpeg"></b-img>
           <p>
             <span class="team-member-name">Renan Assumpção</span><br>
-            <span class="team-member-position">CEO e Cofundador</span><br>
-            <!-- <span class="team-member-description">Especialista em vendas e gestão de equipes de móveis planejados. Mais de 10 anos de atuação no mercado</span> -->
+            <span class="team-member-position">CEO e Cofundador</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/renan-assumpção-b349841b0/" target="_blank">Mais sobre o Renan</a></p>
         </b-col>
@@ -51,8 +50,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-diego.jpeg"></b-img>
           <p>
             <span class="team-member-name">Diego Pertile</span><br>
-            <span class="team-member-position">COO e Cofundador</span><br>
-            <!-- <span class="team-member-description">Especialista em projetos de interiores e móveis planejados. Mais de 10 anos de atuação no mercado</span> -->
+            <span class="team-member-position">COO e Cofundador</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/diego-pertile-6923501a8/" target="_blank">Mais sobre o Diego</a></p>
         </b-col>
@@ -60,8 +58,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-ismael.jpeg"></b-img>
           <p>
             <span class="team-member-name">Ismael dos Santos</span><br>
-            <span class="team-member-position">Head de Vendas</span><br>
-            <!-- <span class="team-member-description">Especialista em vendas complexas, com foco em móveis planejados. Mais de 10 anos de atuação no mercado</span> -->
+            <span class="team-member-position">Head de Vendas</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/" target="_blank">Mais sobre o Ismael</a></p>
         </b-col>
@@ -69,8 +66,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-ueslei.jpeg"></b-img>
           <p>
             <span class="team-member-name">Uéslei Budke</span><br>
-            <span class="team-member-position">Head de Expansão</span><br>
-            <!-- <span class="team-member-description">Arquiteto e Urbanista especialista na execução de projetos de móveis planejados</span> -->
+            <span class="team-member-position">Head de Expansão</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/uéslei-budke-7393aa207/" target="_blank">Mais sobre o Uéslei</a></p>
         </b-col>
@@ -78,8 +74,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-karoline.jpeg"></b-img>
           <p>
             <span class="team-member-name">Karoline Destri</span><br>
-            <span class="team-member-position">Head de Educação</span><br>
-            <!-- <span class="team-member-description">Engenheira Civil especialista no lançamento de produtos digitais e marketing digital</span> -->
+            <span class="team-member-position">Head de Educação</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/karoline-cofferi-destri-052644197/" target="_blank">Mais sobre a Karoline</a></p>
         </b-col>
@@ -87,8 +82,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-amanda.jpeg"></b-img>
           <p>
             <span class="team-member-name">Amanda Moro</span><br>
-            <span class="team-member-position">Head de Operações</span><br>
-            <!-- <span class="team-member-description">Designer de Interiores especialista em projetos de interiores e móveis planejados</span> -->
+            <span class="team-member-position">Head de Operações</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/" target="_blank">Mais sobre a Amanda</a></p>
         </b-col>
@@ -96,8 +90,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-juliano.jpeg"></b-img>
           <p>
             <span class="team-member-name">Juliano Schmitz</span><br>
-            <span class="team-member-position">CTO</span><br>
-            <!-- <span class="team-member-description">Especialista em T.I., com experiência no desenvolvimento de aplicações WEB, integrações entre sistemas e análise de dados</span> -->
+            <span class="team-member-position">CTO</span>
           </p>
           <p><a class="team-member-link" href="https://linktr.ee/sjulianoluiz" target="_blank">Mais sobre o Juliano</a></p>
         </b-col>
@@ -105,8 +98,7 @@
           <b-img class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px" src="~/assets/images/team/perfil-joao.jpeg"></b-img>
           <p>
             <span class="team-member-name">João Marolli</span><br>
-            <span class="team-member-position">Supervisor de Montagem</span><br>
-            <!-- <span class="team-member-description">Especialista em T.I., com experiência no desenvolvimento de aplicações WEB, integrações entre sistemas e análise de dados</span> -->
+            <span class="team-member-position">Supervisor de Montagem</span>
           </p>
           <p><a class="team-member-link" href="#" target="_blank">Mais sobre o João</a></p>
         </b-col>
@@ -114,8 +106,7 @@
           <svg class="bd-placeholder-img rounded-circle" width="130" height="130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
           <p>
             <span class="team-member-name">Christian Matte</span><br>
-            <span class="team-member-position">Analista de Projetos</span><br>
-            <!-- <span class="team-member-description">Especialista em T.I., com experiência no desenvolvimento de aplicações WEB, integrações entre sistemas e análise de dados</span> -->
+            <span class="team-member-position">Analista de Projetos</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/engchristianbm/" target="_blank">Mais sobre o Christian</a></p>
         </b-col>
@@ -123,8 +114,7 @@
           <svg class="bd-placeholder-img rounded-circle" width="130" height="130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
           <p>
             <span class="team-member-name">Suianne Santos</span><br>
-            <span class="team-member-position">Analista de Projetos</span><br>
-            <!-- <span class="team-member-description">Especialista em T.I., com experiência no desenvolvimento de aplicações WEB, integrações entre sistemas e análise de dados</span> -->
+            <span class="team-member-position">Analista de Projetos</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/suianne-dos-santos-199900226/" target="_blank">Mais sobre a Suianne</a></p>
         </b-col>
@@ -132,8 +122,7 @@
           <svg class="bd-placeholder-img rounded-circle" width="130" height="130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
           <p>
             <span class="team-member-name">Eduardo Spegiorin</span><br>
-            <span class="team-member-position">SDR</span><br>
-            <!-- <span class="team-member-description">Especialista em T.I., com experiência no desenvolvimento de aplicações WEB, integrações entre sistemas e análise de dados</span> -->
+            <span class="team-member-position">SDR</span>
           </p>
           <p><a class="team-member-link" href="https://www.linkedin.com/in/eduardo-spegiorin-98a597255/" target="_blank">Mais sobre o Eduardo</a></p>
         </b-col>
