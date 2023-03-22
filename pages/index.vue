@@ -4,7 +4,7 @@
       <b-row>
         <b-col cols="12">
           <b-container>
-            <h1 class="display-4 font-weight-bold text-shadow-purple">Móveis Planejados</h1>
+            <h1 class="page-title text-shadow-purple">Móveis Planejados</h1>
             <p class="text-shadow-purple">
               De maneira facilitada<br>
               De alta qualidade e sofisticação<br>
