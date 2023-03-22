@@ -153,6 +153,11 @@ export default {
   padding: 0 1.25rem 1.25rem;
 }
 
+.card-body img {
+  width: 100%;
+  max-width: 250px;
+}
+
 .card-text {
   align-self: center !important;
   padding-top: 0;
@@ -162,6 +167,7 @@ export default {
 
 .button-link {
   font-size: 2vw;
+  margin-bottom: 5px;
 }
 
 .button-link:hover,
@@ -173,12 +179,18 @@ export default {
 
 @media only screen and (max-width: 576px) {
   .button-link {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .button-link {
+    font-size: 1vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .card-text {
     font-size: 1vw;
   }
 }
