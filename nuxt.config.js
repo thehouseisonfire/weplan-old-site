@@ -15,7 +15,7 @@ export default {
       { property: "twitter:title", content: "WePlan | Móveis Planejados" },
       {
         property: "twitter:image",
-        content: "https://www.weplan.com.br/_nuxt/img/weplan-moveis.webp",
+        content: "https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp",
       },
       { property: "twitter:site", content: "WePlan | Móveis Planejados" },
       {
@@ -27,7 +27,7 @@ export default {
       { property: "og:title", content: "WePlan | Móveis Planejados" },
       {
         property: "og:image",
-        content: "https://www.weplan.com.br/_nuxt/img/weplan-moveis.webp",
+        content: "https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp",
       },
       { property: "og:site_name", content: "WePlan | Móveis Planejados" },
       { property: "og:type", content: "website" },
