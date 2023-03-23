@@ -120,19 +120,19 @@
               <p>O seu projeto de móveis planejados será confeccionado em <span class="highlighted-words-yellow">indústrias parceiras experientes e consolidadas</span> do mercado que <span class="highlighted-words-yellow">prezam pelo prazo</span>.</p>
             </b-col>
             <b-col cols="12" md="6" class="text-center">
-              <b-img src="~/assets/images/vantagem-velocidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+              <b-img src="~/assets/images/vantagem-velocidade.webp" class="img-fluid img-shadow" alt="Uma das vantagens da WePlan é a velocidade" />
             </b-col>
           </b-row>
           <b-row id="qualidade" class="my-3">
             <b-col md="6" class="text-center d-none d-md-block">
-              <b-img src="~/assets/images/vantagem-qualidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+              <b-img src="~/assets/images/vantagem-qualidade.webp" class="img-fluid img-shadow" alt="Uma das vantagens da WePlan é a qualidade" />
             </b-col>
             <b-col cols="12" md="6" class="align-self-center text-md-left text-sm-center">
               <h3 class="section-subtitle">Qualidade</h3>
               <p>Nossos <span class="highlighted-words-yellow">móveis planejados são reconhecidos pelo nível de qualidade em que são fabricados</span> e isso é ponto primordial para nós e nossos parceiros.</p>
             </b-col>
             <b-col md="6" class="text-center d-md-none">
-              <b-img src="~/assets/images/vantagem-qualidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+              <b-img src="~/assets/images/vantagem-qualidade.webp" class="img-fluid img-shadow" alt="Uma das vantagens da WePlan é a qualidade" />
             </b-col>
           </b-row>
           <b-row id="facilidade" class="subsection">
@@ -141,7 +141,7 @@
               <p><span class="highlighted-words-yellow">Acabar com a burocracia</span> para projetar e executar móveis planejados é uma dor do mercado, nós acabamos com isso <span class="highlighted-words-yellow">através das conexões entre cliente, profissional e indústria</span>.</p>
             </b-col>
             <b-col cols="12" md="6" class="text-center">
-              <b-img src="~/assets/images/vantagem-velocidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+              <b-img src="~/assets/images/vantagem-facilidade.webp" class="img-fluid img-shadow" alt="Uma das vantagens da WePlan é a facilidade" />
             </b-col>
           </b-row>
         </b-container>
