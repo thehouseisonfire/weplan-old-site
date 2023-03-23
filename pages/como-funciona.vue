@@ -17,13 +17,13 @@
       <b-row>
         <b-col md="1"></b-col>
         <b-col cols="12" md="10">
-          <p>Todo <span class="highlighted-words">processo</span> desde o projeto até a montagem foi <span class="highlighted-words">pensado por nós para ser o mais simples, eficiente e qualificado</span> do país.</p>
+          <p>Todo <span class="highlighted-words-yellow">processo</span> desde o projeto até a montagem foi <span class="highlighted-words-yellow">pensado por nós para ser o mais simples, eficiente e qualificado</span> do país.</p>
         </b-col>
         <b-col md="1"></b-col>
       </b-row>
       <b-row class="mt-5">
         <b-col md="1"></b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2">
+        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
           <div class="card">
             <div class="card-header">
               1
@@ -36,7 +36,7 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2">
+        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
           <div class="card">
             <div class="card-header">
               2
@@ -49,7 +49,7 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2">
+        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
           <div class="card">
             <div class="card-header">
               3
@@ -62,7 +62,7 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2">
+        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
           <div class="card">
             <div class="card-header">
               4
@@ -75,7 +75,7 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2">
+        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
           <div class="card">
             <div class="card-header">
               5
@@ -101,8 +101,50 @@
           <b-link to="/seja-um-parceiro" class="button-link btn-block">
             Quero entender como ser um parceiro da WePlan
           </b-link>
-      </b-col>
+        </b-col>
         <b-col md="1"></b-col>
+      </b-row>
+    </b-container>
+    <b-container id="vantagens-weplan" fluid class="section-3">
+      <b-row class="mb-5">
+        <b-col cols="12" class="align-self-center text-center">
+          <h2 class="section-title">Vantagens da WePlan</h2>
+          <span>Nós tornamos o processo mais enxuto e preciso. Desta forma, apresentamos inúmeras vantagens em comparação ao processo tradicional de venda de móveis planejados.</span>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-container>
+          <b-row id="velocidade" class="subsection">
+            <b-col cols="12" md="6" class="align-self-center text-md-right text-sm-center">
+              <h3 class="section-subtitle">Velocidade</h3>
+              <p>O seu projeto de móveis planejados será confeccionado em <span class="highlighted-words-yellow">indústrias parceiras experientes e consolidadas</span> do mercado que <span class="highlighted-words-yellow">prezam pelo prazo</span>.</p>
+            </b-col>
+            <b-col cols="12" md="6" class="text-center">
+              <b-img src="~/assets/images/vantagem-velocidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+            </b-col>
+          </b-row>
+          <b-row id="qualidade" class="my-3">
+            <b-col md="6" class="text-center d-none d-md-block">
+              <b-img src="~/assets/images/vantagem-qualidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+            </b-col>
+            <b-col cols="12" md="6" class="align-self-center text-md-left text-sm-center">
+              <h3 class="section-subtitle">Qualidade</h3>
+              <p>Nossos <span class="highlighted-words-yellow">móveis planejados são reconhecidos pelo nível de qualidade em que são fabricados</span> e isso é ponto primordial para nós e nossos parceiros.</p>
+            </b-col>
+            <b-col md="6" class="text-center d-md-none">
+              <b-img src="~/assets/images/vantagem-qualidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+            </b-col>
+          </b-row>
+          <b-row id="facilidade" class="subsection">
+            <b-col cols="12" md="6" class="align-self-center text-md-right text-sm-center">
+              <h3 class="section-subtitle">Facilidade</h3>
+              <p><span class="highlighted-words-yellow">Acabar com a burocracia</span> para projetar e executar móveis planejados é uma dor do mercado, nós acabamos com isso <span class="highlighted-words-yellow">através das conexões entre cliente, profissional e indústria</span>.</p>
+            </b-col>
+            <b-col cols="12" md="6" class="text-center">
+              <b-img src="~/assets/images/vantagem-velocidade.webp" class="img-fluid" alt="Uma das vantagens da WePlan é a velocidade" />
+            </b-col>
+          </b-row>
+        </b-container>
       </b-row>
     </b-container>
   </div>
@@ -129,6 +171,19 @@ export default {
   color: #4a148c;
   font-size: 1.5rem;
   text-align: center;
+  background-color: #ffcd35;
+}
+
+.section-3 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #4a148c;
+}
+
+.subsection {
+  background-color: #efeff0;
+  border-radius: 10px;
+  padding: 2rem;
 }
 
 .card {
@@ -168,13 +223,15 @@ export default {
 .button-link {
   font-size: 2vw;
   margin-bottom: 5px;
+  background-color: #4a148c;
+  color: #fff;
 }
 
 .button-link:hover,
 .button-link:active,
 .button-link:focus {
+  background-color: #240051;
   text-decoration: none;
-  color: #4a148c;
 }
 
 @media only screen and (max-width: 576px) {
@@ -193,5 +250,9 @@ export default {
   .card-text {
     font-size: 1vw;
   }
+}
+
+#vantagens-weplan p {
+  font-size: 1.1rem;
 }
 </style>

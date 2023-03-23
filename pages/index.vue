@@ -22,8 +22,8 @@
     <b-container class="section-2">
       <b-row>
         <b-col cols="12" md="6" class="align-self-center">
-          <p>O <span class="highlighted-words">negócio lucrativo para você profissional</span> que trabalha com projetos de móveis planejados.</p>
-          <p>A <span class="highlighted-words">solução completa para você cliente</span> que precisa de móveis planejados a altura de suas expectativas.</p>
+          <p>O <span class="highlighted-words-yellow">negócio lucrativo para você profissional</span> que trabalha com projetos de móveis planejados.</p>
+          <p>A <span class="highlighted-words-yellow">solução completa para você cliente</span> que precisa de móveis planejados a altura de suas expectativas.</p>
         </b-col>
         <b-col cols="12" md="6">
           <b-img src="~/assets/images/dois-projetos.webp" class="img-fluid" alt="WePlan" />
@@ -153,7 +153,7 @@ export default {
 }
 
 .section-3 {
-  background-color: #ffc821;
+  background-color: #ffcd35;
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: #4a148c;

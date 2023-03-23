@@ -16,6 +16,13 @@
   color: #4a148c;
 }
 
+.section-subtitle {
+  font-size: 1.5rem;
+  font-weight: 700 !important;
+  line-height: 1.2;
+  color: #4a148c;
+}
+
 .button-link {
   text-decoration: none;
   font-weight: 700 !important;
@@ -32,7 +39,13 @@
   background-color: #d8a200;
 }
 
-.highlighted-words {
+.highlighted-words-purple {
+  font-weight: 700;
+  text-decoration: underline #240051 4px;
+  text-decoration-skip-ink: none;
+}
+
+.highlighted-words-yellow {
   font-weight: 700;
   text-decoration: underline #d8a200 4px;
   text-decoration-skip-ink: none;
