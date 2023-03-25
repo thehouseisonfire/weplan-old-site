@@ -279,20 +279,13 @@
           </p>
         </b-col>
         <b-col cols="12" md="3" class="text-center pb-3">
-          <svg
-            class="bd-placeholder-img rounded-circle"
-            width="130"
-            height="130"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
+          <b-img
+            class="bd-placeholder-img rounded-circle img-fluid"
+            width="130px"
+            height="130px"
+            src="~/assets/images/team/perfil-eduardo.jpg"
+            alt="Eduardo"
+          ></b-img>
           <p>
             <span class="team-member-name">Eduardo Spegiorin</span><br />
             <span class="team-member-position">SDR</span>
@@ -333,7 +326,7 @@ export default {
 }
 
 .section-3 {
-  background-color: #ffcd35;
+  background-color: #fdce3f;
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: #4a148c;

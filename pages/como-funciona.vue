@@ -246,7 +246,7 @@ export default {
   color: #4a148c;
   font-size: 1.5rem;
   text-align: center;
-  background-color: #ffcd35;
+  background-color: #fdce3f;
 }
 
 .section-3 {

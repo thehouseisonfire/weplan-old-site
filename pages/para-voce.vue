@@ -119,9 +119,20 @@
       </b-row>
     </b-container>
     <b-container id="case-nexen" fluid class="section-4">
+      <b-row class="mb-5">
+        <b-col cols="12" class="align-self-center text-center">
+          <h2 class="section-title">Case de sucesso</h2>
+        </b-col>
+      </b-row>
       <b-row>
-        <b-col>
-          <iframe class="embed-responsive embed-responsive-16by9 img-shadow" width="560" height="315" src="https://www.youtube.com/embed/5W-mI24LkQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <b-col cols="12" md="6" class="mb-4">
+          <iframe class="embed-responsive embed-responsive-16by9 mx-auto img-shadow" width="560" height="315" src="https://www.youtube.com/embed/5W-mI24LkQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </b-col>
+        <b-col cols="12" md="6">
+          "A <a href="https://nexen.com.br/" target="_blank" class="highlighted-words-yellow">Nexen Energia Solar</a> é uma empresa fundada em 2018, no Sul do Brasil, que tem o propósito de levar energia limpa para todos.<br />
+          <span class="highlighted-words-yellow">Eles vieram até a WePlan com uma necessidade</span>: precisavam de móveis planejados. Para isso, <span class="highlighted-words-yellow">conectamos a Arquiteta Talita Dal Santo</span>, que fez toda a gestão da obra, desde o mobiliário solto, o mobiliário planejado, a decoração até a iluminação. <span class="highlighted-words-yellow">Foi uma verdadeira entrega completa</span>.<br />
+          <span class="highlighted-words-yellow">Os principais diferenciais foram o prazo extremamente curto</span> para executar o projeto, que conseguimos cumprir por conta de nossa conexão direta com a indústria, <span class="highlighted-words-yellow">e a entrega da solução completa</span>. Acompanhamos todos os processos para garantir a efetividade e assertividade no projeto."<br />
+          <b>- Ismael dos Santos, Head de Vendas da WePlan.</b>
         </b-col>
       </b-row>
     </b-container>
@@ -159,12 +170,16 @@ export default {
 }
 
 .section-4 {
-  background-color: #ffcd35;
+  background-color: #fdce3f;
   padding-top: 5rem;
   padding-bottom: 5rem;
   margin-top: 5rem;
   color: #4a148c;
   font-size: 1.1rem;
+}
+
+#case-nexen .embed-responsive {
+  max-width: 558px;
 }
 
 @media only screen and (max-width: 576px) {
