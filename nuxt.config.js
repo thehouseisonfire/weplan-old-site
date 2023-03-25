@@ -5,45 +5,45 @@ export default {
       lang: 'pt-br',
     },
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        property: "description",
+        property: 'description',
         content:
-          "A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.",
+          'A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.',
       },
-      { property: "twitter:title", content: "WePlan | Móveis Planejados" },
+      { property: 'twitter:title', content: 'WePlan | Móveis Planejados' },
       {
-        property: "twitter:image",
-        content: "https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp",
-      },
-      { property: "twitter:site", content: "WePlan | Móveis Planejados" },
-      {
-        property: "twitter:description",
+        property: 'twitter:image',
         content:
-          "A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.",
+          'https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp',
       },
-      { name: "twitter:card", content: "summary" },
-      { property: "og:title", content: "WePlan | Móveis Planejados" },
+      { property: 'twitter:site', content: 'WePlan | Móveis Planejados' },
       {
-        property: "og:image",
-        content: "https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp",
-      },
-      { property: "og:site_name", content: "WePlan | Móveis Planejados" },
-      { property: "og:type", content: "website" },
-      {
-        property: "og:description",
+        property: 'twitter:description',
         content:
-          "A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.",
+          'A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.',
+      },
+      { name: 'twitter:card', content: 'summary' },
+      { property: 'og:title', content: 'WePlan | Móveis Planejados' },
+      {
+        property: 'og:image',
+        content:
+          'https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp',
+      },
+      { property: 'og:site_name', content: 'WePlan | Móveis Planejados' },
+      { property: 'og:type', content: 'website' },
+      {
+        property: 'og:description',
+        content:
+          'A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    'assets/styles/main.css'
-  ],
+  css: ['assets/styles/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

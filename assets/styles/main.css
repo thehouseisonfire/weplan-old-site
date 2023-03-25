@@ -42,6 +42,8 @@
 .button-link:active,
 .button-link:focus {
   background-color: #d8a200;
+  text-decoration: none;
+  color: #4a148c;
 }
 
 .highlighted-words-purple {
