@@ -141,7 +141,7 @@
             <b-col
               cols="12"
               md="6"
-              class="align-self-center text-md-right text-sm-center"
+              class="align-self-center text-md-right"
             >
               <h3 class="section-subtitle">Velocidade</h3>
               <p>
@@ -172,7 +172,7 @@
             <b-col
               cols="12"
               md="6"
-              class="align-self-center text-md-left text-sm-center"
+              class="align-self-center text-md-left"
             >
               <h3 class="section-subtitle">Qualidade</h3>
               <p>
@@ -196,7 +196,7 @@
             <b-col
               cols="12"
               md="6"
-              class="align-self-center text-md-right text-sm-center"
+              class="align-self-center text-md-right"
             >
               <h3 class="section-subtitle">Facilidade</h3>
               <p>

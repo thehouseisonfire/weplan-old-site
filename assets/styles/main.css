@@ -69,6 +69,7 @@ a.highlighted-words-yellow:focus {
   text-decoration: underline #240051 4px;
   text-decoration-skip-ink: none;
   color: #240051;
+  cursor: pointer;
 }
 
 .text-shadow-purple {

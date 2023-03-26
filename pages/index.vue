@@ -21,19 +21,15 @@
     </b-container>
     <b-container class="section-2">
       <b-row>
-        <b-col cols="12" md="6" class="align-self-center">
+        <b-col cols="12" md="6" class="align-self-center text-center text-md-left">
           <p>
             O
-            <span class="highlighted-words-yellow"
-              >negócio lucrativo para você profissional</span
-            >
+            <b-link to="/seja-um-parceiro" class="highlighted-words-yellow">negócio lucrativo para você profissional</b-link>
             que trabalha com projetos de móveis planejados.
           </p>
           <p>
             A
-            <span class="highlighted-words-yellow"
-              >solução completa para você cliente</span
-            >
+            <b-link to="/para-voce" class="highlighted-words-yellow">solução completa para você cliente</b-link>
             que precisa de móveis planejados a altura de suas expectativas.
           </p>
         </b-col>
