@@ -10,33 +10,33 @@ export default {
       {
         property: 'description',
         content:
-          'A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.',
+          'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
       },
       { property: 'twitter:title', content: 'WePlan | Móveis Planejados' },
       {
         property: 'twitter:image',
         content:
-          'https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp',
+          'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.webp',
       },
       { property: 'twitter:site', content: 'WePlan | Móveis Planejados' },
       {
         property: 'twitter:description',
         content:
-          'A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.',
+          'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
       },
       { name: 'twitter:card', content: 'summary' },
       { property: 'og:title', content: 'WePlan | Móveis Planejados' },
       {
         property: 'og:image',
         content:
-          'https://www.weplan.com.br/_nuxt/images/equipe-reuniao-weplan.webp',
+          'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.webp',
       },
       { property: 'og:site_name', content: 'WePlan | Móveis Planejados' },
       { property: 'og:type', content: 'website' },
       {
         property: 'og:description',
         content:
-          'A WePlan é uma plataforma digital que através de profissionais credenciados conecta clientes diretamente com indústrias de móveis planejados em todo o Brasil.',
+          'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
