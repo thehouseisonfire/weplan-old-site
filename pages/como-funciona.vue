@@ -117,7 +117,7 @@
           </b-link>
         </b-col>
         <b-col cols="12" sm="6" md="5">
-          <b-link to="/seja-um-parceiro" class="button-link btn-block">
+          <b-link to="/seja-nosso-parceiro" class="button-link btn-block">
             Quero entender como ser um parceiro da WePlan
           </b-link>
         </b-col>

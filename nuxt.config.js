@@ -12,6 +12,7 @@ export default {
         content:
           'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
       },
+      { property: 'twitter:url', content: 'https://www.weplan.com.br/' },
       { property: 'twitter:title', content: 'WePlan | Móveis Planejados' },
       {
         property: 'twitter:image',
@@ -25,6 +26,7 @@ export default {
           'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
       },
       { name: 'twitter:card', content: 'summary' },
+      { property: 'og:url', content: 'https://www.weplan.com.br/' },
       { property: 'og:title', content: 'WePlan | Móveis Planejados' },
       {
         property: 'og:image',

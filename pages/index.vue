@@ -24,7 +24,7 @@
         <b-col cols="12" md="6" class="align-self-center text-center text-md-left">
           <p>
             O
-            <b-link to="/seja-um-parceiro" class="highlighted-words-yellow">negócio lucrativo para você profissional</b-link>
+            <b-link to="/seja-nosso-parceiro" class="highlighted-words-yellow">negócio lucrativo para você profissional</b-link>
             que trabalha com projetos de móveis planejados.
           </p>
           <p>

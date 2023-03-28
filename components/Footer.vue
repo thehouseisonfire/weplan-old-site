@@ -33,7 +33,7 @@
                 <ul class="footer-group-links">
                   <li><b-link to="/como-funciona">Como funciona</b-link></li>
                   <li>
-                    <b-link to="/seja-um-parceiro">Seja um parceiro</b-link>
+                    <b-link to="/seja-nosso-parceiro">Seja nosso parceiro</b-link>
                   </li>
                   <li><b-link to="/para-voce">Para você</b-link></li>
                   <li><b-link to="/projetos">Projetos</b-link></li>

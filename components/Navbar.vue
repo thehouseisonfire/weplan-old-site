@@ -12,7 +12,7 @@
       <b-collapse id="nav-collapse" is-nav class="py-2">
         <b-navbar-nav class="ml-auto">
           <b-nav-item to="/como-funciona">Como funciona</b-nav-item>
-          <b-nav-item to="/seja-um-parceiro">Seja um parceiro</b-nav-item>
+          <b-nav-item to="/seja-nosso-parceiro">Seja nosso parceiro</b-nav-item>
           <b-nav-item to="/para-voce">Para você</b-nav-item>
           <b-nav-item to="/projetos">Projetos</b-nav-item>
           <b-nav-item href="https://weplan.com.br/blog/" target="_blank"
