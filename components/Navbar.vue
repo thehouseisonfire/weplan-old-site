@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" class="fixed-top">
+    <b-navbar id="navbar" toggleable="lg" type="dark" :class="`fixed-top ${ navbarIsColored ? 'navbar-colored' : '' }`">
       <b-navbar-brand to="/">
         <b-img
           src="~/assets/images/weplan-logo.svg"
@@ -30,12 +30,32 @@
 <script>
 export default {
   name: 'NavbarComponent',
+  data () {
+    return {
+      navbarIsColored: false,
+    }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll () {
+      this.navbarIsColored = window.scrollY >= 200;
+    },
+  }
 }
 </script>
 <style scoped>
 .navbar {
-  background-color: #6a1b9a;
+  background-color: #691b9a00;
   padding: 1rem;
+}
+
+.navbar-colored {
+  background-color: #13002b;
 }
 
 .nav-item a.nav-link {
@@ -46,7 +66,7 @@ export default {
 .nav-item a.nav-link:hover,
 .nav-item a.nav-link:active,
 .nav-item a.nav-link:focus,
-.nav-item a.nav-link-active {
+.nav-item a.nuxt-link-active {
   color: #ffffffd9;
   text-decoration: underline #ffc821 4px;
   text-decoration-skip-ink: none;
