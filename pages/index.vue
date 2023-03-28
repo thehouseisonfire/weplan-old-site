@@ -322,7 +322,7 @@ export default {
 }
 
 .section-3 {
-  background-color: #fdce3f;
+  background-color: #efeff0;
   padding-top: 5rem;
   padding-bottom: 5rem;
   color: #4a148c;

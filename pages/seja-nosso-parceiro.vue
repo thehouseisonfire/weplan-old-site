@@ -12,18 +12,18 @@
         <b-container>
           <b-row>
             <b-col cols="12" md="4" class="mb-2">
-              <b-link href="#sou-profissional-interiores">
-                <button type="button" class="button-link btn-block">Sou profissional de interiores</button>
+              <b-link href="#sou-profissional-interiores" class="button-link btn-block">
+                Sou profissional de interiores
               </b-link>
             </b-col>
             <b-col cols="12" md="4" class="mb-2">
-              <b-link href="#sou-montador">
-                <button type="button" class="button-link btn-block">Sou montador</button>
+              <b-link href="#sou-montador" class="button-link btn-block">
+                Sou montador
               </b-link>
             </b-col>
             <b-col cols="12" md="4" class="mb-2">
-              <b-link href="#sou-fornecedor">
-                <button type="button" class="button-link btn-block">Sou fornecedor</button>
+              <b-link href="#sou-fornecedor" class="button-link btn-block">
+                Sou fornecedor
               </b-link>
             </b-col>
           </b-row>

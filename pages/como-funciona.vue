@@ -246,7 +246,7 @@ export default {
   color: #4a148c;
   font-size: 1.5rem;
   text-align: center;
-  background-color: #fdce3f;
+  background-color: #efeff0;
 }
 
 .section-3 {
@@ -293,20 +293,6 @@ export default {
   padding-top: 0;
   font-weight: 300;
   color: white;
-}
-
-.button-link {
-  font-size: 2vw;
-  margin-bottom: 5px;
-  background-color: #4a148c;
-  color: #fff;
-}
-
-.button-link:hover,
-.button-link:active,
-.button-link:focus {
-  background-color: #240051;
-  text-decoration: none;
 }
 
 @media only screen and (max-width: 576px) {

@@ -194,7 +194,7 @@ export default {
 }
 
 .section-4 {
-  background-color: #fdce3f;
+  background-color: #fdcd3f79;
   padding-top: 5rem;
   padding-bottom: 5rem;
   margin-top: 5rem;
