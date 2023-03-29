@@ -295,6 +295,11 @@ export default {
   color: white;
 }
 
+.button-link {
+  font-size: 2vw;
+  margin-bottom: 5px;
+}
+
 @media only screen and (max-width: 576px) {
   .button-link {
     font-size: 4.5vw;
