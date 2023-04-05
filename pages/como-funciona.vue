@@ -261,40 +261,6 @@ export default {
   padding: 2rem;
 }
 
-.card {
-  align-self: center !important;
-  font-size: 1rem;
-  background-color: #240051;
-  border: #240051;
-  height: 100%;
-}
-
-.card-header {
-  align-self: center !important;
-  font-size: 2rem;
-  font-weight: 700;
-  padding-bottom: 0;
-  padding-top: 1.25rem;
-  color: #ffc821;
-}
-
-.card-body {
-  align-self: center !important;
-  padding: 0 1.25rem 1.25rem;
-}
-
-.card-body img {
-  width: 100%;
-  max-width: 250px;
-}
-
-.card-text {
-  align-self: center !important;
-  padding-top: 0;
-  font-weight: 300;
-  color: white;
-}
-
 .button-link {
   font-size: 2vw;
   margin-bottom: 5px;
@@ -308,12 +274,6 @@ export default {
 
 @media only screen and (min-width: 992px) {
   .button-link {
-    font-size: 1vw;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
-  .card-text {
     font-size: 1vw;
   }
 }

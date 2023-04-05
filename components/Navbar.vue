@@ -75,4 +75,10 @@ export default {
 button.navbar-toggler {
   border: 0;
 }
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    background-color: #13002b;
+  }
+}
 </style>
