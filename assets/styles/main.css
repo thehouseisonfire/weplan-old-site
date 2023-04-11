@@ -32,19 +32,19 @@
 .button-link {
   text-decoration: none;
   font-weight: 700 !important;
-  background-color: #ffc821;
+  background-color: #000000;
   border-radius: 5px;
   border: 0;
   padding: 1.2rem;
-  color: #4a148c;
+  color: #fff;
 }
 
 .button-link:hover,
 .button-link:active,
 .button-link:focus {
-  background-color: #d8a200;
+  background-color: #2c2c2c;
   text-decoration: none;
-  color: #4a148c;
+  color: #fff;
 }
 
 .highlighted-words-purple {
@@ -73,12 +73,8 @@ a.highlighted-words-yellow:focus {
   cursor: pointer;
 }
 
-.text-shadow-purple {
-  text-shadow: #240051 0px 0px 10px;
-}
-
-.text-shadow-yellow {
-  text-shadow: #ffc821 0px 0px 10px;
+.text-shadow {
+  text-shadow: #000 0px 0px 10px;
 }
 
 .card {

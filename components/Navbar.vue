@@ -8,7 +8,14 @@
     >
       <b-navbar-brand to="/">
         <b-img
-          src="~/assets/images/weplan-logo.svg"
+          v-show="!navbarIsColored"
+          src="~/assets/images/logo/negative.svg"
+          width="140px"
+          alt="WePlan"
+        />
+        <b-img
+          v-show="navbarIsColored"
+          src="~/assets/images/logo/positive.svg"
           width="140px"
           alt="WePlan"
         />
@@ -74,7 +81,7 @@ export default {
 .nav-item a.nav-link:active,
 .nav-item a.nav-link:focus,
 .nav-item a.nuxt-link-active {
-  color: #ffffffd9;
+  color: #dadada;
   text-decoration: underline #ffc821 4px;
   text-decoration-skip-ink: none;
 }
