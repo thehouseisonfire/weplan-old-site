@@ -4,8 +4,8 @@
       <b-row>
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title text-shadow-purple">Como funciona</h1>
-            <p class="text-shadow-purple">
+            <h1 class="page-title text-shadow">Como funciona</h1>
+            <p class="text-shadow">
               Entregamos o acesso a móveis planejados com facilidade, respeito e
               alta qualidade.<br />
               Conectamos todos os pontos do processo entre indústria,

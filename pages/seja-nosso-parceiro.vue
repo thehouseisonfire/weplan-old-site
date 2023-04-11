@@ -4,7 +4,7 @@
       <b-row>
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title text-shadow-purple">Seja nosso parceiro</h1>
+            <h1 class="page-title text-shadow">Seja nosso parceiro</h1>
           </b-container>
         </b-col>
       </b-row>
@@ -47,7 +47,7 @@
         <b-container>
           <b-row class="subsection news">
             <b-col cols="12" class="align-self-center">
-              <p class="text-shadow-purple">
+              <p class="text-shadow">
                 A alta demanda de reformas e compra de móveis planejados desde
                 2021 fez com que o setor de marcenaria alcançasse 14,7% de
                 crescimento em relação a anos anteriores, segundo a Valor Globo.

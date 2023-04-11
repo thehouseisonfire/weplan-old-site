@@ -6,8 +6,14 @@
 
 .section-1 {
   padding-top: 18rem;
-  padding-bottom: 13rem;
-  background-color: #2400517e;
+  padding-bottom: 18rem;
+  background-color: #000000b7;
+}
+
+.section-1 .background-title {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .section-title {
@@ -21,7 +27,7 @@
   font-size: 1.5rem;
   font-weight: 700 !important;
   line-height: 1.2;
-  color: #4a148c;
+  color: #000;
 }
 
 .img-shadow {
@@ -60,16 +66,16 @@
 }
 
 a.highlighted-words-yellow {
-  color: #4a148c;
+  color: #000;
 }
 
 a.highlighted-words-yellow:hover,
 a.highlighted-words-yellow:active,
 a.highlighted-words-yellow:focus {
   font-weight: 700;
-  text-decoration: underline #240051 4px;
+  text-decoration: underline #2c2c2c 4px;
   text-decoration-skip-ink: none;
-  color: #240051;
+  color: #2c2c2c;
   cursor: pointer;
 }
 

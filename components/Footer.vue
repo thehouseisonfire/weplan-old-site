@@ -114,12 +114,14 @@
                 </a>
               </b-row>
               <b-row>
-                <b-img
-                  src="~/assets/images/nps-footer.png"
-                  width="100px"
-                  alt="Net Promoter Score da WePlan"
-                  class="img-fluid"
-                ></b-img>
+                <b-link to="/#nps">
+                  <b-img
+                    src="~/assets/images/nps-footer.png"
+                    width="100px"
+                    alt="Net Promoter Score da WePlan"
+                    class="img-fluid"
+                  ></b-img>
+                </b-link>
               </b-row>
             </b-container>
           </b-col>

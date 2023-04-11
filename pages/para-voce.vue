@@ -4,8 +4,8 @@
       <b-row>
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title text-shadow-purple">Para você</h1>
-            <p class="text-shadow-purple">
+            <h1 class="page-title text-shadow">Para você</h1>
+            <p class="text-shadow">
               Seja para sua casa ou sua empresa, a WePlan produz e entrega a
               melhor solução em móveis planejados com otimização de espaços,
               design moderno e alta qualidade de material, isso para que todas
@@ -170,48 +170,6 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="nps" class="section-5">
-      <b-row>
-        <b-col cols="12" md="6" class="align-self-center">
-          <h3 class="section-subtitle">A WePlan encanta seus clientes ✨</h3>
-          <p>
-            Todos os nossos atendimentos são avaliados para garantir que estamos
-            prestando o melhor serviço e entregando as melhores soluções.
-            Estamos sempre atentos aos feedbacks que recebemos de nossos
-            parceiros e clientes.
-          </p>
-          <p>
-            Para isso,
-            <a
-              href="https://nps.weplan.com.br/"
-              target="_blank"
-              class="highlighted-words-yellow"
-              >utilizamos uma das metodologias mais avançadas do mercado: o Net
-              Promoter Score (NPS)</a
-            >.
-          </p>
-          <p>
-            Atualmente,
-            <span class="highlighted-words-yellow"
-              >nosso padrão de atendimento está na Zona de Encantamento</span
-            >. Para uma empresa entrar na Zona de Encantamento o NPS precisa
-            estar entre 91 e 100.
-            <span class="highlighted-words-yellow"
-              >O NPS atual da WePlan é 93</span
-            >
-            💜
-          </p>
-        </b-col>
-        <b-col cols="12" md="6" class="text-center">
-          <b-img
-            src="~/assets/images/nps.png"
-            class="img-fluid"
-            height="400px"
-            alt="Net Promoter Score da WePlan"
-          />
-        </b-col>
-      </b-row>
-    </b-container>
   </div>
 </template>
 <script>
@@ -250,13 +208,6 @@ export default {
   padding-top: 5rem;
   padding-bottom: 5rem;
   margin-top: 5rem;
-  color: #4a148c;
-  font-size: 1.1rem;
-}
-
-.section-5 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   color: #4a148c;
   font-size: 1.1rem;
 }
