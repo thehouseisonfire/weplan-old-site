@@ -33,7 +33,9 @@
                 <ul class="footer-group-links">
                   <li><b-link to="/como-funciona">Como funciona</b-link></li>
                   <li>
-                    <b-link to="/seja-nosso-parceiro">Seja nosso parceiro</b-link>
+                    <b-link to="/seja-nosso-parceiro"
+                      >Seja nosso parceiro</b-link
+                    >
                   </li>
                   <li><b-link to="/para-voce">Para você</b-link></li>
                   <li><b-link to="/projetos">Projetos</b-link></li>
@@ -112,7 +114,12 @@
                 </a>
               </b-row>
               <b-row>
-                <b-img src="~/assets/images/nps-footer.png" width="100px" alt="Net Promoter Score da WePlan" class="img-fluid"></b-img>
+                <b-img
+                  src="~/assets/images/nps-footer.png"
+                  width="100px"
+                  alt="Net Promoter Score da WePlan"
+                  class="img-fluid"
+                ></b-img>
               </b-row>
             </b-container>
           </b-col>
@@ -144,14 +151,14 @@ export default {
 </script>
 <style scoped>
 .footer {
-  background-color: #13002b;
+  background-color: #000;
   padding-top: 5rem;
   color: #fff;
 }
 
 .copyright {
   font-size: 0.7rem;
-  background-color: #240051;
+  background-color: #000;
   margin-top: 5rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;

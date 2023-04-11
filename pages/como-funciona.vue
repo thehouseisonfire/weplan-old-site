@@ -138,11 +138,7 @@
       <b-row>
         <b-container>
           <b-row id="velocidade" class="subsection">
-            <b-col
-              cols="12"
-              md="6"
-              class="align-self-center text-md-right"
-            >
+            <b-col cols="12" md="6" class="align-self-center text-md-right">
               <h3 class="section-subtitle">Velocidade</h3>
               <p>
                 O seu projeto de móveis planejados será confeccionado em
@@ -169,11 +165,7 @@
                 alt="Uma das vantagens da WePlan é a qualidade"
               />
             </b-col>
-            <b-col
-              cols="12"
-              md="6"
-              class="align-self-center text-md-left"
-            >
+            <b-col cols="12" md="6" class="align-self-center text-md-left">
               <h3 class="section-subtitle">Qualidade</h3>
               <p>
                 Nossos
@@ -193,11 +185,7 @@
             </b-col>
           </b-row>
           <b-row id="facilidade" class="subsection">
-            <b-col
-              cols="12"
-              md="6"
-              class="align-self-center text-md-right"
-            >
+            <b-col cols="12" md="6" class="align-self-center text-md-right">
               <h3 class="section-subtitle">Facilidade</h3>
               <p>
                 <span class="highlighted-words-yellow"

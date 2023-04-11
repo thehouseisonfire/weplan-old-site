@@ -12,7 +12,10 @@
         <b-container>
           <b-row>
             <b-col cols="12" md="4" class="mb-2">
-              <b-link href="#sou-profissional-interiores" class="button-link btn-block">
+              <b-link
+                href="#sou-profissional-interiores"
+                class="button-link btn-block"
+              >
                 Sou profissional de interiores
               </b-link>
             </b-col>
@@ -34,19 +37,20 @@
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <p>
-            <span class="highlighted-words-yellow">Aqui vai um texto sobre o mercado de móveis planejados.</span>
+            <span class="highlighted-words-yellow"
+              >Aqui vai um texto sobre o mercado de móveis planejados.</span
+            >
           </p>
         </b-col>
       </b-row>
       <b-row>
         <b-container>
           <b-row class="subsection news">
-            <b-col
-              cols="12"
-              class="align-self-center"
-            >
+            <b-col cols="12" class="align-self-center">
               <p class="text-shadow-purple">
-                A alta demanda de reformas e compra de móveis planejados desde 2021 fez com que o setor de marcenaria alcançasse 14,7% de crescimento em relação a anos anteriores, segundo a Valor Globo.
+                A alta demanda de reformas e compra de móveis planejados desde
+                2021 fez com que o setor de marcenaria alcançasse 14,7% de
+                crescimento em relação a anos anteriores, segundo a Valor Globo.
               </p>
             </b-col>
           </b-row>
@@ -98,7 +102,8 @@
                 alt="Reunião entre cliente e profissional"
               ></b-img> -->
               <p class="card-text">
-                Designers de interiores ativos<br /> no Brasil (2023)<br />
+                Designers de interiores ativos<br />
+                no Brasil (2023)<br />
                 <span class="source">Fonte: CAU-BR e CREA-SP</span>
               </p>
             </div>

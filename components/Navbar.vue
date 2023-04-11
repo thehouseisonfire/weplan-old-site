@@ -1,6 +1,11 @@
 <template>
   <div>
-    <b-navbar id="navbar" toggleable="lg" type="dark" :class="`fixed-top ${ navbarIsColored ? 'navbar-colored' : '' }`">
+    <b-navbar
+      id="navbar"
+      toggleable="lg"
+      type="dark"
+      :class="`fixed-top ${navbarIsColored ? 'navbar-colored' : ''}`"
+    >
       <b-navbar-brand to="/">
         <b-img
           src="~/assets/images/weplan-logo.svg"
@@ -14,6 +19,7 @@
           <b-nav-item to="/como-funciona">Como funciona</b-nav-item>
           <b-nav-item to="/seja-nosso-parceiro">Seja nosso parceiro</b-nav-item>
           <b-nav-item to="/para-voce">Para você</b-nav-item>
+          <b-nav-item to="/quem-somos">Quem somos</b-nav-item>
           <b-nav-item to="/projetos">Projetos</b-nav-item>
           <b-nav-item href="https://weplan.com.br/blog/" target="_blank"
             >Blog</b-nav-item
@@ -30,32 +36,33 @@
 <script>
 export default {
   name: 'NavbarComponent',
-  data () {
+  data() {
     return {
       navbarIsColored: false,
     }
   },
-  mounted () {
-    window.addEventListener('scroll', this.handleScroll);
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
   },
-  beforeDestroy () {
-    window.removeEventListener('scroll', this.handleScroll);
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
-    handleScroll () {
-      this.navbarIsColored = window.scrollY >= 200;
+    handleScroll() {
+      this.navbarIsColored = window.scrollY >= 200
     },
-  }
+  },
 }
 </script>
 <style scoped>
 .navbar {
-  background-color: #691b9a00;
+  background-color: transparent;
   padding: 1rem;
 }
 
 .navbar-colored {
-  background-color: #13002b;
+  background-color: #000000bf;
+  backdrop-filter: blur(5px);
 }
 
 .nav-item a.nav-link {
@@ -78,7 +85,8 @@ button.navbar-toggler {
 
 @media only screen and (max-width: 991px) {
   .navbar {
-    background-color: #13002b;
+    background-color: #000000bf;
+    backdrop-filter: blur(5px);
   }
 }
 </style>
