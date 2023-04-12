@@ -17,14 +17,14 @@
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700 !important;
   line-height: 1.2;
   color: #1c1c1c;
 }
 
 .section-subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700 !important;
   line-height: 1.2;
   color: #1c1c1c;
@@ -121,6 +121,15 @@ a.highlighted-words-yellow:focus {
   padding-top: 0;
   font-weight: 300;
   color: white;
+}
+
+.inverted-colors {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.inverted-colors * {
+  color: #fff;
 }
 
 @media only screen and (max-width: 576px) {

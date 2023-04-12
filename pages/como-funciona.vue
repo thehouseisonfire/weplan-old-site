@@ -16,7 +16,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2">
+    <b-container id="nosso-processo" fluid class="section-2">
       <b-row>
         <b-col md="1"></b-col>
         <b-col cols="12" md="10">
@@ -110,6 +110,70 @@
         <b-col md="1"></b-col>
       </b-row>
     </b-container>
+    <b-container id="vantagens-weplan" fluid class="section-4">
+      <b-row class="mb-5">
+        <b-col cols="12" class="align-self-center text-center">
+          <h2 class="section-title">Vantagens da WePlan</h2>
+          <span
+            >Nós tornamos o processo mais enxuto e preciso. Há muitas vantagens em pertencer ao nosso ecossistema.</span
+          >
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-container fluid>
+          <b-row id="velocidade" class="inverted-colors">
+            <b-col cols="12" md="6" class="align-self-center text-md-right">
+              <h3 class="section-subtitle mt-5 mx-5">Velocidade</h3>
+              <p class="mb-5 mx-5">
+                O seu projeto de móveis planejados será confeccionado em
+                <span class="highlighted-words-yellow"
+                  >indústrias parceiras experientes e consolidadas</span
+                >
+                do mercado que
+                <span class="highlighted-words-yellow">prezam pelo prazo</span>.
+              </p>
+            </b-col>
+            <b-col id="img-vantagem-velocidade" class="img-fluid img-background" cols="12" md="6">
+            </b-col>
+          </b-row>
+          <b-row id="qualidade">
+            <b-col id="img-vantagem-qualidade" class="img-fluid img-background d-none d-md-block" cols="12" md="6">
+            </b-col>
+            <b-col cols="12" md="6" class="align-self-center text-md-left">
+              <h3 class="section-subtitle mt-5 mx-5">Qualidade</h3>
+              <p class="mb-5 mx-5">
+                Nossos
+                <span class="highlighted-words-yellow"
+                  >móveis planejados são reconhecidos pelo nível de qualidade em
+                  que são fabricados</span
+                >
+                e isso é ponto primordial para nós e nossos parceiros.
+              </p>
+            </b-col>
+            <b-col id="img-vantagem-qualidade" class="img-fluid img-background d-md-none" cols="12" md="6">
+            </b-col>
+          </b-row>
+          <b-row id="facilidade" class="inverted-colors">
+            <b-col cols="12" md="6" class="align-self-center text-md-right">
+              <h3 class="section-subtitle mt-5 mx-5">Facilidade</h3>
+              <p class="mb-5 mx-5">
+                <span class="highlighted-words-yellow"
+                  >Acabar com a burocracia</span
+                >
+                para projetar e executar móveis planejados é uma dor do mercado,
+                nós acabamos com isso
+                <span class="highlighted-words-yellow"
+                  >através das conexões entre cliente, profissional e
+                  indústria</span
+                >.
+              </p>
+            </b-col>
+            <b-col id="img-vantagem-facilidade" class="img-fluid img-background" cols="12" md="6">
+            </b-col>
+          </b-row>
+        </b-container>
+      </b-row>
+    </b-container>
     <b-container fluid class="section-3">
       <b-row>
         <b-col id="img-1" class="img-fluid img-background" cols="12" md="6">
@@ -122,92 +186,6 @@
             <h2 class="text-center text-shadow">Quero ser um parceiro da WePlan</h2>
           </b-link>
         </b-col>
-      </b-row>
-    </b-container>
-    <b-container id="vantagens-weplan" fluid class="section-4">
-      <b-row class="mb-5">
-        <b-col cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Vantagens da WePlan</h2>
-          <span
-            >Nós tornamos o processo mais enxuto e preciso. Desta forma,
-            apresentamos inúmeras vantagens em comparação ao processo
-            tradicional de venda de móveis planejados.</span
-          >
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-container>
-          <b-row id="velocidade" class="subsection">
-            <b-col cols="12" md="6" class="align-self-center text-md-right">
-              <h3 class="section-subtitle">Velocidade</h3>
-              <p>
-                O seu projeto de móveis planejados será confeccionado em
-                <span class="highlighted-words-yellow"
-                  >indústrias parceiras experientes e consolidadas</span
-                >
-                do mercado que
-                <span class="highlighted-words-yellow">prezam pelo prazo</span>.
-              </p>
-            </b-col>
-            <b-col cols="12" md="6" class="text-center">
-              <b-img
-                src="~/assets/images/vantagem-velocidade.webp"
-                class="img-fluid img-shadow"
-                alt="Uma das vantagens da WePlan é a velocidade"
-              />
-            </b-col>
-          </b-row>
-          <b-row id="qualidade" class="my-3">
-            <b-col md="6" class="text-center d-none d-md-block">
-              <b-img
-                src="~/assets/images/vantagem-qualidade.webp"
-                class="img-fluid img-shadow"
-                alt="Uma das vantagens da WePlan é a qualidade"
-              />
-            </b-col>
-            <b-col cols="12" md="6" class="align-self-center text-md-left">
-              <h3 class="section-subtitle">Qualidade</h3>
-              <p>
-                Nossos
-                <span class="highlighted-words-yellow"
-                  >móveis planejados são reconhecidos pelo nível de qualidade em
-                  que são fabricados</span
-                >
-                e isso é ponto primordial para nós e nossos parceiros.
-              </p>
-            </b-col>
-            <b-col md="6" class="text-center d-md-none">
-              <b-img
-                src="~/assets/images/vantagem-qualidade.webp"
-                class="img-fluid img-shadow"
-                alt="Uma das vantagens da WePlan é a qualidade"
-              />
-            </b-col>
-          </b-row>
-          <b-row id="facilidade" class="subsection">
-            <b-col cols="12" md="6" class="align-self-center text-md-right">
-              <h3 class="section-subtitle">Facilidade</h3>
-              <p>
-                <span class="highlighted-words-yellow"
-                  >Acabar com a burocracia</span
-                >
-                para projetar e executar móveis planejados é uma dor do mercado,
-                nós acabamos com isso
-                <span class="highlighted-words-yellow"
-                  >através das conexões entre cliente, profissional e
-                  indústria</span
-                >.
-              </p>
-            </b-col>
-            <b-col cols="12" md="6" class="text-center">
-              <b-img
-                src="~/assets/images/vantagem-facilidade.webp"
-                class="img-fluid img-shadow"
-                alt="Uma das vantagens da WePlan é a facilidade"
-              />
-            </b-col>
-          </b-row>
-        </b-container>
       </b-row>
     </b-container>
   </div>
@@ -225,17 +203,13 @@ export default {
   font-size: 1.1rem;
 }
 
-.section-2,
-.section-4 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .section-2 {
   color: #1c1c1c;
   font-size: 1.5rem;
   text-align: center;
   background-color: #efeff0;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .section-3 .row div {
@@ -278,31 +252,9 @@ export default {
   background-color: #1c1c1c99;
 }
 
-.subsection {
-  background-color: #efeff0;
-  border-radius: 10px;
-  padding: 2rem;
-}
-
-.button-link {
-  font-size: 2vw;
-  margin-bottom: 5px;
-}
-
-@media only screen and (max-width: 576px) {
-  .button-link {
-    font-size: 4.5vw;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .button-link {
-    font-size: 1vw;
-  }
-}
-
-#vantagens-weplan p {
-  font-size: 1.1rem;
+.section-4 {
+  font-size: 1.5rem;
+  padding-top: 8rem;
 }
 
 #img-1 {
@@ -313,5 +265,20 @@ export default {
 #img-2 {
   background-image: url('~/assets/images/seja-nosso-parceiro.jpg');
   height: 1000px;
+}
+
+#img-vantagem-velocidade {
+  background-image: url('~/assets/images/vantagem-velocidade.webp');
+  height: 600px;
+}
+
+#img-vantagem-qualidade {
+  background-image: url('~/assets/images/vantagem-qualidade.webp');
+  height: 600px;
+}
+
+#img-vantagem-facilidade {
+  background-image: url('~/assets/images/vantagem-facilidade.webp');
+  height: 600px;
 }
 </style>

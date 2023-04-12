@@ -188,17 +188,16 @@ export default {
 .section-5 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  font-size: 1.2rem;
 }
 
 .section-4 {
   background-color: #0009;
-  font-size: 1.1rem;
   color: #fff;
 }
 
 .section-5 {
   background-color: #efeff0;
-  font-size: 1.1rem;
   color: #1c1c1c;
 }
 
