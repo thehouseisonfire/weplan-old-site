@@ -180,7 +180,7 @@ export default {
 
 .section-2,
 .section-3 {
-  color: #000;
+  color: #1c1c1c;
   font-size: 1.5rem;
 }
 
@@ -199,7 +199,7 @@ export default {
 .section-5 {
   background-color: #efeff0;
   font-size: 1.1rem;
-  color: #000;
+  color: #1c1c1c;
 }
 
 .section-title,

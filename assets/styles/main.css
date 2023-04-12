@@ -20,14 +20,14 @@
   font-size: 2rem;
   font-weight: 700 !important;
   line-height: 1.2;
-  color: #000;
+  color: #1c1c1c;
 }
 
 .section-subtitle {
   font-size: 1.5rem;
   font-weight: 700 !important;
   line-height: 1.2;
-  color: #000;
+  color: #1c1c1c;
 }
 
 .img-background {
@@ -37,7 +37,7 @@
 }
 
 .img-shadow {
-  box-shadow: 4px 4px 20px -10px #000;
+  box-shadow: 4px 4px 20px -10px #1c1c1c;
 }
 
 .button-link {
@@ -70,7 +70,7 @@
 }
 
 a.highlighted-words-yellow {
-  color: #000;
+  color: #1c1c1c;
 }
 
 a.highlighted-words-yellow:hover,
@@ -84,15 +84,16 @@ a.highlighted-words-yellow:focus {
 }
 
 .text-shadow {
-  text-shadow: #000 0px 0px 10px;
+  text-shadow: #1c1c1c 0px 0px 10px;
 }
 
 .card {
   align-self: center !important;
   font-size: 1rem;
-  background-color: #240051;
+  background-color: #1c1c1c;
   border: #240051;
   height: 100%;
+  border-radius: 0px;
 }
 
 .card-header {

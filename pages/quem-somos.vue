@@ -6,7 +6,8 @@
           <b-container>
             <h1 class="page-title text-shadow">Quem somos?</h1>
             <p class="text-shadow">
-              A WePlan conecta clientes à indústrias através de escritórios com a nossa solução.
+              A WePlan conecta clientes à indústrias através de escritórios com
+              a nossa solução.
             </p>
           </b-container>
         </b-col>
@@ -17,8 +18,8 @@
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem faz a WePlan?</h2>
           <span
-            >Esta é a nossa equipe interna de especialistas que está preparada para
-            atender à você, cliente ou parceiro.</span
+            >Esta é a nossa equipe interna de especialistas que está preparada
+            para atender à você, cliente ou parceiro.</span
           >
         </b-col>
       </b-row>
@@ -271,7 +272,7 @@
 </template>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/projeto-weplan.webp');
+  background-image: url('~/assets/images/projeto-weplan.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,6 +285,6 @@
   background-color: #efeff0;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  color: #000;
+  color: #1c1c1c;
 }
 </style>

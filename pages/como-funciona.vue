@@ -219,7 +219,7 @@ export default {
 </script>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/equipe-reuniao-weplan.webp');
+  background-image: url('~/assets/images/equipe-reuniao-weplan.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
