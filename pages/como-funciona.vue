@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-container fluid class="section-1">
+    <b-container fluid class="section-1 img-background">
       <b-row>
         <b-col cols="12">
           <b-container>
@@ -34,8 +34,8 @@
       </b-row>
       <b-row class="mt-5">
         <b-col md="1"></b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
-          <div class="card">
+        <b-col cols="12" sm="6" md="2" class="mb-5 mx-auto">
+          <div class="card img-shadow">
             <div class="card-header">1</div>
             <div class="card-body">
               <b-img
@@ -49,8 +49,8 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
-          <div class="card">
+        <b-col cols="12" sm="6" md="2" class="mb-5 mx-auto">
+          <div class="card img-shadow">
             <div class="card-header">2</div>
             <div class="card-body">
               <b-img
@@ -65,8 +65,8 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
-          <div class="card">
+        <b-col cols="12" sm="6" md="2" class="mb-5 mx-auto">
+          <div class="card img-shadow">
             <div class="card-header">3</div>
             <div class="card-body">
               <b-img
@@ -81,8 +81,8 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
-          <div class="card">
+        <b-col cols="12" sm="6" md="2" class="mb-5 mx-auto">
+          <div class="card img-shadow">
             <div class="card-header">4</div>
             <div class="card-body">
               <b-img
@@ -94,8 +94,8 @@
             </div>
           </div>
         </b-col>
-        <b-col cols="12" sm="6" md="2" class="mb-2 mx-auto">
-          <div class="card">
+        <b-col cols="12" sm="6" md="2" class="mb-5 mx-auto">
+          <div class="card img-shadow">
             <div class="card-header">5</div>
             <div class="card-body">
               <b-img
@@ -109,22 +109,22 @@
         </b-col>
         <b-col md="1"></b-col>
       </b-row>
-      <b-row class="mt-5">
-        <b-col md="1"></b-col>
-        <b-col cols="12" sm="6" md="5">
-          <b-link to="/para-voce" class="button-link btn-block">
-            Quero entender como comprar móveis para mim ou minha empresa
+    </b-container>
+    <b-container fluid class="section-3">
+      <b-row>
+        <b-col id="img-1" class="img-fluid img-background" cols="12" md="6">
+          <b-link to="/para-voce">
+            <h2 class="text-center text-shadow">Quero comprar móveis planejados</h2>
           </b-link>
         </b-col>
-        <b-col cols="12" sm="6" md="5">
-          <b-link to="/seja-nosso-parceiro" class="button-link btn-block">
-            Quero entender como ser um parceiro da WePlan
+        <b-col id="img-2" class="img-fluid img-background" cols="12" md="6">
+          <b-link to="/seja-nosso-parceiro">
+            <h2 class="text-center text-shadow">Quero ser um parceiro da WePlan</h2>
           </b-link>
         </b-col>
-        <b-col md="1"></b-col>
       </b-row>
     </b-container>
-    <b-container id="vantagens-weplan" fluid class="section-3">
+    <b-container id="vantagens-weplan" fluid class="section-4">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Vantagens da WePlan</h2>
@@ -220,27 +220,62 @@ export default {
 <style scoped>
 .section-1 {
   background-image: url('~/assets/images/equipe-reuniao-weplan.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   color: #fff;
   font-size: 1.1rem;
 }
 
+.section-2,
+.section-4 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .section-2 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  color: #4a148c;
+  color: #1c1c1c;
   font-size: 1.5rem;
   text-align: center;
   background-color: #efeff0;
 }
 
-.section-3 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  color: #4a148c;
+.section-3 .row div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0;
+}
+
+.section-3 .row div a h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #1c1c1c66;
+  padding: 1.5rem;
+}
+
+.section-3 .row div a:hover h2,
+.section-3 .row div a:active h2,
+.section-3 .row div a:focus h2 {
+  background-color: #1c1c1ccc;
+}
+
+.section-3 a {
+  text-decoration: none;
+  background-color: #1c1c1c33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
+
+.section-3 .row div a:hover,
+.section-3 .row div a:active,
+.section-3 .row div a:focus {
+  background-color: #1c1c1c99;
 }
 
 .subsection {
@@ -268,5 +303,15 @@ export default {
 
 #vantagens-weplan p {
   font-size: 1.1rem;
+}
+
+#img-1 {
+  background-image: url('~/assets/images/environments/sala-jantar-cozinha.jpg');
+  height: 1000px;
+}
+
+#img-2 {
+  background-image: url('~/assets/images/seja-nosso-parceiro.jpg');
+  height: 1000px;
 }
 </style>
