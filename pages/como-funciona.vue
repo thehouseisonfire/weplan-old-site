@@ -268,17 +268,17 @@ export default {
 }
 
 #img-vantagem-velocidade {
-  background-image: url('~/assets/images/vantagem-velocidade.webp');
+  background-image: url('~/assets/images/vantagem-velocidade.jpg');
   height: 600px;
 }
 
 #img-vantagem-qualidade {
-  background-image: url('~/assets/images/vantagem-qualidade.webp');
+  background-image: url('~/assets/images/vantagem-qualidade.jpg');
   height: 600px;
 }
 
 #img-vantagem-facilidade {
-  background-image: url('~/assets/images/vantagem-facilidade.webp');
+  background-image: url('~/assets/images/vantagem-facilidade.jpg');
   height: 600px;
 }
 </style>
