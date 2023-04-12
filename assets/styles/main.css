@@ -11,7 +11,7 @@
 }
 
 .section-1 .background-title {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -20,7 +20,7 @@
   font-size: 2rem;
   font-weight: 700 !important;
   line-height: 1.2;
-  color: #4a148c;
+  color: #000;
 }
 
 .section-subtitle {
@@ -30,16 +30,20 @@
   color: #000;
 }
 
+.img-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .img-shadow {
-  border-radius: 5px;
-  box-shadow: 4px 4px 20px -10px #1b0248;
+  box-shadow: 4px 4px 20px -10px #000;
 }
 
 .button-link {
   text-decoration: none;
   font-weight: 700 !important;
   background-color: #000000;
-  border-radius: 5px;
   border: 0;
   padding: 1.2rem;
   color: #fff;

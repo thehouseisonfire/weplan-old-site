@@ -8,7 +8,7 @@
               <b-row class="mb-1">
                 <b-link to="/">
                   <b-img
-                    src="~/assets/images/weplan-logo.svg"
+                    src="~/assets/images/logo/positive.svg"
                     width="140px"
                     alt="WePlan"
                   />
