@@ -65,11 +65,13 @@ export default {
 .navbar {
   background-color: transparent;
   padding: 1rem;
+  transition-duration: 0.25s;
 }
 
 .navbar-colored {
-  background-color: #000000bf;
+  background-color: #000000b3;
   backdrop-filter: blur(5px);
+  transition-duration: 0.25s;
 }
 
 .nav-item a.nav-link {

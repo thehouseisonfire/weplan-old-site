@@ -1,3 +1,11 @@
+html * {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  transition-duration: 0.25s;
+}
+
 .page-title {
   font-weight: 700 !important;
   line-height: 1.2;

@@ -10,9 +10,9 @@
               De alta qualidade e sofisticação<br />
               De acordo com o seu desejo
             </p>
-            <p>
-              <b-link to="/como-funciona">
-                <button type="button" class="button-link">Descubra mais</button>
+            <p class="mt-4">
+              <b-link to="/como-funciona" class="button-link">
+                Descubra mais
               </b-link>
             </p>
           </b-container>
