@@ -70,7 +70,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-4">
+    <b-container fluid class="section-4 inverted-colors">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Case de sucesso</h2>
@@ -191,19 +191,9 @@ export default {
   font-size: 1.2rem;
 }
 
-.section-4 {
-  background-color: #0009;
-  color: #fff;
-}
-
 .section-5 {
   background-color: #efeff0;
   color: #1c1c1c;
-}
-
-.section-title,
-.section-4 .highlighted-words-yellow {
-  color: #fff;
 }
 
 span.team-member-name {

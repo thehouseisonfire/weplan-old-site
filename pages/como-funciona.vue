@@ -110,7 +110,7 @@
         <b-col md="1"></b-col>
       </b-row>
     </b-container>
-    <b-container id="vantagens-weplan" fluid class="section-4">
+    <b-container id="vantagens-weplan" fluid class="section-3">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Vantagens da WePlan</h2>
@@ -174,14 +174,14 @@
         </b-container>
       </b-row>
     </b-container>
-    <b-container fluid class="section-3">
+    <b-container fluid class="section-4">
       <b-row>
-        <b-col id="img-1" class="img-fluid img-background" cols="12" md="6">
+        <b-col id="img-comprar-moveis" class="img-fluid img-background" cols="12" md="6">
           <b-link to="/para-voce">
             <h2 class="text-center text-shadow">Quero comprar móveis planejados</h2>
           </b-link>
         </b-col>
-        <b-col id="img-2" class="img-fluid img-background" cols="12" md="6">
+        <b-col id="img-ser-parceiro" class="img-fluid img-background" cols="12" md="6">
           <b-link to="/seja-nosso-parceiro">
             <h2 class="text-center text-shadow">Quero ser um parceiro da WePlan</h2>
           </b-link>
@@ -212,7 +212,12 @@ export default {
   padding-bottom: 8rem;
 }
 
-.section-3 .row div {
+.section-3 {
+  font-size: 1.5rem;
+  padding-top: 8rem;
+}
+
+.section-4 .row div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,20 +227,20 @@ export default {
   padding: 0;
 }
 
-.section-3 .row div a h2 {
+.section-4 .row div a h2 {
   font-size: 2.5rem;
   color: #fff;
   background-color: #1c1c1c66;
   padding: 1.5rem;
 }
 
-.section-3 .row div a:hover h2,
-.section-3 .row div a:active h2,
-.section-3 .row div a:focus h2 {
+.section-4 .row div a:hover h2,
+.section-4 .row div a:active h2,
+.section-4 .row div a:focus h2 {
   background-color: #1c1c1ccc;
 }
 
-.section-3 a {
+.section-4 a {
   text-decoration: none;
   background-color: #1c1c1c33;
   display: flex;
@@ -246,23 +251,18 @@ export default {
   padding: 2rem;
 }
 
-.section-3 .row div a:hover,
-.section-3 .row div a:active,
-.section-3 .row div a:focus {
+.section-4 .row div a:hover,
+.section-4 .row div a:active,
+.section-4 .row div a:focus {
   background-color: #1c1c1c99;
 }
 
-.section-4 {
-  font-size: 1.5rem;
-  padding-top: 8rem;
-}
-
-#img-1 {
+#img-comprar-moveis {
   background-image: url('~/assets/images/environments/sala-jantar-cozinha.jpg');
   height: 1000px;
 }
 
-#img-2 {
+#img-ser-parceiro {
   background-image: url('~/assets/images/seja-nosso-parceiro.jpg');
   height: 1000px;
 }

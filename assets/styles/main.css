@@ -132,11 +132,12 @@ a.highlighted-words-yellow:focus {
 }
 
 .inverted-colors {
-  background-color: #1c1c1c;
+  background-color: #0009;
   color: #fff;
 }
 
-.inverted-colors * {
+.inverted-colors *,
+.inverted-colors a {
   color: #fff;
 }
 
