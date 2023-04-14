@@ -172,7 +172,7 @@ export default {
 </script>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/projeto-weplan.jpg');
+  background-image: url('~/assets/images/environments/cozinha-moderna.jpg');
   color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
