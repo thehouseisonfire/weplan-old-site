@@ -39,7 +39,7 @@
             <div class="card-header">1</div>
             <div class="card-body">
               <b-img
-                src="~/assets/animated-icons/reuniao-cliente-profisisional.gif"
+                src="~/assets/images/animated-icons/reuniao-cliente-profisisional.gif"
                 class="img-fluid"
                 alt="Reunião entre cliente e profissional"
               ></b-img>
@@ -54,7 +54,7 @@
             <div class="card-header">2</div>
             <div class="card-body">
               <b-img
-                src="~/assets/animated-icons/projetando.gif"
+                src="~/assets/images/animated-icons/projetando.gif"
                 class="img-fluid"
                 alt="Profissional projetando por meio da plataforma da WePlan"
               ></b-img>
@@ -70,7 +70,7 @@
             <div class="card-header">3</div>
             <div class="card-body">
               <b-img
-                src="~/assets/animated-icons/software-direto-industria.gif"
+                src="~/assets/images/animated-icons/software-direto-industria.gif"
                 class="img-fluid"
                 alt="Software conectado diretamente a indústria"
               ></b-img>
@@ -86,7 +86,7 @@
             <div class="card-header">4</div>
             <div class="card-body">
               <b-img
-                src="~/assets/animated-icons/producao-transporte.gif"
+                src="~/assets/images/animated-icons/producao-transporte.gif"
                 class="img-fluid"
                 alt="Produção e transporte"
               ></b-img>
@@ -99,7 +99,7 @@
             <div class="card-header">5</div>
             <div class="card-body">
               <b-img
-                src="~/assets/animated-icons/montagem.gif"
+                src="~/assets/images/animated-icons/montagem.gif"
                 class="img-fluid"
                 alt="Montagem"
               ></b-img>

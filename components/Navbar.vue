@@ -8,14 +8,7 @@
     >
       <b-navbar-brand to="/">
         <b-img
-          v-show="!navbarIsColored"
-          src="~/assets/images/logo/negative.svg"
-          width="140px"
-          alt="WePlan"
-        />
-        <b-img
-          v-show="navbarIsColored"
-          src="~/assets/images/logo/positive.svg"
+          src="~/assets/images/logo/positive.png"
           width="140px"
           alt="WePlan"
         />
