@@ -141,6 +141,52 @@ a.highlighted-words-yellow:focus {
   color: #fff;
 }
 
+.text-block {
+  padding: 0;
+}
+
+.text-block a,
+.text-block div {
+  background-color: #1c1c1c33;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.text-block h2 {
+  font-size: 3rem;
+}
+
+.text-block a h2 {
+  background-color: #1c1c1c66;
+  font-size: 3vw;
+  color: #fff;
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 150px;
+  width: 100%;
+} a
+
+.text-block:hover a h2,
+.text-block:active a h2,
+.text-block:focus a h2 {
+  background-color: #1c1c1ccc;
+}
+
+.text-block a:hover,
+.text-block a:active,
+.text-block a:focus {
+  background-color: #1c1c1c99;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 576px) {
   .page-title {
     font-size: 15vw;

@@ -8,7 +8,7 @@
     >
       <b-navbar-brand to="/">
         <b-img
-          src="~/assets/images/logo/positive.png"
+          src="~/assets/images/logo/white.png"
           width="140px"
           alt="WePlan"
         />

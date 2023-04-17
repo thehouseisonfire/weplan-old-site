@@ -176,14 +176,14 @@
     </b-container>
     <b-container fluid class="section-4">
       <b-row>
-        <b-col id="img-comprar-moveis" class="img-fluid img-background" cols="12" md="6">
+        <b-col id="img-comprar-moveis" class="img-background text-block" cols="12" md="6">
           <b-link to="/para-voce">
-            <h2 class="text-center text-shadow">Quero comprar móveis planejados</h2>
+            <h2 class="text-shadow">Quero comprar móveis planejados</h2>
           </b-link>
         </b-col>
-        <b-col id="img-ser-parceiro" class="img-fluid img-background" cols="12" md="6">
+        <b-col id="img-ser-parceiro" class="img-background text-block" cols="12" md="6">
           <b-link to="/seja-nosso-parceiro">
-            <h2 class="text-center text-shadow">Quero ser um parceiro da WePlan</h2>
+            <h2 class="text-shadow">Quero ser um parceiro da WePlan</h2>
           </b-link>
         </b-col>
       </b-row>
@@ -215,46 +215,6 @@ export default {
 .section-3 {
   font-size: 1.5rem;
   padding-top: 8rem;
-}
-
-.section-4 .row div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  color: #fff;
-  font-size: 2rem;
-  padding: 0;
-}
-
-.section-4 .row div a h2 {
-  font-size: 2.5rem;
-  color: #fff;
-  background-color: #1c1c1c66;
-  padding: 1.5rem;
-}
-
-.section-4 .row div a:hover h2,
-.section-4 .row div a:active h2,
-.section-4 .row div a:focus h2 {
-  background-color: #1c1c1ccc;
-}
-
-.section-4 a {
-  text-decoration: none;
-  background-color: #1c1c1c33;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  padding: 2rem;
-}
-
-.section-4 .row div a:hover,
-.section-4 .row div a:active,
-.section-4 .row div a:focus {
-  background-color: #1c1c1c99;
 }
 
 #img-comprar-moveis {
