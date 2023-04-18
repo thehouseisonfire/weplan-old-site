@@ -67,6 +67,7 @@ export default {
 .section-2 {
   color: #fff;
   font-size: 1.5rem;
+  font-weight: 700;
   text-align: center;
   padding: 0;
 }

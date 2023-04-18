@@ -93,6 +93,8 @@ a.highlighted-words-yellow:focus {
 
 .text-shadow {
   text-shadow: #1c1c1c 0px 0px 10px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #1c1c1c;
 }
 
 .card {

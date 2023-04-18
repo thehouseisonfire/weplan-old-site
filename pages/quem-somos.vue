@@ -272,7 +272,6 @@
 </template>
 <style scoped>
 .section-1 {
-  background-image: url('');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

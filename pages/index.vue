@@ -5,7 +5,7 @@
         <b-col cols="12" class="background-title">
           <b-container>
             <h1 class="page-title text-shadow">Móveis Planejados</h1>
-            <p class="text-shadow">
+            <p class="subtitle text-shadow">
               De maneira facilitada<br />
               De alta qualidade e sofisticação<br />
               De acordo com o seu desejo
@@ -194,6 +194,11 @@ export default {
 .section-5 {
   background-color: #efeff0;
   color: #1c1c1c;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 span.team-member-name {
