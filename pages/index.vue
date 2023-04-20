@@ -1,11 +1,11 @@
 <template>
   <div>
     <b-container fluid class="section-1 img-background">
-      <b-row>
-        <b-col cols="12" class="background-title">
+      <b-row class="background-title">
+        <b-col cols="12">
           <b-container>
-            <h1 class="page-title text-shadow">Móveis Planejados</h1>
-            <p class="subtitle text-shadow">
+            <h1 class="page-title">Móveis Planejados</h1>
+            <p class="page-subtitle">
               De maneira facilitada<br />
               De alta qualidade e sofisticação<br />
               De acordo com o seu desejo
@@ -173,9 +173,6 @@ export default {
 <style scoped>
 .section-1 {
   background-image: url('~/assets/images/environments/cozinha-moderna.jpg');
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
 }
 
 .section-2,
@@ -194,11 +191,6 @@ export default {
 .section-5 {
   background-color: #efeff0;
   color: #1c1c1c;
-}
-
-.subtitle {
-  font-size: 1.5rem;
-  font-weight: 600;
 }
 
 span.team-member-name {

@@ -9,19 +9,33 @@ a {
 .page-title {
   font-weight: 700 !important;
   line-height: 1.2;
-  font-size: 10vw;
+  font-size: 6vw;
+}
+
+.page-subtitle {
+  font-size: 3vw;
+  font-weight: 600;
 }
 
 .section-1 {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 30rem;
+  padding-bottom: 30rem;
   background-color: #000000b7;
+  position: relative;
+  color: #fff;
 }
 
 .section-1 .background-title {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c66;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: auto;
 }
 
 .section-title {
@@ -93,8 +107,6 @@ a.highlighted-words-yellow:focus {
 
 .text-shadow {
   text-shadow: #1c1c1c 0px 0px 10px;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: #1c1c1c;
 }
 
 .card {
@@ -191,13 +203,21 @@ a.highlighted-words-yellow:focus {
 
 @media only screen and (max-width: 576px) {
   .page-title {
-    font-size: 15vw;
+    font-size: 10vw;
+  }
+
+  .page-subtitle {
+    font-size: 5vw;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .page-title {
-    font-size: 5vw;
+    font-size: 4vw;
+  }
+
+  .page-subtitle {
+    font-size: 2vw;
   }
 }
 

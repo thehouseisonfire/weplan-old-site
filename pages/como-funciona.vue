@@ -1,17 +1,10 @@
 <template>
   <div>
     <b-container fluid class="section-1 img-background">
-      <b-row>
+      <b-row class="background-title">
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title text-shadow">Como funciona</h1>
-            <p class="text-shadow">
-              Entregamos o acesso a móveis planejados com facilidade, respeito e
-              alta qualidade.<br />
-              Conectamos todos os pontos do processo entre indústria,
-              profissional e clientes para desenvolver nosso trabalho de forma
-              rápida e transparente.
-            </p>
+            <h1 class="page-title text-center">Como funciona</h1>
           </b-container>
         </b-col>
       </b-row>
@@ -198,9 +191,6 @@ export default {
 <style scoped>
 .section-1 {
   background-image: url('~/assets/images/equipe-reuniao-weplan.jpg');
-  text-align: center;
-  color: #fff;
-  font-size: 1.1rem;
 }
 
 .section-2 {
