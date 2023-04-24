@@ -69,7 +69,7 @@ export default {
 
 .nav-item a.nav-link {
   color: #fff;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .nav-item a.nav-link:hover,

@@ -14,7 +14,7 @@ a {
 
 .page-subtitle {
   font-size: 3vw;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .section-1 {
@@ -39,15 +39,14 @@ a {
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700 !important;
   line-height: 1.2;
   color: #1c1c1c;
 }
 
 .section-subtitle {
-  font-size: 2rem;
-  font-weight: 700 !important;
+  font-size: 1.25rem;
   line-height: 1.2;
   color: #1c1c1c;
 }
@@ -80,13 +79,13 @@ a {
 }
 
 .highlighted-words-purple {
-  font-weight: 700;
+  font-weight: 700 !important;
   text-decoration: underline #240051 4px;
   text-decoration-skip-ink: none;
 }
 
 .highlighted-words-yellow {
-  font-weight: 700;
+  font-weight: 700 !important;
   text-decoration: underline #d8a200 4px;
   text-decoration-skip-ink: none;
 }
@@ -98,7 +97,7 @@ a.highlighted-words-yellow {
 a.highlighted-words-yellow:hover,
 a.highlighted-words-yellow:active,
 a.highlighted-words-yellow:focus {
-  font-weight: 700;
+  font-weight: 700 !important;
   text-decoration: underline #2c2c2c 4px;
   text-decoration-skip-ink: none;
   color: #2c2c2c;
@@ -121,7 +120,7 @@ a.highlighted-words-yellow:focus {
 .card-header {
   align-self: center !important;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 700 !important;
   padding-bottom: 0;
   padding-top: 1.25rem;
   color: #ffc821;
@@ -141,7 +140,7 @@ a.highlighted-words-yellow:focus {
 .card-text {
   align-self: center !important;
   padding-top: 0;
-  font-weight: 300;
+  font-weight: 300 !important;
   color: white;
 }
 
@@ -161,7 +160,7 @@ a.highlighted-words-yellow:focus {
 
 .text-block a,
 .text-block div {
-  background-color: #1c1c1c33;
+  background-color: #1c1c1c80;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -173,10 +172,13 @@ a.highlighted-words-yellow:focus {
 
 .text-block h2 {
   font-size: 3rem;
+  text-align: center;
+  font-weight: 800 !important;
 }
 
 .text-block a h2 {
-  background-color: #1c1c1c66;
+  background-color: #1c1c1c80;
+  font-weight: 800 !important;
   font-size: 3vw;
   color: #fff;
   padding: 1.5rem;
@@ -184,9 +186,10 @@ a.highlighted-words-yellow:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   max-height: 150px;
   width: 100%;
-} a
+}
 
 .text-block:hover a h2,
 .text-block:active a h2,
@@ -197,7 +200,7 @@ a.highlighted-words-yellow:focus {
 .text-block a:hover,
 .text-block a:active,
 .text-block a:focus {
-  background-color: #1c1c1c99;
+  background-color: #1c1c1ccc;
   text-decoration: none;
 }
 
