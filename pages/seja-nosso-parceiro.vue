@@ -2,17 +2,17 @@
   <div>
     <b-container fluid class="section-1">
       <b-row>
-        <b-col id="img-profissional-interiores" class="img-background text-block" cols="4">
+        <b-col class="img-profissional-interiores img-height-1000px img-background text-block" cols="4">
           <b-link to="#profissional-interiores">
             <h2>Sou profissional de interiores</h2>
           </b-link>
         </b-col>
-        <b-col id="img-montador" class="img-background text-block" cols="4">
+        <b-col class="img-montador img-height-1000px img-background text-block" cols="4">
           <b-link to="#montador">
             <h2>Sou montador</h2>
           </b-link>
         </b-col>
-        <b-col id="img-fornecedor" class="img-background text-block" cols="4">
+        <b-col class="img-fornecedor img-height-1000px img-background text-block" cols="4">
           <b-link to="#fornecedor">
             <h2>Sou fornecedor</h2>
           </b-link>
@@ -75,6 +75,45 @@
         </b-col>
       </b-row>
     </b-container>
+    <b-container fluid class="section-5">
+      <b-row>
+        <b-container fluid>
+          <b-row id="profissional-interiores" class="inverted-colors">
+            <b-col class="img-profissional-interiores img-height-600px img-background text-block" cols="12" md="6">
+              <div>
+                <h2>Sou profissional de interiores</h2>
+                <span class="button-link d-md-none">Quero ser parceiro</span>
+              </div>
+            </b-col>
+            <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
+              <span class="button-link">Quero ser parceiro</span>
+            </b-col>
+          </b-row>
+          <b-row id="montador">
+            <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
+              <span class="button-link">Quero ser parceiro</span>
+            </b-col>
+            <b-col class="img-montador img-height-600px img-background text-block" cols="12" md="6">
+              <div>
+                <h2>Sou montador</h2>
+                <span class="button-link d-md-none">Quero ser parceiro</span>
+              </div>
+            </b-col>
+          </b-row>
+          <b-row id="fornecedor" class="inverted-colors">
+            <b-col class="img-fornecedor img-height-600px img-background text-block" cols="12" md="6">
+              <div>
+                <h2>Sou fornecedor</h2>
+                <span class="button-link d-md-none">Quero ser parceiro</span>
+              </div>
+            </b-col>
+            <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
+              <span class="button-link">Quero ser parceiro</span>
+            </b-col>
+          </b-row>
+        </b-container>
+      </b-row>
+    </b-container>
   </div>
 </template>
 <script>
@@ -120,19 +159,27 @@ export default {
   font-weight: 500 !important;
 }
 
-#img-profissional-interiores {
+.button-link {
+  font-size: 3rem;
+  display: block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.button-link.d-md-none {
+  font-size: 1.5rem;
+}
+
+.img-profissional-interiores {
   background-image: url('~/assets/images/profissional-interiores.jpg');
-  height: 1000px;
 }
 
-#img-montador {
+.img-montador {
   background-image: url('~/assets/images/montador.jpg');
-  height: 1000px;
 }
 
-#img-fornecedor {
+.img-fornecedor {
   background-image: url('~/assets/images/fornecedor.jpg');
-  height: 1000px;
 }
 
 #img-mercado {
