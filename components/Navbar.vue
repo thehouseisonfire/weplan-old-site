@@ -17,17 +17,12 @@
       <b-collapse id="nav-collapse" is-nav class="py-2">
         <b-navbar-nav class="ml-auto">
           <b-nav-item to="/como-funciona">Como funciona</b-nav-item>
-          <b-nav-item to="/seja-nosso-parceiro">Seja nosso parceiro</b-nav-item>
           <b-nav-item to="/para-voce">Para você</b-nav-item>
+          <b-nav-item to="/para-sua-empresa">Para sua empresa</b-nav-item>
+          <b-nav-item to="/seja-nosso-parceiro">Seja nosso parceiro</b-nav-item>
           <b-nav-item to="/quem-somos">Quem somos</b-nav-item>
           <b-nav-item to="/projetos">Projetos</b-nav-item>
-          <b-nav-item href="https://weplan.com.br/blog/" target="_blank"
-            >Blog</b-nav-item
-          >
           <b-nav-item to="/contato">Contato</b-nav-item>
-          <b-nav-item href="https://app.weplan.com.br/" target="_blank"
-            >Login</b-nav-item
-          >
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

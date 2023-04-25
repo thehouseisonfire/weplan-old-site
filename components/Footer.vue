@@ -1,9 +1,9 @@
 <template>
   <div>
     <footer class="footer">
-      <b-container>
+      <b-container fluid>
         <b-row>
-          <b-col cols="12" md="4" class="mb-3">
+          <b-col cols="12" md="3" class="mb-3">
             <b-container>
               <b-row class="mb-1">
                 <b-link to="/">
@@ -27,40 +27,46 @@
               </b-row>
             </b-container>
           </b-col>
-          <b-col cols="12" md="4" class="mb-3">
+          <b-col cols="12" md="3" class="mb-3">
             <b-container>
+              <b-row class="title-footer">
+                Sobre a WePlan
+              </b-row>
               <b-row>
                 <ul class="footer-group-links">
                   <li><b-link to="/como-funciona">Como funciona</b-link></li>
-                  <li>
-                    <b-link to="/seja-nosso-parceiro"
-                      >Seja nosso parceiro</b-link
-                    >
-                  </li>
-                  <li><b-link to="/para-voce">Para você</b-link></li>
-                  <li><b-link to="/projetos">Projetos</b-link></li>
-                  <li>
-                    <b-link href="https://weplan.com.br/blog/" target="_blank"
-                      >Blog</b-link
-                    >
-                  </li>
-                  <li><b-link to="/contato">Contato</b-link></li>
-                  <li>
-                    <b-link href="https://app.weplan.com.br/" target="_blank"
-                      >Login no APP</b-link
-                    >
-                  </li>
-                  <li><b-link to="#">WePlan Educação</b-link></li>
-                  <li>
-                    <b-link to="/#quem-faz-a-weplan">Quem faz a Weplan?</b-link>
-                  </li>
+                  <li><b-link to="/como-funciona#nosso-processo">Nosso processo</b-link></li>
+                  <li><b-link to="/como-funciona#vantagens-weplan">Vantagens da WePlan</b-link></li>
+                  <li><b-link to="/quem-somos">Quem somos</b-link></li>
+                  <li><b-link to="/para-voce">Soluções para você</b-link></li>
+                  <li><b-link to="/para-sua-empresa">Soluções para sua empresa</b-link></li>
+                  <li><b-link href="https://www.weplaneducacao.com.br/">WePlan Educação</b-link></li>
                 </ul>
               </b-row>
             </b-container>
           </b-col>
-          <b-col cols="12" md="4">
+          <b-col cols="12" md="3" class="mb-3">
             <b-container>
-              <b-row> Acompanhe-nos nas redes: </b-row>
+              <b-row class="title-footer">
+                Links úteis
+              </b-row>
+              <b-row>
+                <ul class="footer-group-links">
+                  <li><b-link to="/projetos">Projetos</b-link></li>
+                  <li><b-link to="/contato">Contato</b-link></li>
+                  <li><b-link to="/seja-nosso-parceiro">Seja nosso parceiro</b-link></li>
+                  <li><b-link to="#">Trabalhe conosco</b-link></li>
+                  <li><b-link href="https://weplan.com.br/blog/" target="_blank">Blog</b-link></li>
+                  <li><b-link href="https://app.weplan.com.br/" target="_blank">Login no app do parceiro</b-link></li>
+                </ul>
+              </b-row>
+            </b-container>
+          </b-col>
+          <b-col cols="12" md="3">
+            <b-container>
+              <b-row class="title-footer">
+                Acompanhe-nos nas redes:
+              </b-row>
               <b-row>
                 <a
                   href="https://www.instagram.com/weplanmob/"
@@ -193,5 +199,10 @@ export default {
 .footer-icon img {
   width: 25px;
   height: auto;
+}
+
+.title-footer {
+  font-weight: 800;
+  margin-bottom: 10px;
 }
 </style>

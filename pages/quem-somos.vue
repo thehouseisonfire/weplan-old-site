@@ -286,4 +286,35 @@
   padding-bottom: 5rem;
   color: #1c1c1c;
 }
+
+span.team-member-name {
+  font-weight: 800 !important;
+  font-size: 1.2rem;
+}
+
+span.team-member-position {
+  font-weight: 600 !important;
+  font-size: 1rem;
+}
+
+span.team-member-description {
+  font-size: 0.8rem;
+}
+
+.team-member-link {
+  text-decoration: none;
+  font-weight: 700 !important;
+  font-size: 0.8rem;
+  background-color: #4a148c;
+  border-radius: 5px;
+  border: 0;
+  padding: 1rem;
+  color: #fff;
+}
+
+.team-member-link:hover,
+.team-member-link:active,
+.team-member-link:focus {
+  background-color: #240051;
+}
 </style>
