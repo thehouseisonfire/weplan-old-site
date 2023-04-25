@@ -119,10 +119,6 @@ a.highlighted-words-yellow:focus {
   cursor: pointer;
 }
 
-.text-shadow {
-  text-shadow: #1c1c1c 0px 0px 10px;
-}
-
 .card {
   align-self: center !important;
   font-size: 1rem;
@@ -170,11 +166,17 @@ a.highlighted-words-yellow:focus {
 }
 
 .text-block {
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.text-block-with-background-img {
   padding: 0;
 }
 
-.text-block a,
-.text-block div {
+.text-block-with-background-img a,
+.text-block-with-background-img div {
   background-color: #1c1c1c80;
   text-align: center;
   display: flex;
@@ -185,14 +187,14 @@ a.highlighted-words-yellow:focus {
   width: 100%;
 }
 
-.text-block h2 {
+.text-block-with-background-img h2 {
   font-size: 3rem;
   text-align: center;
   font-weight: 800 !important;
   color: #fff;
 }
 
-.text-block a h2 {
+.text-block-with-background-img a h2 {
   background-color: #1c1c1c80;
   font-weight: 800 !important;
   font-size: 3vw;
@@ -207,15 +209,15 @@ a.highlighted-words-yellow:focus {
   width: 100%;
 }
 
-.text-block:hover a h2,
-.text-block:active a h2,
-.text-block:focus a h2 {
+.text-block-with-background-img:hover a h2,
+.text-block-with-background-img:active a h2,
+.text-block-with-background-img:focus a h2 {
   background-color: #1c1c1ccc;
 }
 
-.text-block a:hover,
-.text-block a:active,
-.text-block a:focus {
+.text-block-with-background-img a:hover,
+.text-block-with-background-img a:active,
+.text-block-with-background-img a:focus {
   background-color: #1c1c1ccc;
   text-decoration: none;
 }

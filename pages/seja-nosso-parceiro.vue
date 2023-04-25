@@ -2,17 +2,17 @@
   <div>
     <b-container fluid class="section-1">
       <b-row>
-        <b-col class="img-profissional-interiores img-height-1000px img-background text-block" cols="4">
+        <b-col class="img-profissional-interiores img-height-1000px img-background text-block-with-background-img" cols="4">
           <b-link to="#profissional-interiores">
             <h2>Sou profissional de interiores</h2>
           </b-link>
         </b-col>
-        <b-col class="img-montador img-height-1000px img-background text-block" cols="4">
+        <b-col class="img-montador img-height-1000px img-background text-block-with-background-img" cols="4">
           <b-link to="#montador">
             <h2>Sou montador</h2>
           </b-link>
         </b-col>
-        <b-col class="img-fornecedor img-height-1000px img-background text-block" cols="4">
+        <b-col class="img-fornecedor img-height-1000px img-background text-block-with-background-img" cols="4">
           <b-link to="#fornecedor">
             <h2>Sou fornecedor</h2>
           </b-link>
@@ -32,7 +32,7 @@
     </b-container>
     <b-container fluid class="section-3">
       <b-row>
-        <b-col id="img-mercado" class="img-background text-block" cols="12" md="4">
+        <b-col id="img-mercado" class="img-background text-block-with-background-img" cols="12" md="4">
           <div>
             <h2>R$ 62,6 bi</h2>
             <p>
@@ -42,7 +42,7 @@
             </p>
           </div>
         </b-col>
-        <b-col id="img-quantidade-arquitetos" class="img-background text-block" cols="12" md="4">
+        <b-col id="img-quantidade-arquitetos" class="img-background text-block-with-background-img" cols="12" md="4">
           <div>
             <h2>216 mil</h2>
             <p>
@@ -51,7 +51,7 @@
             </p>
           </div>
         </b-col>
-        <b-col id="img-quantidade-designers" class="img-background text-block" cols="12" md="4">
+        <b-col id="img-quantidade-designers" class="img-background text-block-with-background-img" cols="12" md="4">
           <div>
             <h2>55 mil</h2>
             <p>
@@ -77,7 +77,7 @@
     </b-container>
     <b-container fluid class="section-5">
       <b-row id="profissional-interiores" class="inverted-colors">
-        <b-col class="img-profissional-interiores img-height-600px img-background text-block" cols="12" md="6">
+        <b-col class="img-profissional-interiores img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Sou profissional de interiores</h2>
             <span class="button-link d-md-none">Quero ser parceiro</span>
@@ -91,7 +91,7 @@
         <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
           <span class="button-link">Quero ser parceiro</span>
         </b-col>
-        <b-col class="img-montador img-height-600px img-background text-block" cols="12" md="6">
+        <b-col class="img-montador img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Sou montador</h2>
             <span class="button-link d-md-none">Quero ser parceiro</span>
@@ -99,7 +99,7 @@
         </b-col>
       </b-row>
       <b-row id="fornecedor" class="inverted-colors">
-        <b-col class="img-fornecedor img-height-600px img-background text-block" cols="12" md="6">
+        <b-col class="img-fornecedor img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Sou fornecedor</h2>
             <span class="button-link d-md-none">Quero ser parceiro</span>
