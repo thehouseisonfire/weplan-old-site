@@ -6,9 +6,8 @@
           <b-container>
             <h1 class="page-title">Móveis Planejados</h1>
             <p class="page-subtitle">
-              De maneira facilitada<br />
-              De alta qualidade e sofisticação<br />
-              De acordo com o seu desejo
+              Móveis planejados direto da indústria.<br />
+              Do projeto até a montagem.
             </p>
             <p class="mt-4">
               <b-link to="/como-funciona" class="button-link">
@@ -19,61 +18,10 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2">
-      <b-row>
-        <b-col
-          cols="12"
-          md="6"
-          class="align-self-center text-center text-md-left"
-        >
-          <p class="mx-5 my-5">
-            O
-            <b-link to="/seja-nosso-parceiro" class="highlighted-words-yellow"
-              >negócio lucrativo para você profissional</b-link
-            >
-            que trabalha com projetos de móveis planejados.<br />
-            A
-            <b-link to="/para-voce" class="highlighted-words-yellow"
-              >solução completa para você cliente</b-link
-            >
-            que precisa de móveis planejados a altura de suas expectativas.
-          </p>
-        </b-col>
-        <b-col id="img-1" class="img-fluid img-background" cols="12" md="3">
-        </b-col>
-        <b-col id="img-2" class="img-fluid img-background" cols="12" md="3">
-        </b-col>
-      </b-row>
-    </b-container>
-    <b-container fluid class="section-3">
-      <b-row>
-        <b-col id="img-3" class="img-fluid img-background d-none d-md-block" cols="12" md="6">
-        </b-col>
-        <b-col
-          cols="12"
-          md="6"
-          class="align-self-center text-center text-md-left"
-        >
-          <p class="mx-5 my-5">
-            <span class="highlighted-words-yellow"
-              >Entregamos o acesso a móveis planejados</span
-            >
-            com facilidade, respeito e alta qualidade.<br />
-            <span class="highlighted-words-yellow"
-              >Conectamos todos os pontos do processo entre indústria,
-              profissional e clientes</span
-            >
-            para desenvolver nosso trabalho de forma rápida e transparente.
-          </p>
-        </b-col>
-        <b-col id="img-3" class="img-fluid img-background d-md-none" cols="12" md="6">
-        </b-col>
-      </b-row>
-    </b-container>
-    <b-container fluid class="section-4 inverted-colors">
+    <b-container fluid class="section-2 section-spacing section-background-light-color">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Case de sucesso</h2>
+          <h2 class="section-title">Clientes que confiam na WePlan</h2>
         </b-col>
       </b-row>
       <b-row>
@@ -122,10 +70,10 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="nps" fluid class="section-5">
+    <b-container id="nps" fluid class="section-3 section-spacing">
       <b-row>
         <b-col cols="12" md="6" class="align-self-center">
-          <h3 class="section-subtitle mx-5">A WePlan encanta seus clientes</h3>
+          <h3 class="section-title mx-5">A WePlan encanta seus clientes</h3>
           <p class="mx-5">
             Todos os nossos atendimentos são avaliados para garantir que estamos
             prestando o melhor serviço e entregando as melhores soluções.
@@ -173,69 +121,5 @@ export default {
 <style scoped>
 .section-1 {
   background-image: url('~/assets/images/environments/cozinha-moderna.jpg');
-}
-
-.section-2,
-.section-3 {
-  color: #1c1c1c;
-  font-size: 1.5rem;
-}
-
-.section-4,
-.section-5 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  font-size: 1.2rem;
-}
-
-.section-5 {
-  background-color: #efeff0;
-  color: #1c1c1c;
-}
-
-span.team-member-name {
-  font-weight: 800 !important;
-  font-size: 1.2rem;
-}
-
-span.team-member-position {
-  font-weight: 600 !important;
-  font-size: 1rem;
-}
-
-span.team-member-description {
-  font-size: 0.8rem;
-}
-
-.team-member-link {
-  text-decoration: none;
-  font-weight: 700 !important;
-  font-size: 0.8rem;
-  background-color: #4a148c;
-  border-radius: 5px;
-  border: 0;
-  padding: 1rem;
-  color: #fff;
-}
-
-.team-member-link:hover,
-.team-member-link:active,
-.team-member-link:focus {
-  background-color: #240051;
-}
-
-#img-1 {
-  background-image: url('~/assets/images/environments/sala-reuniao.jpg');
-  height: 600px;
-}
-
-#img-2 {
-  background-image: url('~/assets/images/environments/cozinha.jpg');
-  height: 600px;
-}
-
-#img-3 {
-  background-image: url('~/assets/images/environments/escritorio.jpg');
-  height: 600px;
 }
 </style>

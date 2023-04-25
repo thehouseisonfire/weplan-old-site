@@ -52,9 +52,12 @@ a {
 }
 
 .section-spacing {
-  background-color: #efeff0;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.section-background-light-color {
+  background-color: #efeff0;
 }
 
 .img-background {

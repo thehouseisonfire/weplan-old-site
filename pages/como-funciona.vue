@@ -9,7 +9,7 @@
         </b-col> 
       </b-row>
     </b-container>
-    <b-container id="nosso-processo" fluid class="section-2 section-spacing">
+    <b-container id="nosso-processo" fluid class="section-2 section-spacing section-background-light-color">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">O processo da WePlan</h2>
@@ -116,7 +116,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="vantagens-weplan" fluid class="section-4 section-spacing">
+    <b-container id="vantagens-weplan" fluid class="section-4 section-spacing section-background-light-color">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Vantagens da Weplan</h2>

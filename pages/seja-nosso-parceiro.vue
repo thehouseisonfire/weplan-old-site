@@ -19,7 +19,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2 section-spacing">
+    <b-container fluid class="section-2 section-spacing section-background-light-color">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Oportunidades no setor</h2>
@@ -63,7 +63,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-4 section-spacing">
+    <b-container fluid class="section-4 section-spacing section-background-light-color">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Aqui na WePlan já temos resultados consolidados</h2>
