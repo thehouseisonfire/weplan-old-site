@@ -160,9 +160,20 @@ a.highlighted-words-yellow:focus {
   color: #fff;
 }
 
-.inverted-colors *,
-.inverted-colors a {
+.inverted-colors-dark {
+  background-color: #000c;
   color: #fff;
+}
+
+.inverted-colors *,
+.inverted-colors a,
+.inverted-colors-dark *,
+.inverted-colors-dark a {
+  color: #fff;
+}
+
+.text-color-yellow {
+  color: #ffc821;
 }
 
 .text-block {

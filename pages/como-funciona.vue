@@ -20,7 +20,101 @@
       </b-row>
     </b-container>
     <b-container fluid class="section-3">
-      adicionar o processo resumido
+      <b-row>
+        <b-col class="text-center inverted-colors" cols="12" md="6">
+          <h2 class="mt-5 text-color-yellow">1</h2>
+          <p>
+            <b-img
+              src="~/assets/images/animated-icons/reuniao-cliente-profissional.gif"
+              width="140px"
+              alt="Passo 1 do processo"
+            />
+          </p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          Contato inicial entre profissional, credenciado e cliente.
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="text-center inverted-colors-dark d-md-none" cols="12" md="6">
+          <h2 class="mt-5 text-color-yellow">2</h2>
+          <p>
+            <b-img
+              src="~/assets/images/animated-icons/projetando.gif"
+              width="140px"
+              alt="Passo 2 do processo"
+            />
+          </p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
+          Profissional credenciado inicia o projeto e utiliza toda a plataforma de controle da WePlan.
+        </b-col>
+        <b-col class="text-center inverted-colors-dark d-none d-md-block" cols="12" md="6">
+          <h2 class="mt-5 text-color-yellow">2</h2>
+          <p>
+            <b-img
+              src="~/assets/images/animated-icons/projetando.gif"
+              width="140px"
+              alt="Passo 2 do processo"
+            />
+          </p>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="text-center inverted-colors" cols="12" md="6">
+          <h2 class="mt-5 text-color-yellow">3</h2>
+          <p>
+            <b-img
+              src="~/assets/images/animated-icons/software-direto-industria.gif"
+              width="140px"
+              alt="Passo 3 do processo"
+            />
+          </p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          Levamos o projeto através do software promob direto a indústria ideal para a finalidade.
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="text-center inverted-colors-dark d-md-none" cols="12" md="6">
+          <h2 class="mt-5 text-color-yellow">4</h2>
+          <p>
+            <b-img
+              src="~/assets/images/animated-icons/producao-transporte.gif"
+              width="140px"
+              alt="Passo 4 do processo"
+            />
+          </p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
+          A indústria produz e despacha os móveis.
+        </b-col>
+        <b-col class="text-center inverted-colors-dark d-none d-md-block" cols="12" md="6">
+          <h2 class="mt-5 text-color-yellow">4</h2>
+          <p>
+            <b-img
+              src="~/assets/images/animated-icons/producao-transporte.gif"
+              width="140px"
+              alt="Passo 4 do processo"
+            />
+          </p>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="text-center inverted-colors" cols="12" md="6">
+          <h2 class="mt-5 text-color-yellow">5</h2>
+          <p>
+            <b-img
+              src="~/assets/images/animated-icons/montagem.gif"
+              width="140px"
+              alt="Passo 5 do processo"
+            />
+          </p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          A montagem é feita no local.
+        </b-col>
+      </b-row>
     </b-container>
     <b-container id="vantagens-weplan" fluid class="section-4 section-spacing">
       <b-row>
