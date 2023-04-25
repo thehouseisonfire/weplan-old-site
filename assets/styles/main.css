@@ -51,6 +51,12 @@ a {
   color: #1c1c1c;
 }
 
+.section-spacing {
+  background-color: #efeff0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .img-background {
   background-position: center;
   background-repeat: no-repeat;

@@ -19,7 +19,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container class="section-2">
+    <b-container fluid class="section-2 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Oportunidades no setor</h2>
@@ -63,7 +63,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-4">
+    <b-container fluid class="section-4 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Aqui na WePlan já temos resultados consolidados</h2>
@@ -124,12 +124,6 @@ export default {
 <style scoped>
 .section-1 {
   padding: 0;
-}
-
-.section-2,
-.section-4 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .section-3 {
