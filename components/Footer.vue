@@ -3,7 +3,7 @@
     <footer class="footer">
       <b-container fluid>
         <b-row>
-          <b-col cols="12" md="3" class="mb-3">
+          <b-col cols="12" md="3" class="mb-3 col-center">
             <b-container>
               <b-row class="mb-1">
                 <b-link to="/">
@@ -27,7 +27,7 @@
               </b-row>
             </b-container>
           </b-col>
-          <b-col cols="12" md="3" class="mb-3">
+          <b-col cols="12" md="3" class="mb-3 col-center">
             <b-container>
               <b-row class="title-footer">
                 Sobre a WePlan
@@ -45,7 +45,7 @@
               </b-row>
             </b-container>
           </b-col>
-          <b-col cols="12" md="3" class="mb-3">
+          <b-col cols="12" md="3" class="mb-3 col-center">
             <b-container>
               <b-row class="title-footer">
                 Links úteis
@@ -62,7 +62,7 @@
               </b-row>
             </b-container>
           </b-col>
-          <b-col cols="12" md="3">
+          <b-col cols="12" md="3" class="col-center">
             <b-container>
               <b-row class="title-footer">
                 Acompanhe-nos nas redes:
@@ -204,5 +204,16 @@ export default {
 .title-footer {
   font-weight: 800;
   margin-bottom: 10px;
+}
+
+.col-center {
+  display: grid;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-center {
+    justify-content: initial;
+  }
 }
 </style>
