@@ -8,37 +8,74 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        property: 'description',
+        hid: 'description',
+        name: 'description',
         content:
-          'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
+          'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
       },
-      { property: 'twitter:url', content: 'https://www.weplan.com.br/' },
-      { property: 'twitter:title', content: 'WePlan | Móveis Planejados' },
       {
-        property: 'twitter:image',
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: 'https://www.weplan.com.br/'
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'WePlan | Móveis Planejados'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
         content:
           'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.jpg',
       },
-      { property: 'twitter:site', content: 'WePlan | Móveis Planejados' },
       {
-        property: 'twitter:description',
-        content:
-          'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: 'WePlan | Móveis Planejados'
       },
-      { name: 'twitter:card', content: 'summary' },
-      { property: 'og:url', content: 'https://www.weplan.com.br/' },
-      { property: 'og:title', content: 'WePlan | Móveis Planejados' },
       {
-        property: 'og:image',
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary'
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://www.weplan.com.br/'
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'WePlan | Móveis Planejados'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
         content:
           'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.jpg',
       },
-      { property: 'og:site_name', content: 'WePlan | Móveis Planejados' },
-      { property: 'og:type', content: 'website' },
       {
-        property: 'og:description',
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'WePlan | Móveis Planejados'
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
         content:
-          'A WePlan é uma startup que conecta clientes à indústrias através de escritórios com a nossa solução. Nascemos para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
+          'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
       },
     ],
     link: [
