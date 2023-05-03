@@ -1,127 +1,128 @@
 <template>
   <div>
-    <b-container fluid class="section-1">
-      <b-row>
+    <b-container fluid class="section-1 img-background">
+      <b-row class="background-title">
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title text-shadow">Para você</h1>
-            <p class="text-shadow">
-              Seja para sua casa ou sua empresa, a WePlan produz e entrega a
-              melhor solução em móveis planejados com otimização de espaços,
-              design moderno e alta qualidade de material, isso para que todas
-              as suas expectativas e necessidades sejam atendidas facilmente.
+            <h1 class="page-title">Para você</h1>
+            <p class="page-subtitle">
+              Qualidade e sofisticação.<br />
+              Do projeto até a montagem, processo gerenciado por nós para você.
             </p>
           </b-container>
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="desenvolver-meu-projeto" class="section-2">
+    <b-container fluid class="section-2 section-spacing section-background-light-color">
       <b-row>
-        <b-col cols="12" md="6" class="text-center d-none d-md-block">
-          <b-img
-            src="~/assets/images/nao-tenho-projeto.webp"
-            class="img-fluid img-shadow"
-            alt="WePlan"
-          />
-        </b-col>
-        <b-col cols="12" md="6" class="align-self-center">
-          <b-container fluid>
-            <b-row>
-              <h3 class="section-subtitle">Preciso desenvolver meu projeto</h3>
-              <p>
-                Conte com a
-                <span class="highlighted-words-yellow"
-                  >melhor rede de profissionais especialistas</span
-                >
-                em transcrever seu sonho para um projeto.
-              </p>
-              <p>
-                <span class="highlighted-words-yellow"
-                  >Conectado a WePlan, o projeto desenvolvido se tornará
-                  realidade.</span
-                >
-              </p>
-            </b-row>
-            <b-row class="mb-3 d-none d-md-block">
-              <a
-                href="https://materiais.weplan.com.br/pagina-cliente-final-prof"
-                class="button-link btn-block text-center"
-                target="_blank"
-              >
-                Quero me conectar a um profissional para realizar meu projeto
-              </a>
-            </b-row>
-          </b-container>
-        </b-col>
-        <b-col cols="12" md="6" class="text-center d-md-none">
-          <b-img
-            src="~/assets/images/nao-tenho-projeto.webp"
-            class="img-fluid img-shadow"
-            alt="WePlan"
-          />
-        </b-col>
-        <b-col class="mt-3 d-md-none">
-          <a
-            href="https://materiais.weplan.com.br/pagina-cliente-final-prof"
-            class="button-link btn-block text-center"
-            target="_blank"
-          >
-            Quero me conectar a um profissional para realizar meu projeto
-          </a>
+        <b-col cols="12" class="align-self-center text-center">
+          <h2 class="section-title">O que a <span class="highlighted-words-yellow">WePlan entrega</span> a você?</h2>
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="executar-meu-projeto-com-weplan" class="section-3">
-      <b-row>
-        <b-col cols="12" md="6" class="align-self-center">
-          <b-container fluid>
-            <b-row>
-              <h3 class="section-subtitle">
-                Já tenho o projeto. A WePlan pode me atender?
-              </h3>
-              <p>
-                <span class="highlighted-words-yellow"
-                  >Acreditamos fortemente na colaboração</span
-                >. Por meio do seu projeto
-                <span class="highlighted-words-yellow"
-                  >podemos desenvolver a melhor solução</span
-                >
-                para o seu ambiente.
-              </p>
-            </b-row>
-            <b-row class="mb-3 d-none d-md-block">
-              <a
-                href="https://materiais.weplan.com.br/pagina-cliente-final"
-                class="button-link btn-block text-center"
-                target="_blank"
-              >
-                Quero realizar meu projeto com a WePlan
-              </a>
-            </b-row>
-          </b-container>
+    <b-container fluid class="section-3">
+      <b-row id="profissionais-especialistas" class="inverted-colors">
+        <b-col class="img-profissionais-especialistas img-height-600px img-background" cols="12" md="6"></b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          <h3>Móveis planejados projetados por <span class="highlighted-words-yellow">profissionais especialistas</span>.</h3>
         </b-col>
-        <b-col cols="12" md="6" class="text-center">
-          <b-img
-            src="~/assets/images/ja-tenho-projeto.webp"
-            class="img-fluid img-shadow"
-            alt="WePlan"
-          />
+      </b-row>
+      <b-row id="alto-padrao">
+        <b-col class="img-alto-padrao img-height-600px img-background d-md-none" cols="12" md="6"></b-col>
+        <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
+          <h3>Móveis planejados produzidos em <span class="highlighted-words-yellow">alto padrão</span>.</h3>
         </b-col>
-        <b-col class="mt-3 d-md-none">
-          <a
-            href="https://materiais.weplan.com.br/pagina-cliente-final"
-            class="button-link btn-block text-center"
-            target="_blank"
-          >
-            Quero realizar meu projeto com a WePlan
-          </a>
+        <b-col class="img-alto-padrao img-height-600px img-background d-none d-md-block" cols="12" md="6"></b-col>
+      </b-row>
+      <b-row id="diretamente-industria" class="inverted-colors-dark">
+        <b-col class="img-diretamente-industria img-height-600px img-background" cols="12" md="6"></b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          <h3>Móveis planejados <span class="highlighted-words-yellow">diretamente da indústria</span>.</h3>
+        </b-col>
+      </b-row>
+      <b-row id="orcamento-rapido">
+        <b-col class="img-orcamento-rapido img-height-600px img-background d-md-none" cols="12" md="6"></b-col>
+        <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
+          <h3>Móveis planejados com <span class="highlighted-words-yellow">orçamento rápido e na apresentação do projeto</span>.</h3>
+        </b-col>
+        <b-col class="img-orcamento-rapido img-height-600px img-background d-none d-md-block" cols="12" md="6"></b-col>
+      </b-row>
+      <b-row id="adequado-necessidade" class="inverted-colors">
+        <b-col class="img-adequado-necessidade img-height-600px img-background" cols="12" md="6"></b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          <h3>Móveis planejados <span class="highlighted-words-yellow">adequados a sua necessidade</span>.</h3>
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="case-nexen" fluid class="section-4">
+    <b-container fluid class="section-4 section-spacing">
+      <b-row>
+        <b-col cols="12" class="align-self-center text-center">
+          <h2 class="section-title">O que já fizemos até aqui</h2>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-center">
+          <p>
+            <span class="weplan-result">+ de <span class="highlighted">R$ 8.2 milhões</span></span><br />
+            <span class="weplan-result-description">em volume de negócios</span><br />
+            - Até Abril de 2023
+          </p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-center">
+          <p>
+            <span class="weplan-result">+ de <span class="highlighted">4 mil m²</span></span><br />
+            <span class="weplan-result-description">mobiliados pela WePlan</span><br />
+            - Até Abril de 2023
+          </p>
+        </b-col>
+        <b-col cols="12" class="align-self-center text-center">
+          <p>
+            <b-img
+              src="~/assets/images/nps.png"
+              class="img-fluid"
+              alt="Net Promoter Score da WePlan"
+              style="max-height: 300px;"
+            />
+            <br />
+            <span class="weplan-result-description">e o nosso índice de satisfação</span><br />
+            - Até Abril de 2023
+          </p>
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container fluid class="section-5 section-spacing inverted-colors-dark">
+      <b-row>
+        <b-col cols="12" class="align-self-center text-center">
+          <h2 class="section-title">Tudo isso...</h2>
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container fluid class="section-6 text-center">
+      <b-row class="inverted-colors">
+        <b-col cols="12" md="6" class="align-self-center text-block section-background-light-color">
+          <p>Com <span class="highlighted-words-yellow">gestão completa</span>, do início ao fim...</p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          <p><span class="highlighted-words-yellow">Atendimento e suporte digital</span>, por meio de <span class="highlighted-words-yellow">tecnologia</span>...</p>
+        </b-col>
+      </b-row>
+      <b-row class="inverted-colors">
+        <b-col cols="12" md="6" class="align-self-center text-block d-md-none section-background-light-color">
+          <p>Com uma <span class="highlighted-words-yellow">operação moderna e inovadora</span>...</p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block d-none d-md-block">
+          <p>Com uma <span class="highlighted-words-yellow">operação moderna e inovadora</span>...</p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block d-md-none">
+          <p><span class="highlighted-words-yellow">Promovendo</span> o desenvolvimento do setor por meio da <span class="highlighted-words-yellow">educação</span>.</p>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block d-none d-md-block section-background-light-color">
+          <p><span class="highlighted-words-yellow">Promovendo</span> o desenvolvimento do setor por meio da <span class="highlighted-words-yellow">educação</span>.</p>
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container fluid class="section-7 section-spacing">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Case de sucesso</h2>
+          <h2 class="section-title">Quem confia na WePlan</h2>
         </b-col>
       </b-row>
       <b-row>
@@ -130,7 +131,7 @@
             class="embed-responsive embed-responsive-16by9 mx-auto img-shadow"
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/5W-mI24LkQk"
+            src="https://www.youtube.com/embed/QmiMFgIs6iw"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -179,51 +180,58 @@ export default {
 </script>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/reuniao-com-cliente.webp');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-  font-size: 1.1rem;
+  background-image: url('~/assets/images/reuniao-com-cliente.jpg');
 }
 
-.section-2 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  color: #4a148c;
-  font-size: 1.1rem;
+.section-3 h3 {
+  font-size: 2rem;
 }
 
-.section-3 {
-  background-color: #efeff0;
-  border-radius: 10px;
-  padding: 5rem;
-  color: #4a148c;
-  font-size: 1.1rem;
+.section-4 .section-title {
+  margin-bottom: 2rem;
 }
 
-.section-4 {
-  background-color: #fdcd3f79;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  margin-top: 5rem;
-  color: #4a148c;
-  font-size: 1.1rem;
+.section-6 .row div {
+  height: 230px;
 }
 
-#case-nexen .embed-responsive {
-  max-width: 558px;
+.section-background-light-color p,
+.section-background-light-color p span.highlighted-words-yellow {
+  color: #1c1c1c;
 }
 
-@media only screen and (max-width: 576px) {
-  .section-3 {
-    border-radius: 0;
-    padding: 5rem 1rem;
-  }
+.weplan-result {
+  font-size: 3.5rem;
+  font-weight: 800 !important;
+}
 
-  .section-4 {
-    margin-top: inherit;
-  }
+.weplan-result .highlighted {
+  text-decoration: underline #d8a200 7px;
+  text-decoration-skip-ink: none;
+}
+
+.weplan-result-description {
+  font-size: 1.5rem;
+  font-weight: 500 !important;
+}
+
+.img-profissionais-especialistas {
+  background-image: url('~/assets/images/profissional-interiores.jpg');
+}
+
+.img-alto-padrao {
+  background-image: url('~/assets/images/vantagem-qualidade.jpg');
+}
+
+.img-diretamente-industria {
+  background-image: url('~/assets/images/vantagem-velocidade.jpg');
+}
+
+.img-orcamento-rapido {
+  background: url('~/assets/images/vantagem-facilidade.jpg');
+}
+
+.img-adequado-necessidade {
+  background: url('~/assets/images/vantagem-facilidade.jpg');
 }
 </style>

@@ -94,6 +94,7 @@ a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  transition-duration: 0.25s;
 }
 
 .highlighted-words-purple {

@@ -21,7 +21,7 @@
     <b-container fluid class="section-2 section-spacing section-background-light-color">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Clientes que confiam na WePlan</h2>
+          <h2 class="section-title">Quem confia na WePlan</h2>
         </b-col>
       </b-row>
       <b-row>
@@ -105,6 +105,7 @@
           <b-img
             src="~/assets/images/nps.png"
             class="img-fluid"
+            width="225px"
             height="400px"
             alt="Net Promoter Score da WePlan"
           />

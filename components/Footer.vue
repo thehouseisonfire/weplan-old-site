@@ -10,6 +10,7 @@
                   <b-img
                     src="~/assets/images/logo/white.svg"
                     width="140px"
+                    height="39.19px"
                     alt="WePlan"
                   />
                 </b-link>
@@ -39,7 +40,7 @@
                   <li><b-link to="/como-funciona#vantagens-weplan">Vantagens da WePlan</b-link></li>
                   <li><b-link to="/quem-somos">Quem somos</b-link></li>
                   <li><b-link to="/para-voce">Soluções para você</b-link></li>
-                  <li><b-link to="/para-sua-empresa">Soluções para sua empresa</b-link></li>
+                  <li><b-link to="/">Soluções para sua empresa</b-link></li>
                   <li><b-link href="https://www.weplaneducacao.com.br/">WePlan Educação</b-link></li>
                 </ul>
               </b-row>
@@ -75,6 +76,8 @@
                 >
                   <b-img
                     src="~/assets/images/icons/instagram.svg"
+                    width="25px"
+                    height="25px"
                     alt="Instagram"
                   ></b-img>
                 </a>
@@ -85,6 +88,8 @@
                 >
                   <b-img
                     src="~/assets/images/icons/facebook.svg"
+                    width="25px"
+                    height="25px"
                     alt="Facebook"
                   ></b-img>
                 </a>
@@ -95,6 +100,8 @@
                 >
                   <b-img
                     src="~/assets/images/icons/linkedin.svg"
+                    width="25px"
+                    height="25px"
                     alt="Linkedin"
                   ></b-img>
                 </a>
@@ -105,6 +112,8 @@
                 >
                   <b-img
                     src="~/assets/images/icons/spotify.svg"
+                    width="25px"
+                    height="25px"
                     alt="Spotify"
                   ></b-img>
                 </a>
@@ -115,6 +124,8 @@
                 >
                   <b-img
                     src="~/assets/images/icons/youtube.svg"
+                    width="25px"
+                    height="25px"
                     alt="Youtube"
                   ></b-img>
                 </a>
@@ -124,6 +135,7 @@
                   <b-img
                     src="~/assets/images/nps-footer.png"
                     width="100px"
+                    height="176.98px"
                     alt="Net Promoter Score da WePlan"
                     class="img-fluid"
                   ></b-img>

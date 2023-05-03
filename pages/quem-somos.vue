@@ -1,19 +1,29 @@
 <template>
   <div>
-    <b-container fluid class="section-1">
-      <b-row>
+    <b-container fluid class="section-1 img-background">
+      <b-row class="background-title">
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title text-shadow">Quem somos?</h1>
-            <p class="text-shadow">
-              A WePlan conecta clientes à indústrias através de escritórios com
-              a nossa solução.
+            <h1 class="page-title">Quem somos?</h1>
+            <p class="page-subtitle">
+              A WePlan nasceu para ser um relevante ecossistema no setor moveleiro.
             </p>
           </b-container>
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="quem-faz-a-weplan" fluid class="section-3">
+    <b-container fluid class="section-2 section-spacing inverted-colors">
+      <b-row>
+        <b-col cols="12" class="align-self-center text-center">
+          <h2 class="section-title">O que é a WePlan?</h2>
+          <p class="section-subtitle">
+            A <span class="highlighted-words-yellow">WePlan nasceu em 12 de maio de 2020 para ser um relevante ecossistema no setor moveleiro</span>.<br />
+            Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.
+          </p>
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container id="quem-faz-a-weplan" fluid class="section-3 section-spacing section-background-light-color">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem faz a WePlan?</h2>
@@ -38,7 +48,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/renan-assumpção-b349841b0/"
               target="_blank"
               >Mais sobre o Renan</a
@@ -59,7 +69,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/diego-pertile-6923501a8/"
               target="_blank"
               >Mais sobre o Diego</a
@@ -80,7 +90,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/"
               target="_blank"
               >Mais sobre o Ismael</a
@@ -101,7 +111,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/uéslei-budke-7393aa207/"
               target="_blank"
               >Mais sobre o Uéslei</a
@@ -122,7 +132,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/karoline-cofferi-destri-052644197/"
               target="_blank"
               >Mais sobre a Karoline</a
@@ -143,7 +153,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/"
               target="_blank"
               >Mais sobre a Amanda</a
@@ -160,11 +170,11 @@
           ></b-img>
           <p>
             <span class="team-member-name">Juliano Schmitz</span><br />
-            <span class="team-member-position">CTO</span>
+            <span class="team-member-position">Tecnologia</span>
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://linktr.ee/sjulianoluiz"
               target="_blank"
               >Mais sobre o Juliano</a
@@ -184,7 +194,7 @@
             <span class="team-member-position">Supervisor de Montagem</span>
           </p>
           <p>
-            <a class="team-member-link" href="#" target="_blank"
+            <a class="button-link" href="#" target="_blank"
               >Mais sobre o João</a
             >
           </p>
@@ -210,7 +220,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/engchristianbm/"
               target="_blank"
               >Mais sobre o Christian</a
@@ -238,7 +248,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/suianne-dos-santos-199900226/"
               target="_blank"
               >Mais sobre a Suianne</a
@@ -259,7 +269,7 @@
           </p>
           <p>
             <a
-              class="team-member-link"
+              class="button-link"
               href="https://www.linkedin.com/in/eduardo-spegiorin-98a597255/"
               target="_blank"
               >Mais sobre o Eduardo</a
@@ -272,19 +282,7 @@
 </template>
 <style scoped>
 .section-1 {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.section-3 {
-  background-color: #efeff0;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  color: #1c1c1c;
+  background-image: url('~/assets/images/environments/cozinha-moderna.jpg');
 }
 
 span.team-member-name {
@@ -301,20 +299,8 @@ span.team-member-description {
   font-size: 0.8rem;
 }
 
-.team-member-link {
-  text-decoration: none;
-  font-weight: 700 !important;
+.button-link {
   font-size: 0.8rem;
-  background-color: #4a148c;
-  border-radius: 5px;
-  border: 0;
   padding: 1rem;
-  color: #fff;
-}
-
-.team-member-link:hover,
-.team-member-link:active,
-.team-member-link:focus {
-  background-color: #240051;
 }
 </style>
