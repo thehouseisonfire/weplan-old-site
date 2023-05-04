@@ -19,7 +19,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-item to="/como-funciona">Como funciona</b-nav-item>
           <b-nav-item to="/para-voce">Para você</b-nav-item>
-          <b-nav-item to="/">Para sua empresa</b-nav-item>
+          <b-nav-item to="/para-seu-negocio">Para seu negócio</b-nav-item>
           <b-nav-item to="/seja-nosso-parceiro">Seja nosso parceiro</b-nav-item>
           <b-nav-item to="/quem-somos">Quem somos</b-nav-item>
           <b-nav-item to="/projetos">Projetos</b-nav-item>

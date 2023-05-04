@@ -40,7 +40,7 @@
                   <li><b-link to="/como-funciona#vantagens-weplan">Vantagens da WePlan</b-link></li>
                   <li><b-link to="/quem-somos">Quem somos</b-link></li>
                   <li><b-link to="/para-voce">Soluções para você</b-link></li>
-                  <li><b-link to="/">Soluções para sua empresa</b-link></li>
+                  <li><b-link to="/para-seu-negocio">Soluções para seu negócio</b-link></li>
                   <li><b-link href="https://www.weplaneducacao.com.br/">WePlan Educação</b-link></li>
                 </ul>
               </b-row>
