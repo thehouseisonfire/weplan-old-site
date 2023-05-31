@@ -193,6 +193,13 @@ export default {
 .footer a {
   text-decoration: none;
   color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer-group-links li {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .footer-group-links a:hover,
