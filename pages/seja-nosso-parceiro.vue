@@ -80,11 +80,11 @@
         <b-col class="img-profissional-interiores img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Sou profissional de interiores</h2>
-            <span class="button-link d-md-none">Quero ser parceiro</span>
+            <span class="button-link d-md-none" v-b-modal.modal-form-profissional-interiores>Quero ser parceiro</span>
           </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <span class="button-link">Quero ser parceiro</span>
+          <span class="button-link" v-b-modal.modal-form-profissional-interiores>Quero ser parceiro</span>
         </b-col>
       </b-row>
       <b-row id="montador">
@@ -110,11 +110,15 @@
         </b-col>
       </b-row>
     </b-container>
+    <modal-form-profissional-interiores />
   </div>
 </template>
 <script>
+import ModalFormProfissionalInteriores from '~/components/ModalFormProfissionalInteriores.vue';
+
 export default {
-  name: 'SejaNossoParceiroPage',
+  name: "SejaNossoParceiroPage",
+  components: { ModalFormProfissionalInteriores }
 }
 </script>
 <style scoped>
