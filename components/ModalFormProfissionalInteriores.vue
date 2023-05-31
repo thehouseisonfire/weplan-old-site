@@ -2,7 +2,7 @@
   <div>
     <b-modal id="modal-form-profissional-interiores" ref="modalFormProfissionalInteriores" hide-header hide-footer @hidden="onHiddenModal">
       <b-container>
-        <b-row v-show="step == 1">
+        <b-row v-show="step == 1" class="step-1">
           <b-col cols="12">
             <p>Parabéns!</p>
             <p>Você faz parte de um seleto grupo de profissionais que quer inovar no mercado.</p>
@@ -10,6 +10,9 @@
           </b-col>
           <b-col cols="12">
             <p>Agora, me conta um pouco sobre você.</p>
+          </b-col>
+          <b-col cols="12" v-show="error" class="error alert alert-danger">
+            Por gentileza, preencha todos os campos.
           </b-col>
           <b-col cols="12">
             <label for="nome">Qual é o seu nome?</label>
@@ -35,7 +38,10 @@
             <b-button @click="nextStep()">Próxima</b-button>
           </b-col>
         </b-row>
-        <b-row v-show="step == 2">
+        <b-row v-show="step == 2" class="step-2">
+          <b-col cols="12" v-show="error" class="error alert alert-danger">
+            Por gentileza, preencha todos os campos.
+          </b-col>
           <b-col cols="12">
             <p>Maravilha, {{ nome }}!</p>
           </b-col>
@@ -54,7 +60,10 @@
             <b-button @click="nextStep()">Próxima</b-button>
           </b-col>
         </b-row>
-        <b-row v-show="step == 3">
+        <b-row v-show="step == 3" class="step-3">
+          <b-col cols="12" v-show="error" class="error alert alert-danger">
+            Por gentileza, preencha todos os campos.
+          </b-col>
           <b-col cols="12">
             <p>Muito bacana, {{ nome }}. É bom saber que podemos contar com um profissional de {{ setor }}.</p>
           </b-col>
@@ -73,7 +82,10 @@
             <b-button @click="nextStep()">Próxima</b-button>
           </b-col>
         </b-row>
-        <b-row v-show="step == 4">
+        <b-row v-show="step == 4" class="step-4">
+          <b-col cols="12" v-show="error" class="error alert alert-danger">
+            Por gentileza, preencha todos os campos.
+          </b-col>
           <b-col cols="12">
             <p>Perfeito, {{ nome }}.</p>
             <p>A WePlan é para profissionais que trabalham com interiores e querem alavancar seus resultados entregando móveis planejados.</p>
@@ -93,7 +105,10 @@
             <b-button @click="nextStep()">Próxima</b-button>
           </b-col>
         </b-row>
-        <b-row v-show="step == 5">
+        <b-row v-show="step == 5" class="step-5">
+          <b-col cols="12" v-show="error" class="error alert alert-danger">
+            Por gentileza, preencha todos os campos.
+          </b-col>
           <b-col cols="12">
             <label for="tempoCidade">Certo, {{ nome }}, você reside na sua cidade de atuação a quanto tempo?</label>
           </b-col>
@@ -109,7 +124,10 @@
             <b-button @click="nextStep()">Próxima</b-button>
           </b-col>
         </b-row>
-        <b-row v-show="step == 6">
+        <b-row v-show="step == 6" class="step-6">
+          <b-col cols="12" v-show="error" class="error alert alert-danger">
+            Por gentileza, preencha todos os campos.
+          </b-col>
           <b-col cols="12">
             <label for="experienciaMoveis">{{ nome }}, você já atuou ou teve experiência com móveis planejados?</label>
           </b-col>
@@ -125,7 +143,10 @@
             <b-button @click="nextStep()">Próxima</b-button>
           </b-col>
         </b-row>
-        <b-row v-show="step == 7">
+        <b-row v-show="step == 7" class="step-7">
+          <b-col cols="12" v-show="error" class="error alert alert-danger">
+            Por gentileza, preencha todos os campos.
+          </b-col>
           <b-col cols="12">
             <label for="problema">Para finalizar, {{ nome }}, me conta qual o maior problema que você tem hoje e está buscando resolver?</label>
           </b-col>
@@ -145,7 +166,7 @@
             <b-button @click="submitForm()">Enviar</b-button>
           </b-col>
         </b-row>
-        <b-row v-show="step == 8">
+        <b-row v-show="step == 8" class="step-8">
           <b-col cols="12">
             <p>Excelente!</p>
             <p>A WePlan é a solução ideal para você alavancar seus resultados.</p>
@@ -165,6 +186,7 @@ export default {
   data () {
     return {
       step: 1,
+      error: false,
       nome: null,
       email: null,
       telefone: null,
@@ -257,7 +279,69 @@ export default {
   },
   methods: {
     nextStep () {
-      this.step < 8 ? this.step++ : this.step = 8;
+      switch (this.step) {
+        case 1:
+          if (!this.nome || !this.email || !this.telefone) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 2:
+          if (!this.setor) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 3:
+          if (!this.autonomo) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 4:
+          if (!this.possuiClientes) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 5:
+          if (!this.tempoCidade) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 6:
+          if (!this.experienciaMoveis) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 7:
+          if (!this.problema) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+      
+        default:
+          break;
+      }
+      if (!this.error) {
+        this.step < 8 ? this.step++ : this.step = 8;
+      }
     },
     previousStep () {
       this.step > 1 ? this.step-- : this.step = 1;
@@ -266,6 +350,7 @@ export default {
       this.step = 1;
     },
     resetForm () {
+      this.error = false;
       this.nome = null;
       this.email = null;
       this.telefone = null;
@@ -278,8 +363,8 @@ export default {
     },
     submitForm () {
       // console.log(this.removePhoneMask(this.telefone));
-      // this.nextStep();
-      // this.resetForm();
+      this.nextStep();
+      this.resetForm();
     },
     formatPhoneNumber (phoneNumber) {
       console.log("formatPhoneNumber:", phoneNumber);
@@ -348,5 +433,10 @@ export default {
 
 .btn-actions button {
   margin-left: 5px;
+}
+
+.error {
+  margin-top: 10px;
+  text-align: center;
 }
 </style>
