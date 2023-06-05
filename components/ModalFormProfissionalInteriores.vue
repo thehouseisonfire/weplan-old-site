@@ -18,21 +18,21 @@
             <label for="nome">Qual é o seu nome?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-input id="nome" v-model="nome" type="text" placeholder="Digite aqui seu nome ⌨️" maxlength="150" required></b-form-input>
+            <b-form-input id="nome" v-model="fields.nome" type="text" placeholder="Digite aqui seu nome ⌨️" maxlength="150" required></b-form-input>
           </b-col>
           <b-col cols="12">
             <br />
             <label for="email">Qual é o seu melhor e-mail?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-input id="email" v-model="email" type="email" placeholder="Digite aqui seu e-mail ⌨️" maxlength="150"></b-form-input>
+            <b-form-input id="email" v-model="fields.email" type="email" placeholder="Digite aqui seu e-mail ⌨️" maxlength="150"></b-form-input>
           </b-col>
           <b-col cols="12">
             <br />
             <label for="telefone">Qual é o seu telefone (WhatsApp)?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-input id="telefone" v-model="telefone" type="text" placeholder="Digite aqui seu telefone ⌨️" maxlength="15" required></b-form-input>
+            <b-form-input id="telefone" v-model="fields.telefone" type="text" placeholder="Digite aqui seu telefone ⌨️" maxlength="15" required></b-form-input>
           </b-col>
           <b-col cols="12" class="btn-actions">
             <b-button @click="nextStep()">Próxima</b-button>
@@ -43,13 +43,13 @@
             Por gentileza, preencha todos os campos.
           </b-col>
           <b-col cols="12">
-            <p>Maravilha, {{ nome }}!</p>
+            <p>Maravilha, {{ fields.nome }}!</p>
           </b-col>
           <b-col cols="12">
             <label for="setor">E em qual setor você atua?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-select id="setor" v-model="setor" :options="setorOptions" required>
+            <b-form-select id="setor" v-model="fields.setor" :options="setorOptions" required>
               <template #first>
                 <b-form-select-option :value="null" disabled>Selecione o seu setor de atuação</b-form-select-option>
               </template>
@@ -65,13 +65,13 @@
             Por gentileza, preencha todos os campos.
           </b-col>
           <b-col cols="12">
-            <p>Muito bacana, {{ nome }}. É bom saber que podemos contar com um profissional de {{ setor }}.</p>
+            <p>Muito bacana, {{ fields.nome }}. É bom saber que podemos contar com um profissional de {{ fields.setor }}.</p>
           </b-col>
           <b-col cols="12">
             <label for="autonomo">Sobre a sua atuação, você trabalha como autônomo?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-select id="autonomo" v-model="autonomo" :options="autonomoOptions" required>
+            <b-form-select id="autonomo" v-model="fields.autonomo" :options="autonomoOptions" required>
               <template #first>
                 <b-form-select-option :value="null" disabled>Selecione a sua forma de atuação</b-form-select-option>
               </template>
@@ -87,14 +87,14 @@
             Por gentileza, preencha todos os campos.
           </b-col>
           <b-col cols="12">
-            <p>Perfeito, {{ nome }}.</p>
+            <p>Perfeito, {{ fields.nome }}.</p>
             <p>A WePlan é para profissionais que trabalham com interiores e querem alavancar seus resultados entregando móveis planejados.</p>
           </b-col>
           <b-col cols="12">
-            <label for="possuiClientes">{{ nome }}, você acredita que teria uma carteira de clientes para atuar como autônomo?</label>
+            <label for="possuiClientes">{{ fields.nome }}, você acredita que teria uma carteira de clientes para atuar como autônomo?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-select id="possuiClientes" v-model="possuiClientes" :options="possuiClientesOptions" required>
+            <b-form-select id="possuiClientes" v-model="fields.possuiClientes" :options="possuiClientesOptions" required>
               <template #first>
                 <b-form-select-option :value="null" disabled>Selecione uma das opções</b-form-select-option>
               </template>
@@ -110,10 +110,10 @@
             Por gentileza, preencha todos os campos.
           </b-col>
           <b-col cols="12">
-            <label for="tempoCidade">Certo, {{ nome }}, você reside na sua cidade de atuação a quanto tempo?</label>
+            <label for="tempoCidade">Certo, {{ fields.nome }}, você reside na sua cidade de atuação a quanto tempo?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-select id="tempoCidade" v-model="tempoCidade" :options="tempoCidadeOptions" required>
+            <b-form-select id="tempoCidade" v-model="fields.tempoCidade" :options="tempoCidadeOptions" required>
               <template #first>
                 <b-form-select-option :value="null" disabled>Selecione uma das opções</b-form-select-option>
               </template>
@@ -129,10 +129,10 @@
             Por gentileza, preencha todos os campos.
           </b-col>
           <b-col cols="12">
-            <label for="experienciaMoveis">{{ nome }}, você já atuou ou teve experiência com móveis planejados?</label>
+            <label for="experienciaMoveis">{{ fields.nome }}, você já atuou ou teve experiência com móveis planejados?</label>
           </b-col>
           <b-col cols="12">
-            <b-form-select id="experienciaMoveis" v-model="experienciaMoveis" :options="experienciaMoveisOptions" required>
+            <b-form-select id="experienciaMoveis" v-model="fields.experienciaMoveis" :options="experienciaMoveisOptions" required>
               <template #first>
                 <b-form-select-option :value="null" disabled>Selecione uma das opções</b-form-select-option>
               </template>
@@ -148,12 +148,12 @@
             Por gentileza, preencha todos os campos.
           </b-col>
           <b-col cols="12">
-            <label for="problema">Para finalizar, {{ nome }}, me conta qual o maior problema que você tem hoje e está buscando resolver?</label>
+            <label for="problema">Para finalizar, {{ fields.nome }}, me conta qual o maior problema que você tem hoje e está buscando resolver?</label>
           </b-col>
           <b-col cols="12">
             <b-form-textarea
               id="problema"
-              v-model="problema"
+              v-model="fields.problema"
               placeholder="Me conta aqui como podemos ajudar você..."
               rows="3"
               max-rows="3"
@@ -181,21 +181,26 @@
   </div>
 </template>
 <script>
+// const { formatCardToSendToPipe } = require('../services/formatter');
+// const { createCard } = require('../services/api');
+
 export default {
   name: 'ModalFormProfissionalInterioresComponent',
   data () {
     return {
       step: 1,
       error: false,
-      nome: null,
-      email: null,
-      telefone: null,
-      setor: null,
-      autonomo: null,
-      possuiClientes: null,
-      tempoCidade: null,
-      experienciaMoveis: null,
-      problema: null,
+      fields: {
+        nome: null,
+        email: null,
+        telefone: null,
+        setor: null,
+        autonomo: null,
+        possuiClientes: null,
+        tempoCidade: null,
+        experienciaMoveis: null,
+        problema: null,
+      },
       setorOptions: [
         {
           value: "Arquitetura",
@@ -230,11 +235,11 @@ export default {
       ],
       possuiClientesOptions: [
         {
-          value: "Sim, tenho clientes.",
+          value: "Sim",
           text: "Sim, tenho clientes.",
         },
         {
-          value: "Não tenho clientes.",
+          value: "Não",
           text: "Não tenho clientes.",
         },
       ],
@@ -279,66 +284,7 @@ export default {
   },
   methods: {
     nextStep () {
-      switch (this.step) {
-        case 1:
-          if (!this.nome || !this.email || !this.telefone) {
-            this.error = true;
-          } else {
-            this.error = false;
-          }
-          break;
-
-        case 2:
-          if (!this.setor) {
-            this.error = true;
-          } else {
-            this.error = false;
-          }
-          break;
-
-        case 3:
-          if (!this.autonomo) {
-            this.error = true;
-          } else {
-            this.error = false;
-          }
-          break;
-
-        case 4:
-          if (!this.possuiClientes) {
-            this.error = true;
-          } else {
-            this.error = false;
-          }
-          break;
-
-        case 5:
-          if (!this.tempoCidade) {
-            this.error = true;
-          } else {
-            this.error = false;
-          }
-          break;
-
-        case 6:
-          if (!this.experienciaMoveis) {
-            this.error = true;
-          } else {
-            this.error = false;
-          }
-          break;
-
-        case 7:
-          if (!this.problema) {
-            this.error = true;
-          } else {
-            this.error = false;
-          }
-          break;
-      
-        default:
-          break;
-      }
+      this.checkThereIsEmptyFields();
       if (!this.error) {
         this.step < 8 ? this.step++ : this.step = 8;
       }
@@ -351,20 +297,89 @@ export default {
     },
     resetForm () {
       this.error = false;
-      this.nome = null;
-      this.email = null;
-      this.telefone = null;
-      this.setor = null;
-      this.autonomo = null;
-      this.possuiClientes = null;
-      this.tempoCidade = null;
-      this.experienciaMoveis = null;
-      this.problema = null;
+      this.fields.nome = null;
+      this.fields.email = null;
+      this.fields.telefone = null;
+      this.fields.setor = null;
+      this.fields.autonomo = null;
+      this.fields.possuiClientes = null;
+      this.fields.tempoCidade = null;
+      this.fields.experienciaMoveis = null;
+      this.fields.problema = null;
     },
     submitForm () {
-      // console.log(this.removePhoneMask(this.telefone));
-      this.nextStep();
-      this.resetForm();
+      this.checkThereIsEmptyFields();
+      if (!this.error) {
+        // TODO: resetar form e passar para a mensagem na próxima etapa se a chamada para a API for um sucesso
+        this.nextStep();
+        console.clear();
+        // formatCardToSendToPipe(this.fields);
+
+        // Object.entries(this.fields).forEach((field) => { console.log(field) });
+        // this.resetForm();
+      }
+    },
+    checkThereIsEmptyFields () {
+      switch (this.step) {
+        case 1:
+          if (!this.fields.nome || !this.fields.email || !this.fields.telefone) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 2:
+          if (!this.fields.setor) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 3:
+          if (!this.fields.autonomo) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 4:
+          if (!this.fields.possuiClientes) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 5:
+          if (!this.fields.tempoCidade) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 6:
+          if (!this.fields.experienciaMoveis) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+
+        case 7:
+          if (!this.fields.problema) {
+            this.error = true;
+          } else {
+            this.error = false;
+          }
+          break;
+      
+        default:
+          break;
+      }
     },
     formatPhoneNumber (phoneNumber) {
       console.log("formatPhoneNumber:", phoneNumber);
