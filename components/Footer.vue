@@ -26,6 +26,14 @@
                   CNPJ: 37.124.126/0001-88
                 </a>
               </b-row>
+              <b-row>
+                <a
+                  href="tel:+5549998080271"
+                  target="_blank"
+                >
+                  (49) 9 9808-0271
+                </a>
+              </b-row>
             </b-container>
           </b-col>
           <b-col cols="12" md="3" class="mb-3 col-center">
@@ -127,6 +135,18 @@
                     width="25px"
                     height="25px"
                     alt="Youtube"
+                  ></b-img>
+                </a>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=554998080271&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                  class="footer-icon"
+                >
+                  <b-img
+                    src="~/assets/images/icons/whatsapp.svg"
+                    width="25px"
+                    height="25px"
+                    alt="WhatsApp"
                   ></b-img>
                 </a>
               </b-row>
