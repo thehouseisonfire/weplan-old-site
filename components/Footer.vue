@@ -190,6 +190,11 @@ export default {
   margin-bottom: 0;
 }
 
+.footer-group-links a {
+  font-size: 1.1rem;
+  padding: 0.5rem
+}
+
 .footer a {
   text-decoration: none;
   color: #fff;
@@ -221,6 +226,7 @@ export default {
 }
 
 .title-footer {
+  font-size: 1.1rem;
   font-weight: 800;
   margin-bottom: 10px;
 }
