@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-modal id="modal-form-fornecedor" ref="modalFormFornecedor" hide-footer @hidden="onHiddenModal">
+    <b-modal id="modal-form-fornecedor" ref="modalFormFornecedor" hide-footer> 
       <iframe
         style="width: 100%; height: 100vh;"
         src='https://lp.weplan.com.br/form-seja-fornecedor'

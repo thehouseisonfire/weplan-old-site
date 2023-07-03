@@ -4,23 +4,22 @@
       <b-row class="background-title">
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title">Para você</h1>
+            <h1 class="page-title">Transforme sua casa</h1>
             <p class="page-subtitle">
-              Qualidade e sofisticação.<br />
-              Do projeto até a montagem, processo gerenciado por nós para você.
+              Qualidade e sofisticação para desfrutar de momentos com sua família e amigos.
             </p>
           </b-container>
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2 section-spacing section-background-light-color">
+    <b-container fluid class="section-2 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">O que a <span class="highlighted-words-yellow">WePlan entrega</span> a você?</h2>
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-3">
+    <b-container fluid class="section-3 section-background-light-color">
       <b-row id="profissionais-especialistas" class="inverted-colors">
         <b-col class="img-profissionais-especialistas img-height-600px img-background" cols="12" md="6"></b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
@@ -34,7 +33,7 @@
         </b-col>
         <b-col class="img-alto-padrao img-height-600px img-background d-none d-md-block" cols="12" md="6"></b-col>
       </b-row>
-      <b-row id="diretamente-industria" class="inverted-colors-dark">
+      <b-row id="diretamente-industria" class="inverted-colors">
         <b-col class="img-diretamente-industria img-height-600px img-background" cols="12" md="6"></b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
           <h3>Móveis planejados <span class="highlighted-words-yellow">diretamente da indústria</span>.</h3>
@@ -180,7 +179,7 @@ export default {
 </script>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/reuniao-com-cliente.jpg');
+  background-image: url('~/assets/images/reuniao-com-cliente.webp');
 }
 
 .section-3 h3 {
@@ -216,7 +215,7 @@ export default {
 }
 
 .img-profissionais-especialistas {
-  background-image: url('~/assets/images/profissional-interiores.jpg');
+  background-image: url('~/assets/images/profissional-interiores.webp');
 }
 
 .img-alto-padrao {

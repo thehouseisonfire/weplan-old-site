@@ -47,8 +47,8 @@
                   <li><b-link to="/como-funciona#nosso-processo">Nosso processo</b-link></li>
                   <li><b-link to="/como-funciona#vantagens-weplan">Vantagens da WePlan</b-link></li>
                   <li><b-link to="/quem-somos">Quem somos</b-link></li>
-                  <li><b-link to="/para-voce">Soluções para você</b-link></li>
-                  <li><b-link to="/para-seu-negocio">Soluções para seu negócio</b-link></li>
+                  <li><b-link to="/para-voce">Transforme sua casa</b-link></li>
+                  <li><b-link to="/para-seu-negocio">Invista em seu negócio</b-link></li>
                   <li><b-link href="https://www.weplaneducacao.com.br/">WePlan Educação</b-link></li>
                 </ul>
               </b-row>
@@ -64,7 +64,7 @@
                   <li><b-link to="/projetos">Projetos</b-link></li>
                   <li><b-link to="/contato">Contato</b-link></li>
                   <li><b-link to="/seja-nosso-parceiro">Seja nosso parceiro</b-link></li>
-                  <li><b-link to="#">Trabalhe conosco</b-link></li>
+                  <li><b-link to="/contato#trabalhe-conosco">Trabalhe conosco</b-link></li>
                   <li><b-link href="https://weplan.com.br/blog/" target="_blank">Blog</b-link></li>
                   <li><b-link href="https://app.weplan.com.br/" target="_blank">Login no app do parceiro</b-link></li>
                 </ul>

@@ -9,114 +9,79 @@
         </b-col> 
       </b-row>
     </b-container>
-    <b-container id="nosso-processo" fluid class="section-2 section-spacing section-background-light-color">
+    <b-container id="nosso-processo" fluid class="section-2 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">O processo da WePlan</h2>
           <p class="section-subtitle">
-            Todo <span class="highlighted-words-yellow">processo</span> desde o projeto até a montagem foi <span class="highlighted-words-yellow">pensado por nós para ser o mais simples, eficiente e qualificado</span> do país.
+            Todo <span class="highlighted-words-yellow">processo</span> desde o projeto até a montagem foi <span class="highlighted-words-yellow">pensado para ser o mais simples, eficiente e qualificado</span> do país.
           </p>
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-3">
-      <b-row>
-        <b-col class="text-center inverted-colors" cols="12" md="6">
-          <h2 class="mt-5 text-color-yellow">1</h2>
-          <p>
-            <b-img
-              src="~/assets/images/animated-icons/reuniao-cliente-profissional.gif"
-              width="140px"
-              alt="Passo 1 do processo"
-            />
-          </p>
+    <b-container fluid class="section-3 section-background-light-color">
+      <b-row class="inverted-colors">
+        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+          <div>
+            <h2>1ª<br />Etapa</h2>
+          </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
-          Contato inicial entre profissional, credenciado e cliente.
+          Contato inicial entre profissional credenciado e cliente.
         </b-col>
       </b-row>
       <b-row>
-        <b-col class="text-center inverted-colors-dark d-md-none" cols="12" md="6">
-          <h2 class="mt-5 text-color-yellow">2</h2>
-          <p>
-            <b-img
-              src="~/assets/images/animated-icons/projetando.gif"
-              width="140px"
-              alt="Passo 2 do processo"
-            />
-          </p>
+        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
+          <div>
+            <h2>2ª<br />Etapa</h2>
+          </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
           Profissional credenciado inicia o projeto e utiliza toda a plataforma de controle da WePlan.
         </b-col>
-        <b-col class="text-center inverted-colors-dark d-none d-md-block" cols="12" md="6">
-          <h2 class="mt-5 text-color-yellow">2</h2>
-          <p>
-            <b-img
-              src="~/assets/images/animated-icons/projetando.gif"
-              width="140px"
-              alt="Passo 2 do processo"
-            />
-          </p>
+        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
+          <div>
+            <h2>2ª<br />Etapa</h2>
+          </div>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col class="text-center inverted-colors" cols="12" md="6">
-          <h2 class="mt-5 text-color-yellow">3</h2>
-          <p>
-            <b-img
-              src="~/assets/images/animated-icons/software-direto-industria.gif"
-              width="140px"
-              alt="Passo 3 do processo"
-            />
-          </p>
+      <b-row class="inverted-colors">
+        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+          <div>
+            <h2>3ª<br />Etapa</h2>
+          </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
-          Levamos o projeto através do software promob direto a indústria ideal para a finalidade.
+          Levamos o projeto através do software de projeto direto a indústria ideal para a finalidade.
         </b-col>
       </b-row>
       <b-row>
-        <b-col class="text-center inverted-colors-dark d-md-none" cols="12" md="6">
-          <h2 class="mt-5 text-color-yellow">4</h2>
-          <p>
-            <b-img
-              src="~/assets/images/animated-icons/producao-transporte.gif"
-              width="140px"
-              alt="Passo 4 do processo"
-            />
-          </p>
+        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
+          <div>
+            <h2>4ª<br />Etapa</h2>
+          </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
           A indústria produz e despacha os móveis.
         </b-col>
-        <b-col class="text-center inverted-colors-dark d-none d-md-block" cols="12" md="6">
-          <h2 class="mt-5 text-color-yellow">4</h2>
-          <p>
-            <b-img
-              src="~/assets/images/animated-icons/producao-transporte.gif"
-              width="140px"
-              alt="Passo 4 do processo"
-            />
-          </p>
+        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
+          <div>
+            <h2>4ª<br />Etapa</h2>
+          </div>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col class="text-center inverted-colors" cols="12" md="6">
-          <h2 class="mt-5 text-color-yellow">5</h2>
-          <p>
-            <b-img
-              src="~/assets/images/animated-icons/montagem.gif"
-              width="140px"
-              alt="Passo 5 do processo"
-            />
-          </p>
+      <b-row class="inverted-colors">
+        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+          <div>
+            <h2>5ª<br />Etapa</h2>
+          </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
           A montagem é feita no local.
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="vantagens-weplan" fluid class="section-4 section-spacing section-background-light-color">
+    <b-container id="vantagens-weplan" fluid class="section-4 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Vantagens da Weplan</h2>
@@ -126,7 +91,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-5">
+    <b-container fluid class="section-5 section-background-light-color">
       <b-row id="vantagem-velocidade" class="inverted-colors">
         <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
@@ -134,7 +99,7 @@
           </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
-          <span class="highlighted-words-yellow">O seu projeto de móveis</span> planejados será <span class="highlighted-words-yellow">confeccionado em indústrias</span> parceiras experientes e consolidadas do mercado que <span class="highlighted-words-yellow">prezam pelo prazo</span>.
+          <span class="highlighted-words-yellow">O seu projeto de móveis</span> planejados será <span class="highlighted-words-yellow">confeccionado em indústrias</span> parceiras experientes e consolidadas no mercado que <span class="highlighted-words-yellow">prezam pelo prazo</span>.
         </b-col>
       </b-row>
       <b-row id="vantagem-qualidade">
@@ -165,14 +130,19 @@
     </b-container>
     <b-container fluid class="section-6">
       <b-row>
-        <b-col class="img-comprar-moveis img-height-1000px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col class="img-moveis-mim img-height-600px img-background text-block-with-background-img" cols="12" sm="4">
           <b-link to="/para-voce">
-            <h2>Quero comprar móveis planejados</h2>
+            <h2>Transforme sua casa</h2>
           </b-link>
         </b-col>
-        <b-col class="img-ser-parceiro img-height-1000px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col class="img-moveis-meu-negocio img-height-600px img-background text-block-with-background-img" cols="12" sm="4">
+          <b-link to="/para-seu-negocio">
+            <h2>Invista em seu negócio</h2>
+          </b-link>
+        </b-col>
+        <b-col class="img-ser-parceiro img-height-600px img-background text-block-with-background-img" cols="12" sm="4">
           <b-link to="/seja-nosso-parceiro">
-            <h2>Quero ser um parceiro da WePlan</h2>
+            <h2>Expanda suas opções</h2>
           </b-link>
         </b-col>
       </b-row>
@@ -186,19 +156,23 @@ export default {
 </script>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/equipe-reuniao-weplan.jpg');
+  background-image: url('~/assets/images/equipe-reuniao-weplan.webp');
 }
 
 .text-block-with-background-img a h2 {
   font-size: 2.2rem;
 }
 
-.img-comprar-moveis {
+.img-moveis-mim {
+  background-image: url('~/assets/images/environments/sala-jantar-cozinha.jpg');
+}
+
+.img-moveis-meu-negocio {
   background-image: url('~/assets/images/environments/sala-jantar-cozinha.jpg');
 }
 
 .img-ser-parceiro {
-  background-image: url('~/assets/images/seja-nosso-parceiro.jpg');
+  background-image: url('~/assets/images/seja-nosso-parceiro.webp');
 }
 
 .img-vantagem-velocidade {

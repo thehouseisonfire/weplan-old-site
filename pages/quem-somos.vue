@@ -12,18 +12,74 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2 section-spacing inverted-colors">
+    <b-container fluid class="section-2 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">O que é a WePlan?</h2>
           <p class="section-subtitle">
             A <span class="highlighted-words-yellow">WePlan nasceu em 12 de maio de 2020 para ser um relevante ecossistema no setor moveleiro</span>.<br />
-            Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.
+            Conectamos todas as pontas da operação em um mesmo lugar, cuidando de cada detalhe para entregar as melhores soluções aos nossos clientes.
           </p>
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="quem-faz-a-weplan" fluid class="section-3 section-spacing section-background-light-color">
+    <b-container fluid class="section-3">
+      <b-row class="inverted-colors">
+        <b-col class="img-missao img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+          <div>
+            <h2>Missão</h2>
+          </div>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          Conectar detalhes e soluções.
+        </b-col>
+      </b-row>
+      <b-row class="section-background-light-color">
+        <b-col class="img-visao img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
+          <div>
+            <h2>Visão</h2>
+          </div>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
+          Ser um relevante ecossistema do setor moveleiro.
+        </b-col>
+        <b-col class="img-visao img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
+          <div>
+            <h2>Visão</h2>
+          </div>
+        </b-col>
+      </b-row>
+      <b-row class="inverted-colors">
+        <b-col class="img-valores img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+          <div>
+            <h2>Valores</h2>
+          </div>
+        </b-col>
+        <b-col cols="12" md="6" class="align-self-center text-block">
+          <ul>
+            <li>
+              Transparência;
+            </li>
+            <li>
+              Comprometimento;
+            </li>
+            <li>
+              Cuidado;
+            </li>
+            <li>
+              Espírito de equipe;
+            </li>
+            <li>
+              Atitude empreendedora;
+            </li>
+            <li>
+              Alta performance.
+            </li>
+          </ul>
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container id="quem-faz-a-weplan" fluid class="section-4 section-spacing section-background-light-color">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem faz a WePlan?</h2>
@@ -170,7 +226,7 @@
           ></b-img>
           <p>
             <span class="team-member-name">Juliano Schmitz</span><br />
-            <span class="team-member-position">Tecnologia</span>
+            <span class="team-member-position">Head de Tecnologia</span>
           </p>
           <p>
             <a
@@ -302,5 +358,17 @@ span.team-member-description {
 .button-link {
   font-size: 0.8rem;
   padding: 1rem;
+}
+
+.img-missao {
+  background-image: url('~/assets/images/missao.webp');
+}
+
+.img-visao {
+  background-image: url('~/assets/images/visao.webp');
+}
+
+.img-valores {
+  background-image: url('~/assets/images/valores.webp');
 }
 </style>

@@ -29,7 +29,7 @@ export default {
         hid: 'twitter:image',
         name: 'twitter:image',
         content:
-          'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.jpg',
+          'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.webp',
       },
       {
         hid: 'twitter:site',
@@ -61,7 +61,7 @@ export default {
         hid: 'og:image',
         name: 'og:image',
         content:
-          'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.jpg',
+          'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.webp',
       },
       {
         hid: 'og:site_name',
@@ -118,5 +118,12 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    optimizeCSS: true,
+    minify: {
+      minifyCSS: true,
+      minifyJS: true,
+    },
+    ssr: true,
+  },
 }

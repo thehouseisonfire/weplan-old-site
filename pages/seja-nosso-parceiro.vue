@@ -19,7 +19,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2 section-spacing section-background-light-color">
+    <b-container fluid class="section-2 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Oportunidades no setor</h2>
@@ -63,7 +63,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-4 section-spacing section-background-light-color">
+    <b-container fluid class="section-4 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Aqui na WePlan já temos resultados consolidados</h2>
@@ -75,7 +75,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-5">
+    <b-container fluid class="section-5 section-background-light-color">
       <b-row id="profissional-interiores" class="inverted-colors">
         <b-col class="img-profissional-interiores img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
@@ -129,6 +129,11 @@ export default {
   }
 }
 </script>
+<style>
+body {
+  overflow-x: hidden;
+}
+</style>
 <style scoped>
 .section-1 {
   padding: 0;
@@ -173,29 +178,29 @@ export default {
 }
 
 .img-profissional-interiores {
-  background-image: url('~/assets/images/profissional-interiores.jpg');
+  background-image: url('~/assets/images/profissional-interiores.webp');
 }
 
 .img-montador {
-  background-image: url('~/assets/images/montador.jpg');
+  background-image: url('~/assets/images/montador.webp');
 }
 
 .img-fornecedor {
-  background-image: url('~/assets/images/fornecedor.jpg');
+  background-image: url('~/assets/images/fornecedor.webp');
 }
 
 #img-mercado {
-  background-image: url('~/assets/images/profissional-interiores.jpg');
+  background-image: url('~/assets/images/cores.webp');
   height: 600px;
 }
 
 #img-quantidade-arquitetos {
-  background-image: url('~/assets/images/arquitetura.jpg');
+  background-image: url('~/assets/images/arquitetura.webp');
   height: 600px;
 }
 
 #img-quantidade-designers {
-  background-image: url('~/assets/images/design-interiores.jpg');
+  background-image: url('~/assets/images/design-interiores.webp');
   height: 600px;
 }
 </style>

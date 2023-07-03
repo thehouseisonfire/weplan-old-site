@@ -4,7 +4,7 @@
       <b-row class="background-title">
         <b-col cols="12">
           <b-container>
-            <h1 class="page-title">Para seu negócio ou empreendimento</h1>
+            <h1 class="page-title">Invista em seu negócio</h1>
             <p class="page-subtitle">
               Velocidade e menos burocracia.<br />
               Do projeto até a montagem, processo gerenciado por nós para você.
@@ -13,14 +13,14 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2 section-spacing section-background-light-color">
+    <b-container fluid class="section-2 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">O que a <span class="highlighted-words-yellow">WePlan entrega</span> a você?</h2>
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-3">
+    <b-container fluid class="section-3 section-background-light-color">
       <b-row id="profissionais-especialistas" class="inverted-colors">
         <b-col class="img-profissionais-especialistas img-height-600px img-background" cols="12" md="6"></b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
