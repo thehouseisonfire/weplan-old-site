@@ -338,7 +338,7 @@
 </template>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/environments/cozinha-moderna.jpg');
+  background-image: url('~/assets/images/equipe-reuniao-weplan.webp');
 }
 
 span.team-member-name {

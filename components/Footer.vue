@@ -61,7 +61,7 @@
               </b-row>
               <b-row>
                 <ul class="footer-group-links">
-                  <li><b-link to="/projetos">Projetos</b-link></li>
+                  <!-- <li><b-link to="/projetos">Projetos</b-link></li> -->
                   <li><b-link to="/contato">Contato</b-link></li>
                   <li><b-link to="/seja-nosso-parceiro">Seja nosso parceiro</b-link></li>
                   <li><b-link to="/contato#trabalhe-conosco">Trabalhe conosco</b-link></li>

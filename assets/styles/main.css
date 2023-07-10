@@ -101,6 +101,30 @@ a {
   transition-duration: 0.25s;
 }
 
+.carousel-container {
+  position: relative;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ccc;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+}
+
+.carousel-button.previous {
+  right: 0;
+}
+
+.carousel-button.next {
+  left: 0;
+}
+
 .highlighted-words-purple {
   font-weight: 700 !important;
   text-decoration: underline #240051 4px;

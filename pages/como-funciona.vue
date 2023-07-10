@@ -21,7 +21,7 @@
     </b-container>
     <b-container fluid class="section-3 section-background-light-color">
       <b-row class="inverted-colors">
-        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col class="img-1-etapa img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>1ª<br />Etapa</h2>
           </div>
@@ -31,7 +31,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
+        <b-col class="img-2-etapa img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
           <div>
             <h2>2ª<br />Etapa</h2>
           </div>
@@ -39,14 +39,14 @@
         <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
           Profissional credenciado inicia o projeto e utiliza toda a plataforma de controle da WePlan.
         </b-col>
-        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
+        <b-col class="img-2-etapa img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
           <div>
             <h2>2ª<br />Etapa</h2>
           </div>
         </b-col>
       </b-row>
       <b-row class="inverted-colors">
-        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col class="img-3-etapa img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>3ª<br />Etapa</h2>
           </div>
@@ -56,7 +56,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
+        <b-col class="img-4-etapa img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
           <div>
             <h2>4ª<br />Etapa</h2>
           </div>
@@ -64,14 +64,14 @@
         <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
           A indústria produz e despacha os móveis.
         </b-col>
-        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
+        <b-col class="img-4-etapa img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
           <div>
             <h2>4ª<br />Etapa</h2>
           </div>
         </b-col>
       </b-row>
       <b-row class="inverted-colors">
-        <b-col class="img-vantagem-velocidade img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col class="img-5-etapa img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>5ª<br />Etapa</h2>
           </div>
@@ -163,12 +163,32 @@ export default {
   font-size: 2.2rem;
 }
 
+.img-1-etapa {
+  background-image: url('~/assets/images/reuniao-cliente-arquiteto.webp');
+}
+
+.img-2-etapa {
+  background-image: url('~/assets/images/credenciado-plataforma.webp');
+}
+
+.img-3-etapa {
+  background-image: url('~/assets/images/credenciado-projeta.webp');
+}
+
+.img-4-etapa {
+  background-image: url('~/assets/images/industria.webp');
+}
+
+.img-5-etapa {
+  background-image: url('~/assets/images/montagem-moveis.webp');
+}
+
 .img-moveis-mim {
-  background-image: url('~/assets/images/environments/sala-jantar-cozinha.jpg');
+  background-image: url('~/assets/images/environments/cozinha.webp');
 }
 
 .img-moveis-meu-negocio {
-  background-image: url('~/assets/images/environments/sala-jantar-cozinha.jpg');
+  background-image: url('~/assets/images/environments/sala-reuniao.webp');
 }
 
 .img-ser-parceiro {

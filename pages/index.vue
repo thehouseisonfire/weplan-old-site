@@ -6,8 +6,8 @@
           <b-container>
             <h1 class="page-title">Móveis Planejados</h1>
             <p class="page-subtitle">
-              Móveis planejados direto da indústria.<br />
-              Do projeto até a montagem.
+              Com qualidade e sofisticação direto da indústria.<br />
+              Processo gerenciado do projeto até a montagem.
             </p>
             <p class="mt-4">
               <b-link to="/como-funciona" class="button-link">
@@ -18,13 +18,13 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="section-2 section-spacing section-background-light-color">
+    <b-container fluid class="section-2 section-spacing section-background-light-color carousel-container">
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem confia na WePlan</h2>
         </b-col>
       </b-row>
-      <b-row>
+      <b-row v-show="step == 1">
         <b-col cols="12" md="6" class="mb-4">
           <iframe
             class="embed-responsive embed-responsive-16by9 mx-auto img-shadow"
@@ -69,6 +69,46 @@
           <b>- Ismael dos Santos, Head de Vendas da WePlan.</b>
         </b-col>
       </b-row>
+      <b-row v-show="step == 2">
+        <b-col cols="12" md="6" class="mb-4">
+          <iframe
+            class="embed-responsive embed-responsive-16by9 mx-auto img-shadow"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/55YKDHmWdwY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </b-col>
+        <b-col cols="12" md="6">
+          "A <a
+            href="https://www.instagram.com/northininvestments/"
+            target="_blank"
+            class="highlighted-words-yellow"
+          >Northin Investiments</a> é uma consultoria de investimentos de alta performance, alicerçada no atendimento humanizado, personalizado e tecnológico.<br />
+          <span class="highlighted-words-yellow">Juntamente com nosso parceiro <a
+            href="https://www.instagram.com/weplan.guilherme/"
+            target="_blank"
+            class="highlighted-words-yellow"
+          >Guilherme Zarpelon</a> fizemos a gestão completa da obra</span>, desde o projeto até a finalização.<br />
+          O cuidado com cada detalhe, o cumprimento de prazos e a entrega com qualidade nos destacam e fazem com que nossos clientes, tanto para projetos residenciais como corporativos confiem em nosso trabalho".<br />
+          <b>- Ismael dos Santos, Head de Vendas da WePlan.</b>
+        </b-col>
+      </b-row>
+      <b-button class="carousel-button previous" @click="previousStep()"><b-img
+          src="~/assets/images/icons/arrow-right.svg"
+          width="20px"
+          height="20px"
+          alt="Próximo"
+        /></b-button>
+      <b-button class="carousel-button next" @click="nextStep()"><b-img
+          src="~/assets/images/icons/arrow-left.svg"
+          width="20px"
+          height="20px"
+          alt="Anterior"
+        /></b-button>
     </b-container>
     <b-container id="nps" fluid class="section-3 section-spacing">
       <b-row>
@@ -117,10 +157,26 @@
 <script>
 export default {
   name: 'IndexPage',
+  data () {
+    return {
+      step: 1,
+      lastStep: 2,
+    }
+  },
+  methods: {
+    nextStep () {
+      this.step === this.lastStep ? this.step = 1 : this.step++;
+      console.log(this.step);
+    },
+    previousStep () {
+      this.step === 1 ? this.step = this.lastStep : this.step--;
+      console.log(this.step);
+    },
+  },
 }
 </script>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/environments/cozinha-moderna.jpg');
+  background-image: url('~/assets/images/environments/sala-jantar.webp');
 }
 </style>

@@ -22,7 +22,7 @@
           <b-nav-item to="/para-seu-negocio">Para seu negócio</b-nav-item>
           <b-nav-item to="/seja-nosso-parceiro">Seja nosso parceiro</b-nav-item>
           <b-nav-item to="/quem-somos">Quem somos</b-nav-item>
-          <b-nav-item to="/projetos">Projetos</b-nav-item>
+          <!-- <b-nav-item to="/projetos">Projetos</b-nav-item> -->
           <b-nav-item to="/contato">Contato</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
