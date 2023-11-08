@@ -2,17 +2,26 @@
   <div>
     <b-container fluid class="section-1">
       <b-row>
-        <b-col class="img-profissional-interiores img-height-1000px img-background text-block-with-background-img" cols="4">
+        <b-col
+          class="img-profissional-interiores img-height-1000px img-background text-block-with-background-img"
+          cols="4"
+        >
           <b-link v-b-modal.modal-form-profissional-interiores>
             <h2>Sou profissional de interiores</h2>
           </b-link>
         </b-col>
-        <b-col class="img-montador img-height-1000px img-background text-block-with-background-img" cols="4">
+        <b-col
+          class="img-montador img-height-1000px img-background text-block-with-background-img"
+          cols="4"
+        >
           <b-link v-b-modal.modal-form-montador>
             <h2>Sou montador</h2>
           </b-link>
         </b-col>
-        <b-col class="img-fornecedor img-height-1000px img-background text-block-with-background-img" cols="4">
+        <b-col
+          class="img-fornecedor img-height-1000px img-background text-block-with-background-img"
+          cols="4"
+        >
           <b-link v-b-modal.modal-form-fornecedor>
             <h2>Sou fornecedor</h2>
           </b-link>
@@ -24,7 +33,15 @@
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Oportunidades no setor</h2>
           <p class="section-subtitle">
-            “A <span class="highlighted-words-yellow">alta demanda de reformas e compra de móveis planejados</span> desde 2021 fez com que o setor de marcenaria <span class="highlighted-words-yellow">alcançasse 14,7% de crescimento</span> em relação a anos anteriores.”<br />
+            “A
+            <span class="highlighted-words-yellow"
+              >alta demanda de reformas e compra de móveis planejados</span
+            >
+            desde 2021 fez com que o setor de marcenaria
+            <span class="highlighted-words-yellow"
+              >alcançasse 14,7% de crescimento</span
+            >
+            em relação a anos anteriores.”<br />
             - Valor Globo, 2022
           </p>
         </b-col>
@@ -32,7 +49,12 @@
     </b-container>
     <b-container fluid class="section-3">
       <b-row>
-        <b-col id="img-mercado" class="img-background text-block-with-background-img" cols="12" md="4">
+        <b-col
+          id="img-mercado"
+          class="img-background text-block-with-background-img"
+          cols="12"
+          md="4"
+        >
           <div>
             <h2>R$ 62,6 bi</h2>
             <p>
@@ -42,7 +64,12 @@
             </p>
           </div>
         </b-col>
-        <b-col id="img-quantidade-arquitetos" class="img-background text-block-with-background-img" cols="12" md="4">
+        <b-col
+          id="img-quantidade-arquitetos"
+          class="img-background text-block-with-background-img"
+          cols="12"
+          md="4"
+        >
           <div>
             <h2>216 mil</h2>
             <p>
@@ -51,7 +78,12 @@
             </p>
           </div>
         </b-col>
-        <b-col id="img-quantidade-designers" class="img-background text-block-with-background-img" cols="12" md="4">
+        <b-col
+          id="img-quantidade-designers"
+          class="img-background text-block-with-background-img"
+          cols="12"
+          md="4"
+        >
           <div>
             <h2>55 mil</h2>
             <p>
@@ -66,10 +98,16 @@
     <b-container fluid class="section-4 section-spacing">
       <b-row>
         <b-col cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Aqui na WePlan já temos resultados consolidados</h2>
+          <h2 class="section-title">
+            Aqui na WePlan já temos resultados consolidados
+          </h2>
           <p>
-            <span class="weplan-result">+ de <span class="highlighted">R$ 1.2 milhões</span></span><br />
-            <span class="weplan-result-description">distribuído aos parceiros da WePlan</span><br />
+            <span class="weplan-result"
+              >+ de <span class="highlighted">R$ 1.2 milhões</span></span
+            ><br />
+            <span class="weplan-result-description"
+              >distribuído aos parceiros da WePlan</span
+            ><br />
             - Até Abril de 2023
           </p>
         </b-col>
@@ -77,36 +115,74 @@
     </b-container>
     <b-container fluid class="section-5 section-background-light-color">
       <b-row id="profissional-interiores" class="inverted-colors">
-        <b-col class="img-profissional-interiores img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col
+          class="img-profissional-interiores img-height-600px img-background text-block-with-background-img"
+          cols="12"
+          md="6"
+        >
           <div>
             <h2>Sou profissional de interiores</h2>
-            <span class="button-link d-md-none" v-b-modal.modal-form-profissional-interiores>Quero ser parceiro</span>
+            <span
+              v-b-modal.modal-form-profissional-interiores
+              class="button-link d-md-none"
+              >Quero ser parceiro</span
+            >
           </div>
         </b-col>
-        <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <span class="button-link" v-b-modal.modal-form-profissional-interiores>Quero ser parceiro</span>
+        <b-col
+          cols="12"
+          md="6"
+          class="align-self-center text-center d-none d-md-block"
+        >
+          <span v-b-modal.modal-form-profissional-interiores class="button-link"
+            >Quero ser parceiro</span
+          >
         </b-col>
       </b-row>
       <b-row id="montador">
-        <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <span class="button-link" v-b-modal.modal-form-montador>Quero ser parceiro</span>
+        <b-col
+          cols="12"
+          md="6"
+          class="align-self-center text-center d-none d-md-block"
+        >
+          <span v-b-modal.modal-form-montador class="button-link"
+            >Quero ser parceiro</span
+          >
         </b-col>
-        <b-col class="img-montador img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col
+          class="img-montador img-height-600px img-background text-block-with-background-img"
+          cols="12"
+          md="6"
+        >
           <div>
             <h2>Sou montador</h2>
-            <span class="button-link d-md-none" v-b-modal.modal-form-montador>Quero ser parceiro</span>
+            <span v-b-modal.modal-form-montador class="button-link d-md-none"
+              >Quero ser parceiro</span
+            >
           </div>
         </b-col>
       </b-row>
       <b-row id="fornecedor" class="inverted-colors">
-        <b-col class="img-fornecedor img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col
+          class="img-fornecedor img-height-600px img-background text-block-with-background-img"
+          cols="12"
+          md="6"
+        >
           <div>
             <h2>Sou fornecedor</h2>
-            <span class="button-link d-md-none" v-b-modal.modal-form-fornecedor>Quero ser parceiro</span>
+            <span v-b-modal.modal-form-fornecedor class="button-link d-md-none"
+              >Quero ser parceiro</span
+            >
           </div>
         </b-col>
-        <b-col cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <span class="button-link" v-b-modal.modal-form-fornecedor>Quero ser parceiro</span>
+        <b-col
+          cols="12"
+          md="6"
+          class="align-self-center text-center d-none d-md-block"
+        >
+          <span v-b-modal.modal-form-fornecedor class="button-link"
+            >Quero ser parceiro</span
+          >
         </b-col>
       </b-row>
     </b-container>
@@ -116,17 +192,17 @@
   </div>
 </template>
 <script>
-import ModalFormProfissionalInteriores from '~/components/ModalFormProfissionalInteriores.vue';
-import ModalFormFornecedor from '~/components/ModalFormFornecedor.vue';
-import ModalFormMontador from '~/components/ModalFormMontador.vue';
+import ModalFormProfissionalInteriores from '~/components/ModalFormProfissionalInteriores.vue'
+import ModalFormFornecedor from '~/components/ModalFormFornecedor.vue'
+import ModalFormMontador from '~/components/ModalFormMontador.vue'
 
 export default {
-  name: "SejaNossoParceiroPage",
+  name: 'SejaNossoParceiroPage',
   components: {
     ModalFormProfissionalInteriores,
     ModalFormFornecedor,
     ModalFormMontador,
-  }
+  },
 }
 </script>
 <style>

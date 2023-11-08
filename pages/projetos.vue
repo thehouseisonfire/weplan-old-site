@@ -11,8 +11,15 @@
       </b-row>
     </b-container>
     <b-container fluid class="section-2">
-      <b-row class="mt-5 pt-5" v-if="loading">
-        <b-col cols="12" md="6" lg="4" class="mt-5 projects-loader" v-for="loader in Array(9).keys()" :key="loader">
+      <b-row v-if="loading" class="mt-5 pt-5">
+        <b-col
+          v-for="loader in Array(9).keys()"
+          :key="loader"
+          cols="12"
+          md="6"
+          lg="4"
+          class="mt-5 projects-loader"
+        >
           <b-skeleton-img card-img="top" aspect="3:2"></b-skeleton-img>
         </b-col>
       </b-row>

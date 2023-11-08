@@ -2,9 +2,9 @@
   <div>
     <b-modal id="modal-form-montador" ref="modalFormMontador" hide-footer>
       <iframe
-        style="width: 100%; height: 100vh;"
-        src='https://lp.weplan.com.br/form-seja-montador-parceiro'
-        frameborder='0'
+        style="width: 100%; height: 100vh"
+        src="https://lp.weplan.com.br/form-seja-montador-parceiro"
+        frameborder="0"
       ></iframe>
     </b-modal>
   </div>

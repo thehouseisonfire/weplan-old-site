@@ -1,10 +1,10 @@
 <template>
   <div>
-    <b-modal id="modal-form-fornecedor" ref="modalFormFornecedor" hide-footer> 
+    <b-modal id="modal-form-fornecedor" ref="modalFormFornecedor" hide-footer>
       <iframe
-        style="width: 100%; height: 100vh;"
-        src='https://lp.weplan.com.br/form-seja-fornecedor'
-        frameborder='0'
+        style="width: 100%; height: 100vh"
+        src="https://lp.weplan.com.br/form-seja-fornecedor"
+        frameborder="0"
       ></iframe>
     </b-modal>
   </div>

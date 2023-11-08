@@ -27,10 +27,7 @@
                 </a>
               </b-row>
               <b-row>
-                <a
-                  href="tel:+5549998080271"
-                  target="_blank"
-                >
+                <a href="tel:+5549998080271" target="_blank">
                   (49) 9 9808-0271
                 </a>
               </b-row>
@@ -38,45 +35,73 @@
           </b-col>
           <b-col cols="12" md="3" class="mb-3 col-center">
             <b-container>
-              <b-row class="title-footer">
-                Sobre a WePlan
-              </b-row>
+              <b-row class="title-footer"> Sobre a WePlan </b-row>
               <b-row>
                 <ul class="footer-group-links">
                   <li><b-link to="/como-funciona">Como funciona</b-link></li>
-                  <li><b-link to="/como-funciona#nosso-processo">Nosso processo</b-link></li>
-                  <li><b-link to="/como-funciona#vantagens-weplan">Vantagens da WePlan</b-link></li>
+                  <li>
+                    <b-link to="/como-funciona#nosso-processo"
+                      >Nosso processo</b-link
+                    >
+                  </li>
+                  <li>
+                    <b-link to="/como-funciona#vantagens-weplan"
+                      >Vantagens da WePlan</b-link
+                    >
+                  </li>
                   <li><b-link to="/quem-somos">Quem somos</b-link></li>
                   <li><b-link to="/para-voce">Transforme sua casa</b-link></li>
-                  <li><b-link to="/para-seu-negocio">Invista em seu negócio</b-link></li>
-                  <li><b-link href="https://www.weplaneducacao.com.br/">WePlan Educação</b-link></li>
+                  <li>
+                    <b-link to="/para-seu-negocio"
+                      >Invista em seu negócio</b-link
+                    >
+                  </li>
+                  <li>
+                    <b-link href="https://www.weplaneducacao.com.br/"
+                      >WePlan Educação</b-link
+                    >
+                  </li>
                 </ul>
               </b-row>
             </b-container>
           </b-col>
           <b-col cols="12" md="3" class="mb-3 col-center">
             <b-container>
-              <b-row class="title-footer">
-                Links úteis
-              </b-row>
+              <b-row class="title-footer"> Links úteis </b-row>
               <b-row>
                 <ul class="footer-group-links">
                   <!-- <li><b-link to="/projetos">Projetos</b-link></li> -->
                   <li><b-link to="/contato">Contato</b-link></li>
-                  <li><b-link to="/seja-nosso-parceiro">Seja nosso parceiro</b-link></li>
-                  <li><b-link to="/contato#trabalhe-conosco">Trabalhe conosco</b-link></li>
-                  <li><b-link href="https://weplan.com.br/blog/" target="_blank">Blog</b-link></li>
-                  <li><b-link href="https://app.weplan.com.br/" target="_blank">Login no app do parceiro</b-link></li>
+                  <li>
+                    <b-link to="/seja-nosso-parceiro"
+                      >Seja nosso parceiro</b-link
+                    >
+                  </li>
+                  <li>
+                    <b-link to="/contato#trabalhe-conosco"
+                      >Trabalhe conosco</b-link
+                    >
+                  </li>
+                  <li>
+                    <b-link href="https://weplan.com.br/blog/" target="_blank"
+                      >Blog</b-link
+                    >
+                  </li>
+                  <li>
+                    <b-link href="https://app.weplan.com.br/" target="_blank"
+                      >Login no app do parceiro</b-link
+                    >
+                  </li>
                 </ul>
               </b-row>
             </b-container>
           </b-col>
           <b-col cols="12" md="3" class="col-center">
             <b-container>
-              <b-row class="title-footer">
+              <b-row class="title-footer mb-0">
                 Acompanhe-nos nas redes:
               </b-row>
-              <b-row>
+              <b-row class="mt-0 justify-content-right">
                 <a
                   href="https://www.instagram.com/weplanmob/"
                   target="_blank"
@@ -150,7 +175,7 @@
                   ></b-img>
                 </a>
               </b-row>
-              <b-row>
+              <b-row class="d-flex">
                 <b-link to="/#nps">
                   <b-img
                     src="~/assets/images/nps-footer.png"
@@ -160,6 +185,26 @@
                     class="img-fluid"
                   ></b-img>
                 </b-link>
+                <b-col class="mt-4 ml-4">
+                  <b-row>
+                    <b-img
+                      src="~/assets/images/selodeatec.jpg"
+                      width="200px"
+                      height="200px"
+                      alt="Selo Deatec"
+                      class="img-fluid"
+                    ></b-img>
+                  </b-row>
+                  <b-row>
+                    <b-img
+                      src="~/assets/images/seloacateedtech.jpg"
+                      width="200px"
+                      height="200px"
+                      alt="Selo Acate Edtech"
+                      class="img-fluid mt-4"
+                    ></b-img>
+                  </b-row>
+                </b-col>
               </b-row>
             </b-container>
           </b-col>
@@ -212,7 +257,7 @@ export default {
 
 .footer-group-links a {
   font-size: 1.1rem;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .footer a {

@@ -6,7 +6,8 @@
           <b-container>
             <h1 class="page-title">Quem somos?</h1>
             <p class="page-subtitle">
-              A WePlan nasceu para ser um relevante ecossistema no setor moveleiro.
+              A WePlan nasceu para ser um relevante ecossistema no setor
+              moveleiro.
             </p>
           </b-container>
         </b-col>
@@ -17,15 +18,25 @@
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">O que é a WePlan?</h2>
           <p class="section-subtitle">
-            A <span class="highlighted-words-yellow">WePlan nasceu em 12 de maio de 2020 para ser um relevante ecossistema no setor moveleiro</span>.<br />
-            Conectamos todas as pontas da operação em um mesmo lugar, cuidando de cada detalhe para entregar as melhores soluções aos nossos clientes.
+            A
+            <span class="highlighted-words-yellow"
+              >WePlan nasceu em 12 de maio de 2020 para ser um relevante
+              ecossistema no setor moveleiro</span
+            >.<br />
+            Conectamos todas as pontas da operação em um mesmo lugar, cuidando
+            de cada detalhe para entregar as melhores soluções aos nossos
+            clientes.
           </p>
         </b-col>
       </b-row>
     </b-container>
     <b-container fluid class="section-3">
       <b-row class="inverted-colors">
-        <b-col class="img-missao img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col
+          class="img-missao img-height-600px img-background text-block-with-background-img"
+          cols="12"
+          md="6"
+        >
           <div>
             <h2>Missão</h2>
           </div>
@@ -35,51 +46,59 @@
         </b-col>
       </b-row>
       <b-row class="section-background-light-color">
-        <b-col class="img-visao img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
+        <b-col
+          class="img-visao img-height-600px img-background text-block-with-background-img d-md-none"
+          cols="12"
+          md="6"
+        >
           <div>
             <h2>Visão</h2>
           </div>
         </b-col>
-        <b-col cols="12" md="6" class="align-self-center text-md-right text-block">
+        <b-col
+          cols="12"
+          md="6"
+          class="align-self-center text-md-right text-block"
+        >
           Ser um relevante ecossistema do setor moveleiro.
         </b-col>
-        <b-col class="img-visao img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12" md="6">
+        <b-col
+          class="img-visao img-height-600px img-background text-block-with-background-img d-none d-md-block"
+          cols="12"
+          md="6"
+        >
           <div>
             <h2>Visão</h2>
           </div>
         </b-col>
       </b-row>
       <b-row class="inverted-colors">
-        <b-col class="img-valores img-height-600px img-background text-block-with-background-img" cols="12" md="6">
+        <b-col
+          class="img-valores img-height-600px img-background text-block-with-background-img"
+          cols="12"
+          md="6"
+        >
           <div>
             <h2>Valores</h2>
           </div>
         </b-col>
         <b-col cols="12" md="6" class="align-self-center text-block">
           <ul>
-            <li>
-              Transparência;
-            </li>
-            <li>
-              Comprometimento;
-            </li>
-            <li>
-              Cuidado;
-            </li>
-            <li>
-              Espírito de equipe;
-            </li>
-            <li>
-              Atitude empreendedora;
-            </li>
-            <li>
-              Alta performance.
-            </li>
+            <li>Transparência;</li>
+            <li>Comprometimento;</li>
+            <li>Cuidado;</li>
+            <li>Espírito de equipe;</li>
+            <li>Atitude empreendedora;</li>
+            <li>Alta performance.</li>
           </ul>
         </b-col>
       </b-row>
     </b-container>
-    <b-container id="quem-faz-a-weplan" fluid class="section-4 section-spacing section-background-light-color">
+    <b-container
+      id="quem-faz-a-weplan"
+      fluid
+      class="section-4 section-spacing section-background-light-color"
+    >
       <b-row class="mb-5">
         <b-col cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem faz a WePlan?</h2>
@@ -284,24 +303,15 @@
           </p>
         </b-col>
         <b-col cols="12" md="3" class="text-center pb-3">
-          <svg
-            class="bd-placeholder-img rounded-circle"
-            width="130"
-            height="130"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-          <p>
-            <span class="team-member-name">Suianne Santos</span><br />
-            <span class="team-member-position">Analista de Projetos</span>
-          </p>
+          <b-img
+            class="bd-placeholder-img rounded-circle img-fluid"
+            width="130px"
+            height="130px"
+            src="~/assets/images/team/perfil-suianne.jpg"
+            alt="Suianne"
+          ></b-img>
+          <span class="team-member-name">Suianne Santos</span><br />
+          <span class="team-member-position">Analista de Projetos</span>
           <p>
             <a
               class="button-link"
@@ -330,6 +340,22 @@
               target="_blank"
               >Mais sobre o Eduardo</a
             >
+          </p>
+        </b-col>
+        <b-col cols="12" md="3" class="text-center pb-3">
+          <b-img
+            class="bd-placeholder-img rounded-circle img-fluid"
+            width="130px"
+            height="130px"
+            src="~/assets/images/team/perfil-pedro.jpg"
+            alt="Pedro"
+          ></b-img>
+          <p>
+            <span class="team-member-name">Pedro Spegiorin</span><br />
+            <span class="team-member-position">Desenvolvedor</span>
+          </p>
+          <p>
+            <a class="button-link" href="#">Mais sobre o Pedro</a>
           </p>
         </b-col>
       </b-row>

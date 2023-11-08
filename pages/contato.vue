@@ -17,13 +17,17 @@
       <b-row>
         <b-col cols="12" md="6">
           <iframe
-            style="width: 100%; height: 100vh; min-height: 800px;"
+            style="width: 100%; height: 100vh; min-height: 800px"
             scrolling="no"
             frameborder="0"
             src="https://pages.weplan.com.br/contato"
           ></iframe>
         </b-col>
-        <b-col class="img-entre-contato img-background" cols="12" md="6"></b-col>
+        <b-col
+          class="img-entre-contato img-background"
+          cols="12"
+          md="6"
+        ></b-col>
         <!-- <b-col cols="12" md="6" style="padding: 0;">
           <iframe
             style="width: 100%; height: 100vh; min-height: 800px;"
@@ -36,12 +40,12 @@
         </b-col> -->
       </b-row>
     </b-container>
-    <b-container fluid class="section-3" id="trabalhe-conosco">
+    <b-container id="trabalhe-conosco" fluid class="section-3">
       <b-row>
         <b-col class="img-conversa img-background" cols="12" md="6"></b-col>
         <b-col cols="12" md="6">
           <iframe
-            style="width: 100%; height: 100vh; min-height: 1000px;"
+            style="width: 100%; height: 100vh; min-height: 1000px"
             scrolling="no"
             frameborder="0"
             src="https://pages.weplan.com.br/trabalhe-conosco"
