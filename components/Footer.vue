@@ -1,245 +1,170 @@
 <template>
   <div>
     <footer class="footer">
-      <b-container fluid>
-        <b-row>
-          <b-col cols="12" md="3" class="mb-3 col-center">
-            <b-container>
-              <b-row class="mb-1">
-                <b-link to="/">
-                  <b-img
-                    src="~/assets/images/logo/white.svg"
-                    width="140px"
-                    height="39.19px"
-                    alt="WePlan"
-                  />
-                </b-link>
-              </b-row>
-              <b-row>
-                <a
-                  href="https://www.google.com/maps/place/WePlan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
-                  target="_blank"
-                >
+      <BContainer fluid>
+        <BRow>
+          <BCol cols="12" md="3" class="mb-3 col-center">
+            <BContainer>
+              <BRow class="mb-1">
+                <NuxtLink to="/">
+                  <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
+                </NuxtLink>
+              </BRow>
+              <BRow>
+                <a href="https://www.google.com/maps/place/WePlan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
+                  target="_blank">
                   Rua Clevelândia, 557-D, Sala 02<br />
                   Jardim Itália, Chapecó - SC<br />
                   CEP: 89802-405<br />
                   CNPJ: 37.124.126/0001-88
                 </a>
-              </b-row>
-              <b-row>
+              </BRow>
+              <BRow>
                 <a href="tel:+5549998080271" target="_blank">
                   (49) 9 9808-0271
                 </a>
-              </b-row>
-            </b-container>
-          </b-col>
-          <b-col cols="12" md="3" class="mb-3 col-center">
-            <b-container>
-              <b-row class="title-footer"> Sobre a WePlan </b-row>
-              <b-row>
-                <ul class="footer-group-links">
-                  <li><b-link to="/como-funciona">Como funciona</b-link></li>
+              </BRow>
+            </BContainer>
+          </BCol>
+          <BCol cols="12" md="3" class="mb-3 col-center">
+            <BContainer>
+              <BRow class="title-footer">
+                Sobre a WePlan
+              </BRow>
+              <BRow>
+                <ul class="footerlinks">
                   <li>
-                    <b-link to="/como-funciona#nosso-processo"
-                      >Nosso processo</b-link
-                    >
+                    <NuxtLink to="/como-funciona">Como funciona</NuxtLink>
                   </li>
                   <li>
-                    <b-link to="/como-funciona#vantagens-weplan"
-                      >Vantagens da WePlan</b-link
-                    >
-                  </li>
-                  <li><b-link to="/quem-somos">Quem somos</b-link></li>
-                  <li><b-link to="/para-voce">Transforme sua casa</b-link></li>
-                  <li>
-                    <b-link to="/para-seu-negocio"
-                      >Invista em seu negócio</b-link
-                    >
+                    <NuxtLink to="/como-funciona#nosso-processo">Nosso processo</NuxtLink>
                   </li>
                   <li>
-                    <b-link href="https://www.weplaneducacao.com.br/"
-                      >WePlan Educação</b-link
-                    >
-                  </li>
-                </ul>
-              </b-row>
-            </b-container>
-          </b-col>
-          <b-col cols="12" md="3" class="mb-3 col-center">
-            <b-container>
-              <b-row class="title-footer"> Links úteis </b-row>
-              <b-row>
-                <ul class="footer-group-links">
-                  <!-- <li><b-link to="/projetos">Projetos</b-link></li> -->
-                  <li><b-link to="/contato">Contato</b-link></li>
-                  <li>
-                    <b-link to="/seja-nosso-parceiro"
-                      >Seja nosso parceiro</b-link
-                    >
+                    <NuxtLink to="/como-funciona#vantagens-weplan">Vantagens da WePlan</NuxtLink>
                   </li>
                   <li>
-                    <b-link to="/contato#trabalhe-conosco"
-                      >Trabalhe conosco</b-link
-                    >
+                    <NuxtLink to="/quem-somos">Quem somos</NuxtLink>
                   </li>
                   <li>
-                    <b-link href="https://weplan.com.br/blog/" target="_blank"
-                      >Blog</b-link
-                    >
+                    <NuxtLink to="/para-voce">Transforme sua casa</NuxtLink>
                   </li>
                   <li>
-                    <b-link href="https://app.weplan.com.br/" target="_blank"
-                      >Login no app do parceiro</b-link
-                    >
+                    <NuxtLink to="/para-seu-negocio">Invista em seu negócio</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink href="https://www.weplaneducacao.com.br/" target="_blank">WePlan Educação</NuxtLink>
                   </li>
                 </ul>
-              </b-row>
-            </b-container>
-          </b-col>
-          <b-col cols="12" md="3" class="col-center">
-            <b-container>
-              <b-row class="title-footer mb-0">
+              </BRow>
+            </BContainer>
+          </BCol>
+          <BCol cols="12" md="3" class="mb-3 col-center">
+            <BContainer>
+              <BRow class="title-footer">
+                Links úteis
+              </BRow>
+              <BRow>
+                <ul class="footerlinks">
+                  <!-- <li> -->
+                  <!--   <NuxtLink to="/projetos">Projetos</NuxtLink> -->
+                  <!-- </li> -->
+                  <li>
+                    <NuxtLink to="/contato">Contato</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink to="/seja-nosso-parceiro">Seja nosso parceiro</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink to="/contato#trabalhe-conosco">Trabalhe conosco</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink href="https://weplan.com.br/blog/" target="_blank">Blog</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink href="https://app.weplan.com.br/" target="_blank">Login no app do parceiro</NuxtLink>
+                  </li>
+                </ul>
+              </BRow>
+            </BContainer>
+          </BCol>
+          <BCol cols="12" md="3" class="col-center">
+            <BContainer class="no-left-padding">
+              <BRow class="title-footer left-padding">
                 Acompanhe-nos nas redes:
-              </b-row>
-              <b-row class="mt-0 justify-content-right">
-                <a
-                  href="https://www.instagram.com/weplanmob/"
-                  target="_blank"
-                  class="footer-icon"
-                >
-                  <b-img
-                    src="~/assets/images/icons/instagram.svg"
-                    width="25px"
-                    height="25px"
-                    alt="Instagram"
-                  ></b-img>
+              </BRow>
+              <div>
+                <a href="https://www.instagram.com/weplanmob/" target="_blank" class="footer-icon">
+                  <BImg class="no-left-spacing" src="/images/icons/instagram.svg" width="25px" height="25px"
+                    alt="Instagram"></BImg>
                 </a>
-                <a
-                  href="https://www.facebook.com/weplanmob/"
-                  target="_blank"
-                  class="footer-icon"
-                >
-                  <b-img
-                    src="~/assets/images/icons/facebook.svg"
-                    width="25px"
-                    height="25px"
-                    alt="Facebook"
-                  ></b-img>
+                <a href="https://www.facebook.com/weplanmob/" target="_blank" class="footer-icon">
+                  <BImg src="/images/icons/facebook.svg" width="25px" height="25px" alt="Facebook"></BImg>
                 </a>
-                <a
-                  href="https://www.linkedin.com/company/weplanmob/"
-                  target="_blank"
-                  class="footer-icon"
-                >
-                  <b-img
-                    src="~/assets/images/icons/linkedin.svg"
-                    width="25px"
-                    height="25px"
-                    alt="Linkedin"
-                  ></b-img>
+                <a href="https://www.linkedin.com/company/weplanmob/" target="_blank" class="footer-icon">
+                  <BImg src="/images/icons/linkedin.svg" width="25px" height="25px" alt="Linkedin"></BImg>
                 </a>
-                <a
-                  href="https://open.spotify.com/show/57tePj1YmRszoXJMIyWJmr?si=4WYunOTSQAGB4KxKx-zH4g&dl_branch=1"
-                  target="_blank"
-                  class="footer-icon"
-                >
-                  <b-img
-                    src="~/assets/images/icons/spotify.svg"
-                    width="25px"
-                    height="25px"
-                    alt="Spotify"
-                  ></b-img>
+                <a href="https://open.spotify.com/show/57tePj1YmRszoXJMIyWJmr?si=4WYunOTSQAGB4KxKx-zH4g&dl_branch=1"
+                  target="_blank" class="footer-icon">
+                  <BImg src="/images/icons/spotify.svg" width="25px" height="25px" alt="Spotify"></BImg>
                 </a>
-                <a
-                  href="https://www.youtube.com/channel/UCQDrFL6ZVfpyPH7pvT5fCUA"
-                  target="_blank"
-                  class="footer-icon"
-                >
-                  <b-img
-                    src="~/assets/images/icons/youtube.svg"
-                    width="25px"
-                    height="25px"
-                    alt="Youtube"
-                  ></b-img>
+                <a href="https://www.youtube.com/channel/UCQDrFL6ZVfpyPH7pvT5fCUA" target="_blank" class="footer-icon">
+                  <BImg src="/images/icons/youtube.svg" width="25px" height="25px" alt="Youtube"></BImg>
                 </a>
-                <a
-                  href="https://api.whatsapp.com/send/?phone=554998080271&text&type=phone_number&app_absent=0"
-                  target="_blank"
-                  class="footer-icon"
-                >
-                  <b-img
-                    src="~/assets/images/icons/whatsapp.svg"
-                    width="25px"
-                    height="25px"
-                    alt="WhatsApp"
-                  ></b-img>
+                <a href="https://api.whatsapp.com/send/?phone=554998080271&text&type=phone_number&app_absent=0"
+                  target="_blank" class="footer-icon">
+                  <BImg src="/images/icons/whatsapp.svg" width="25px" height="25px" alt="WhatsApp"></BImg>
                 </a>
-              </b-row>
-              <b-row class="d-flex">
-                <b-link to="/#nps">
-                  <b-img
-                    src="~/assets/images/nps-footer.png"
-                    width="100px"
-                    height="176.98px"
-                    alt="Net Promoter Score da WePlan"
-                    class="img-fluid"
-                  ></b-img>
-                </b-link>
-                <b-col class="mt-4 ml-4">
-                  <b-row>
-                    <b-img
-                      src="~/assets/images/selodeatec.jpg"
-                      width="200px"
-                      height="200px"
-                      alt="Selo Deatec"
-                      class="img-fluid"
-                    ></b-img>
-                  </b-row>
-                  <b-row>
-                    <b-img
-                      src="~/assets/images/seloacateedtech.jpg"
-                      width="200px"
-                      height="200px"
-                      alt="Selo Acate Edtech"
-                      class="img-fluid mt-4"
-                    ></b-img>
-                  </b-row>
-                </b-col>
-              </b-row>
-            </b-container>
-          </b-col>
-        </b-row>
-      </b-container>
-      <b-container fluid class="copyright">
-        <b-row>
-          <b-col cols="12" md="6" class="text-center">
+              </div>
+              <BRow>
+                <BCol class="no-left-padding no-right-padding" cols="4" xs="3" sm="4" md="6">
+                  <NuxtLink class="" to="/#nps">
+                    <NuxtImg src="/images/nps-footer.webp" width="80px" height="auto" alt="Net Promoter Score da WePlan"
+                      class="img-fluid" />
+                  </NuxtLink>
+                </BCol>
+                <BCol cols="8" xs="9" sm="8" md="6" class="no-left-padding">
+                  <BRow>
+                    <NuxtLink to="/#seloacateedtech" target="_blank">
+                      <NuxtImg src="/images/seloacateedtech.webp" width="120px" height="auto" alt="Selo Acate Edtech"
+                        class="img-fluid mb-4" />
+                    </NuxtLink>
+                  </BRow>
+                  <BRow>
+                    <NuxtLink to="/#selodeatec" targer="_blank">
+                      <NuxtImg src="/images/selodeatec.webp" width="120px" height="auto" alt="Selo Deatec" class="img-fluid" />
+                    </NuxtLink>
+                  </BRow>
+                </BCol>
+              </BRow>
+            </BContainer>
+          </BCol>
+        </BRow>
+      </BContainer>
+      <BContainer fluid class="copyright">
+        <BRow>
+          <BCol cols="12" md="6" class="text-center">
             © {{ currentYear }} Todos os direitos reservados. WePlan Móveis
             Planejados.
-          </b-col>
-          <b-col cols="12" md="6" class="text-center">
+          </BCol>
+          <BCol cols="12" md="6" class="text-center">
             Desenvolvido pela WePlan Tech 💜
-          </b-col>
-        </b-row>
-      </b-container>
+          </BCol>
+        </BRow>
+      </BContainer>
     </footer>
   </div>
 </template>
-<script>
-export default {
-  name: 'FooterComponent',
-  data() {
-    return {
-      currentYear: new Date().getFullYear(),
-    }
-  },
-}
+<script setup>
+const currentYear = ref(new Date().getFullYear())
 </script>
+
 <style scoped>
 .footer {
   background-color: #1c1c1c;
   padding-top: 5rem;
   color: #fff;
 }
+
 
 .copyright {
   font-size: 0.7rem;
@@ -249,43 +174,53 @@ export default {
   padding-bottom: 0.8rem;
 }
 
-.footer-group-links {
+.footerlinks {
   list-style-type: none;
   padding-inline-start: 0;
   margin-bottom: 0;
 }
 
-.footer-group-links a {
-  font-size: 1.1rem;
-  padding: 0.5rem;
+
+.footerlinks li {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .footer a {
   text-decoration: none;
   color: #fff;
   padding-top: 12px;
-  padding-bottom: 12px;
 }
 
-.footer-group-links li {
-  margin-top: 8px;
-  margin-bottom: 8px;
+.footerlinks a {
+  font-size: 1.1rem;
 }
 
-.footer-group-links a:hover,
-.footer-group-links a:active,
-.footer-group-links a:focus {
+.footerlinks a:hover,
+.footerlinks a:active,
+.footerlinks a:focus {
   color: #ffffffd9;
   text-decoration: underline #ffc821 4px;
   text-decoration-skip-ink: none;
 }
 
+.footer p {
+  text-decoration: none;
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .footer-icon {
   margin-block: 10px;
-  margin-right: 15px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 0px;
 }
 
 .footer-icon img {
+  margin: 10px;
+  margin-left: 0px;
   width: 25px;
   height: auto;
 }
@@ -299,6 +234,18 @@ export default {
 .col-center {
   display: grid;
   justify-content: center;
+}
+
+.left-padding {
+  padding-left: 10px;
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}
+
+.no-right-padding {
+  padding-right: 0px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -2,9 +2,15 @@ html * {
   font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 a {
   transition-duration: 0.25s;
 }
+
 
 .page-title {
   font-weight: 700 !important;
@@ -38,6 +44,7 @@ a {
   margin: auto;
 }
 
+
 .section-title {
   font-size: 2rem;
   font-weight: 700 !important;
@@ -49,6 +56,11 @@ a {
   font-size: 1.25rem;
   line-height: 1.2;
   color: #1c1c1c;
+}
+
+a.nav-link:focus-visible {
+  outline: auto;
+  box-shadow: 0 0 0 0;
 }
 
 .section-spacing {
@@ -83,6 +95,7 @@ a {
 }
 
 .button-link {
+  border-radius: 5px;
   text-decoration: none;
   font-weight: 700 !important;
   background-color: #000000;
@@ -103,8 +116,8 @@ a {
 
 .carousel-container {
   position: relative;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 
 .carousel-button {

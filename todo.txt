@@ -1,0 +1,25 @@
+diminuir tamanho das fotos e font-size
+
+Contato: Testar enviar forms
+Quem somos: fotos
+navbar: quando selecionar um link fechar o collapse
+seja nosso parceiro: Trocar link do profissional de interiores
+Para sua empresa: Video Carousel
+Para você: Video Carousel
+home: Video Carousel
+extra: mandar um bug issue no boostrap-vue-next
+
+note: Os videos estão bem em tela cheia, mas o texto tem overflow em telas menores
+      Collapse-on-click não funciona como a documentação exemplifica
+
+Como funciona: links OK FALTA TESTAR
+Footer: selos no left padding, precisam ficar do lado do nps mesmo em telas pequenas OK
+Seja noso Parceiro: modal, links pro modal, sombra, testar links OK, TROCAR PRA MODAL QUANDO POSSIVEL
+
+videos, navbar, blank, link
+
+
+
+PERF:
+
+add height nas images do footer

@@ -1,370 +1,271 @@
 <template>
   <div>
-    <b-container fluid class="section-1 img-background">
-      <b-row class="background-title">
-        <b-col cols="12">
-          <b-container>
+    <BContainer fluid class="section-1 img-background">
+      <BRow class="background-title">
+        <BCol cols="12">
+          <BContainer>
             <h1 class="page-title">Quem somos?</h1>
             <p class="page-subtitle">
-              A WePlan nasceu para ser um relevante ecossistema no setor
-              moveleiro.
+              A WePlan nasceu para ser um relevante ecossistema no setor moveleiro.
             </p>
-          </b-container>
-        </b-col>
-      </b-row>
-    </b-container>
-    <b-container fluid class="section-2 section-spacing">
-      <b-row>
-        <b-col cols="12" class="align-self-center text-center">
+          </BContainer>
+        </BCol>
+      </BRow>
+    </BContainer>
+    <BContainer fluid class="section-2 section-spacing">
+      <BRow>
+        <BCol cols="12" class="align-self-center text-center">
           <h2 class="section-title">O que é a WePlan?</h2>
           <p class="section-subtitle">
-            A
-            <span class="highlighted-words-yellow"
-              >WePlan nasceu em 12 de maio de 2020 para ser um relevante
-              ecossistema no setor moveleiro</span
-            >.<br />
-            Conectamos todas as pontas da operação em um mesmo lugar, cuidando
-            de cada detalhe para entregar as melhores soluções aos nossos
-            clientes.
+            A <span class="highlighted-words-yellow">WePlan nasceu em 12 de maio de 2020 para ser um relevante ecossistema
+              no setor moveleiro</span>.<br />
+            Conectamos todas as pontas da operação em um mesmo lugar, cuidando de cada detalhe para entregar as melhores
+            soluções aos nossos clientes.
           </p>
-        </b-col>
-      </b-row>
-    </b-container>
-    <b-container fluid class="section-3">
-      <b-row class="inverted-colors">
-        <b-col
-          class="img-missao img-height-600px img-background text-block-with-background-img"
-          cols="12"
-          md="6"
-        >
+        </BCol>
+      </BRow>
+    </BContainer>
+    <BContainer fluid class="section-3">
+      <BRow class="inverted-colors">
+        <BCol class="img-missao img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Missão</h2>
           </div>
-        </b-col>
-        <b-col cols="12" md="6" class="align-self-center text-block">
+        </BCol>
+        <BCol cols="12" md="6" class="align-self-center text-block">
           Conectar detalhes e soluções.
-        </b-col>
-      </b-row>
-      <b-row class="section-background-light-color">
-        <b-col
-          class="img-visao img-height-600px img-background text-block-with-background-img d-md-none"
-          cols="12"
-          md="6"
-        >
+        </BCol>
+      </BRow>
+      <BRow class="section-background-light-color">
+        <BCol class="img-visao img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
           <div>
             <h2>Visão</h2>
           </div>
-        </b-col>
-        <b-col
-          cols="12"
-          md="6"
-          class="align-self-center text-md-right text-block"
-        >
+        </BCol>
+        <BCol cols="12" md="6" class="align-self-center text-md-right text-block">
           Ser um relevante ecossistema do setor moveleiro.
-        </b-col>
-        <b-col
-          class="img-visao img-height-600px img-background text-block-with-background-img d-none d-md-block"
-          cols="12"
-          md="6"
-        >
+        </BCol>
+        <BCol class="img-visao img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12"
+          md="6">
           <div>
             <h2>Visão</h2>
           </div>
-        </b-col>
-      </b-row>
-      <b-row class="inverted-colors">
-        <b-col
-          class="img-valores img-height-600px img-background text-block-with-background-img"
-          cols="12"
-          md="6"
-        >
+        </BCol>
+      </BRow>
+      <BRow class="inverted-colors">
+        <BCol class="img-valores img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Valores</h2>
           </div>
-        </b-col>
-        <b-col cols="12" md="6" class="align-self-center text-block">
+        </BCol>
+        <BCol cols="12" md="6" class="align-self-center text-block">
           <ul>
-            <li>Transparência;</li>
-            <li>Comprometimento;</li>
-            <li>Cuidado;</li>
-            <li>Espírito de equipe;</li>
-            <li>Atitude empreendedora;</li>
-            <li>Alta performance.</li>
+            <li>
+              Transparência;
+            </li>
+            <li>
+              Comprometimento;
+            </li>
+            <li>
+              Cuidado;
+            </li>
+            <li>
+              Espírito de equipe;
+            </li>
+            <li>
+              Atitude empreendedora;
+            </li>
+            <li>
+              Alta performance.
+            </li>
           </ul>
-        </b-col>
-      </b-row>
-    </b-container>
-    <b-container
-      id="quem-faz-a-weplan"
-      fluid
-      class="section-4 section-spacing section-background-light-color"
-    >
-      <b-row class="mb-5">
-        <b-col cols="12" class="align-self-center text-center">
+        </BCol>
+      </BRow>
+    </BContainer>
+    <BContainer id="quem-faz-a-weplan" fluid class="section-4 section-spacing section-background-light-color">
+      <BRow class="mb-5">
+        <BCol cols="12" class="align-self-center text-center">
           <h2 class="section-title">Quem faz a WePlan?</h2>
-          <span
-            >Esta é a nossa equipe interna de especialistas que está preparada
-            para atender à você, cliente ou parceiro.</span
-          >
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-renan.jpeg"
-            alt="Renan"
-          ></b-img>
+          <span>Esta é a nossa equipe interna de especialistas que está preparada
+            para atender à você, cliente ou parceiro.</span>
+        </BCol>
+      </BRow>
+      <BRow>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/renan.jpg" alt="Renan"></NuxtImg>
           <p>
             <span class="team-member-name">Renan Assumpção</span><br />
             <span class="team-member-position">CEO e Cofundador</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/renan-assumpção-b349841b0/"
-              target="_blank"
-              >Mais sobre o Renan</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/renan-assump%C3%A7%C3%A3o-b349841b0/"
+              target="_blank">Mais
+              sobre o Renan</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-diego.jpeg"
-            alt="Diego"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/diego.jpg" alt="Diego"></NuxtImg>
           <p>
             <span class="team-member-name">Diego Pertile</span><br />
             <span class="team-member-position">COO e Cofundador</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/diego-pertile-6923501a8/"
-              target="_blank"
-              >Mais sobre o Diego</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/diego-pertile-6923501a8/" target="_blank">Mais sobre
+              o Diego</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-ismael.jpeg"
-            alt="Ismael"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/ismael.jpg" alt="Ismael"></NuxtImg>
           <p>
             <span class="team-member-name">Ismael dos Santos</span><br />
-            <span class="team-member-position">Head de Vendas</span>
+            <span class="team-member-position">Diretor de Vendas</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/"
-              target="_blank"
-              >Mais sobre o Ismael</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/" target="_blank">Mais
+              sobre o Ismael</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-ueslei.jpeg"
-            alt="Ueslei"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/ueslei.jpg" alt="Ueslei"></NuxtImg>
           <p>
             <span class="team-member-name">Uéslei Budke</span><br />
-            <span class="team-member-position">Head de Expansão</span>
+            <span class="team-member-position">Diretor de Expansão</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/uéslei-budke-7393aa207/"
-              target="_blank"
-              >Mais sobre o Uéslei</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/u%C3%A9slei-budke-7393aa207/" target="_blank">Mais
+              sobre o
+              Uéslei</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-karoline.jpeg"
-            alt="Karoline"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/karoline.jpg" alt="Karoline"></NuxtImg>
           <p>
             <span class="team-member-name">Karoline Destri</span><br />
-            <span class="team-member-position">Head de Educação</span>
+            <span class="team-member-position">Diretora de Educação</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/karoline-cofferi-destri-052644197/"
-              target="_blank"
-              >Mais sobre a Karoline</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/karoline-cofferi-destri-052644197/"
+              target="_blank">Mais sobre a Karoline</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-amanda.jpeg"
-            alt="Amanda"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/amanda.jpg" alt="Amanda"></NuxtImg>
           <p>
             <span class="team-member-name">Amanda Moro</span><br />
-            <span class="team-member-position">Head de Operações</span>
+            <span class="team-member-position">Diretor de Operações</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/"
-              target="_blank"
-              >Mais sobre a Amanda</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/"
+              target="_blank">Mais sobre a Amanda</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-juliano.jpeg"
-            alt="Juliano"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/juliano.jpg" alt="Juliano"></NuxtImg>
           <p>
             <span class="team-member-name">Juliano Schmitz</span><br />
-            <span class="team-member-position">Head de Tecnologia</span>
+            <span class="team-member-position">Diretor de Tecnologia</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://linktr.ee/sjulianoluiz"
-              target="_blank"
-              >Mais sobre o Juliano</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/juliano-luiz-schmitz/" target="_blank">Mais sobre o
+              Juliano</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-joao.jpeg"
-            alt="João"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/joao.jpg" alt="João"></NuxtImg>
           <p>
             <span class="team-member-name">João Marolli</span><br />
             <span class="team-member-position">Supervisor de Montagem</span>
           </p>
           <p>
-            <a class="button-link" href="#" target="_blank"
-              >Mais sobre o João</a
-            >
+            <a class="button-link" href="#" target="_blank">Mais sobre o João</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <svg
-            class="bd-placeholder-img rounded-circle"
-            width="130"
-            height="130"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/sinara.jpg" alt="Sinara"></NuxtImg>
+          <p>
+            <span class="team-member-name">Sinara Turazzi</span><br />
+            <span class="team-member-position">Financeiro</span>
+          </p>
+          <p>
+            <a class="button-link" href="https://www.linkedin.com/in/sinara-m%C2%AA-camelo-turazzi-70745628a/"
+              target="_blank">Mais sobre a Sinara</a>
+          </p>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/christian.jpg" alt="Christian"></NuxtImg>
           <p>
             <span class="team-member-name">Christian Matte</span><br />
             <span class="team-member-position">Analista de Projetos</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/engchristianbm/"
-              target="_blank"
-              >Mais sobre o Christian</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/engchristianbm/" target="_blank">Mais sobre o
+              Christian</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-suianne.jpg"
-            alt="Suianne"
-          ></b-img>
-          <span class="team-member-name">Suianne Santos</span><br />
-          <span class="team-member-position">Analista de Projetos</span>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/suianne.jpg" alt="Suianne"></NuxtImg>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/suianne-dos-santos-199900226/"
-              target="_blank"
-              >Mais sobre a Suianne</a
-            >
+            <span class="team-member-name">Suianne Santos</span><br />
+            <span class="team-member-position">Analista de Projetos</span>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-eduardo.jpg"
-            alt="Eduardo"
-          ></b-img>
+          <p>
+            <a class="button-link" href="https://www.linkedin.com/in/suianne-dos-santos-199900226/" target="_blank">Mais
+              sobre a Suianne</a>
+          </p>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/eduardo.jpg" alt="Eduardo"></NuxtImg>
           <p>
             <span class="team-member-name">Eduardo Spegiorin</span><br />
             <span class="team-member-position">SDR</span>
           </p>
           <p>
-            <a
-              class="button-link"
-              href="https://www.linkedin.com/in/eduardo-spegiorin-98a597255/"
-              target="_blank"
-              >Mais sobre o Eduardo</a
-            >
+            <a class="button-link" href="https://www.linkedin.com/in/eduardo-spegiorin-98a597255/" target="_blank">Mais
+              sobre o Eduardo</a>
           </p>
-        </b-col>
-        <b-col cols="12" md="3" class="text-center pb-3">
-          <b-img
-            class="bd-placeholder-img rounded-circle img-fluid"
-            width="130px"
-            height="130px"
-            src="~/assets/images/team/perfil-pedro.jpg"
-            alt="Pedro"
-          ></b-img>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/pedro.jpg" alt="Pedro"></NuxtImg>
           <p>
             <span class="team-member-name">Pedro Spegiorin</span><br />
-            <span class="team-member-position">Desenvolvedor</span>
+            <span class="team-member-position">Desenvolvedor de software</span>
           </p>
           <p>
-            <a class="button-link" href="#">Mais sobre o Pedro</a>
+            <a class="button-link" href="#" target="_blank">Mais sobre o Pedro</a>
           </p>
-        </b-col>
-      </b-row>
-    </b-container>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/weslei.jpg" alt="Weslei"></NuxtImg>
+          <p>
+            <span class="team-member-name">Weslei Oliveira</span><br />
+            <span class="team-member-position">Marketing</span>
+          </p>
+          <p>
+            <a class="button-link" href="#" target="_blank">Mais sobre o Weslei</a>
+          </p>
+        </BCol>
+      </BRow>
+    </BContainer>
+    <CookieBanner />
   </div>
 </template>
 <style scoped>
 .section-1 {
-  background-image: url('~/assets/images/equipe-reuniao-weplan.webp');
+  background-image: url('/images/equipe-reuniao-weplan.webp');
 }
 
 span.team-member-name {
@@ -387,14 +288,14 @@ span.team-member-description {
 }
 
 .img-missao {
-  background-image: url('~/assets/images/missao.webp');
+  background-image: url('/images/missao.webp');
 }
 
 .img-visao {
-  background-image: url('~/assets/images/visao.webp');
+  background-image: url('/images/visao.webp');
 }
 
 .img-valores {
-  background-image: url('~/assets/images/valores.webp');
+  background-image: url('/images/valores.webp');
 }
 </style>
