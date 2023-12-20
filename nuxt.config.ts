@@ -128,6 +128,8 @@ export default defineNuxtConfig(
       display: 'swap',
     },
 
+
+
     gtag: {
       initialConsent: false,
       loadingStrategy: 'defer',

@@ -2,6 +2,6 @@
   <div>
     <Navbar />
     <slot />
-    <Footer />
+    <LazyFooter />
   </div>
 </template>

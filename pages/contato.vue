@@ -41,7 +41,7 @@
         </BCol>
       </BRow>
     </BContainer>
-    <CookieBanner />
+    <LazyCookieBanner />
   </div>
 </template>
 <style scoped>

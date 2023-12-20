@@ -40,9 +40,6 @@ devDependencies:
   nuxt:
     specifier: ^3.8.2
     version: 3.8.2(vite@5.0.5)
-  nuxt-clarity-analytics:
-    specifier: ^0.0.6
-    version: 0.0.6
   nuxt-gtag:
     specifier: ^1.1.1
     version: 1.1.1
@@ -4434,15 +4431,6 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.3
-    dev: true
-
-  /nuxt-clarity-analytics@0.0.6:
-    resolution: {integrity: sha512-5Aks0ALsti6jnkaFwvlIlj5wQq6sff5iliX0l8fYgYi9UfRalXvLpX33tbHykuEBbzuBXC34Vypu7BMgvlpCqA==}
-    dependencies:
-      '@nuxt/kit': 3.8.2
-    transitivePeerDependencies:
-      - rollup
-      - supports-color
     dev: true
 
   /nuxt-facebook-pixel-module@1.6.0:
