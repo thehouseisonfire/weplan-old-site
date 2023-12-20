@@ -143,9 +143,9 @@
           <h2 class="section-title">Quem confia na WePlan</h2>
         </BCol>
       </BRow>
-      <VideoCarousel />
+      <LazyVideoCarousel />
     </BContainer>
-    <CookieBanner />
+    <LazyCookieBanner />
   </div>
 </template>
 

@@ -24,7 +24,7 @@
           <h2 class="section-title">Quem confia na WePlan</h2>
         </BCol>
       </BRow>
-      <VideoCarousel />
+      <LazyVideoCarousel />
     </BContainer>
     <BContainer id="nps" fluid class="section-3 section-spacing">
       <BRow>
@@ -52,7 +52,8 @@
           </p>
         </BCol>
         <BCol cols="12" md="6" class="text-center">
-          <NuxtImg src="/images/nps.webp" class="img-fluid" width="225px" height="400px" alt="Net Promoter Score da WePlan" />
+          <NuxtImg src="/images/nps.webp" class="img-fluid" width="225px" height="400px"
+            alt="Net Promoter Score da WePlan" />
         </BCol>
       </BRow>
     </BContainer>
