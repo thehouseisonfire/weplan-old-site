@@ -1,7 +1,0 @@
-import{_ as u,c as l,b as t,w as o,r as f,o as s,h as _,F as g,i as k,j as B,f as h,p as y,e as C,a as r,g as I}from"./entry.BgN6H86a.js";import{x as v,G as x,o as S}from"./bootstrap-vue-next.n1S5jgOO.js";const b=h(()=>I(()=>import("./CookieBanner.ndJx8Hod.js"),__vite__mapDeps([0,1,2,3]),import.meta.url).then(e=>e.default||e)),j={},d=e=>(y("data-v-1456054d"),e=e(),C(),e),w=d(()=>r("h1",{class:"page-title"},"Especialistas em projetos",-1)),E=d(()=>r("p",{class:"page-subtitle"},null,-1));function V(e,A){const a=v,n=x,c=S,p=f("BSkeletonImg"),i=b;return s(),l("div",null,[t(a,{fluid:"",class:"section-1 img-background"},{default:o(()=>[t(c,{class:"background-title"},{default:o(()=>[t(n,{cols:"12"},{default:o(()=>[t(a,null,{default:o(()=>[w,E]),_:1})]),_:1})]),_:1})]),_:1}),t(a,{fluid:"",class:"section-2"},{default:o(()=>[e.loading?(s(),_(c,{key:0,class:"mt-5 pt-5"},{default:o(()=>[(s(!0),l(g,null,k(Array(9).keys(),m=>(s(),_(n,{cols:"12",md:"6",lg:"4",class:"mt-5 projects-loader",key:m},{default:o(()=>[t(p,{"card-img":"top",aspect:"3:2"})]),_:2},1024))),128))]),_:1})):B("",!0)]),_:1}),t(i)])}const z=u(j,[["render",V],["__scopeId","data-v-1456054d"]]);export{z as default};
-function __vite__mapDeps(indexes) {
-  if (!__vite__mapDeps.viteFileDeps) {
-    __vite__mapDeps.viteFileDeps = ["./CookieBanner.ndJx8Hod.js","./bootstrap-vue-next.n1S5jgOO.js","./entry.BgN6H86a.js","./CookieBanner.LzNvHa2H.css"]
-  }
-  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
-}
