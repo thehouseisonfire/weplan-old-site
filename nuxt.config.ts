@@ -130,49 +130,49 @@ export default defineNuxtConfig(
 
 
 
-    // gtag: {
-    //   initialConsent: false,
-    //   loadingStrategy: 'defer',
-    //   // Additional configuration for the Google Analytics 4 property
-    //   // config: {
-    //   //   page_title: 'My Custom Page Title'
-    //   // },
-    // },
-    //
-    // facebook: {
-    //   autoPageView: true,
-    //   disabled: true,
-    //   debug: true,
-    // },
+    gtag: {
+      initialConsent: false,
+      loadingStrategy: 'defer',
+      // Additional configuration for the Google Analytics 4 property
+      // config: {
+      //   page_title: 'My Custom Page Title'
+      // },
+    },
 
-    // runtimeConfig: {
-    //   public: {
-    //     gtag: {
-    //       id: ''
-    //     },
-    //     gtm: {
-    //       id: '',
-    //       // queryParams: {
-    //       //   gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
-    //       //   gtm_preview: 'env-4',
-    //       //   gtm_cookies_win: 'x',
-    //       // },
-    //       defer: true,
-    //       compatibility: false,
-    //       nonce: '2726c7f26c',
-    //       enabled: false,
-    //       debug: false,
-    //       loadScript: true,
-    //       enableRouterSync: true,
-    //       ignoredViews: [],
-    //       trackOnNextTick: false,
-    //       devtools: false,
-    //     },
-    //     facebook: {
-    //       pixelId: '',
-    //     },
-    //   },
-    // },
+    facebook: {
+      autoPageView: true,
+      disabled: true,
+      debug: true,
+    },
+
+    runtimeConfig: {
+      public: {
+        gtag: {
+          id: ''
+        },
+        gtm: {
+          id: '',
+          // queryParams: {
+          //   gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
+          //   gtm_preview: 'env-4',
+          //   gtm_cookies_win: 'x',
+          // },
+          defer: true,
+          compatibility: false,
+          nonce: '2726c7f26c',
+          enabled: false,
+          debug: false,
+          loadScript: true,
+          enableRouterSync: true,
+          ignoredViews: [],
+          trackOnNextTick: false,
+          devtools: false,
+        },
+        facebook: {
+          pixelId: '',
+        },
+      },
+    },
 
     // gtm: {
     //   id: 'GTM-MVBMH9X', // Your GTM single container ID, array of container ids ['GTM-xxxxxx', 'GTM-yyyyyy'] or array of objects [{id: 'GTM-xxxxxx', queryParams: { gtm_auth: 'abc123', gtm_preview: 'env-4', gtm_cookies_win: 'x'}}, {id: 'GTM-yyyyyy', queryParams: {gtm_auth: 'abc234', gtm_preview: 'env-5', gtm_cookies_win: 'x'}}], // Your GTM single container ID or array of container ids ['GTM-xxxxxx', 'GTM-yyyyyy']
