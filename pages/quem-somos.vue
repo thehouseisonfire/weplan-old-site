@@ -193,7 +193,7 @@
             src="/images/team/sinara.jpg" alt="Sinara"></NuxtImg>
           <p>
             <span class="team-member-name">Sinara Turazzi</span><br />
-            <span class="team-member-position">Financeiro</span>
+            <span class="team-member-position">Analista Financeira</span>
           </p>
           <p>
             <a class="button-link" href="https://www.linkedin.com/in/sinara-m%C2%AA-camelo-turazzi-70745628a/"
@@ -222,18 +222,6 @@
           <p>
             <a class="button-link" href="https://www.linkedin.com/in/suianne-dos-santos-199900226/" target="_blank">Mais
               sobre a Suianne</a>
-          </p>
-        </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/eduardo.jpg" alt="Eduardo"></NuxtImg>
-          <p>
-            <span class="team-member-name">Eduardo Spegiorin</span><br />
-            <span class="team-member-position">SDR</span>
-          </p>
-          <p>
-            <a class="button-link" href="https://www.linkedin.com/in/eduardo-spegiorin-98a597255/" target="_blank">Mais
-              sobre o Eduardo</a>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">

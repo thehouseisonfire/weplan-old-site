@@ -200,9 +200,9 @@ export default defineNuxtConfig(
       '@bootstrap-vue-next/nuxt',
       '@nuxt/image',
       '@nuxtjs/google-fonts',
-      // 'nuxt3-meta-pixel',
-      // 'nuxt-gtag',
-      // '@zadigetvoltaire/nuxt-gtm',
+      'nuxt3-meta-pixel',
+      'nuxt-gtag',
+      '@zadigetvoltaire/nuxt-gtm',
       // 'nuxt-clarity-analytics',
     ],
 
