@@ -86,22 +86,36 @@
           md="6">
           <div>
             <h2>Sou profissional de interiores</h2>
+            <span>
+              <NuxtLink href="https://lp.weplan.com.br/seja-parceiro" target="_blank"
+                class="button-link d-md-none text-decoration-none navbutton text-white m-auto">
+                Quero ser
+                parceiro
+              </Nuxtlink>
+            </span>
           </div>
         </BCol>
         <BCol cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <NuxtLink href="https://lp.weplan.com.br/seja-parceiro" class="button-link" target="_blank">Quero ser
-            parceiro</NuxtLink>
+          <BButton href="https://lp.weplan.com.br/seja-parceiro" class="button-link" target="_blank">Quero ser
+            parceiro</BButton>
         </BCol>
       </BRow>
       <BRow id="montador">
         <BCol cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <NuxtLink href="https://lp.weplan.com.br/form-seja-montador-parceiro" class="button-link" target="_blank">Quero
+          <BButton href="https://lp.weplan.com.br/form-seja-montador-parceiro" class="button-link" target="_blank">Quero
             ser
-            parceiro</NuxtLink>
+            parceiro</BButton>
         </BCol>
         <BCol class="img-montador img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Sou montador</h2>
+            <span>
+              <NuxtLink href="https://lp.weplan.com.br/form-seja-montador-parceiro" target="_blank"
+                class="button-link d-md-none text-decoration-none navbutton text-white m-auto">
+                Quero ser
+                parceiro
+              </Nuxtlink>
+            </span>
           </div>
         </BCol>
       </BRow>
@@ -109,18 +123,23 @@
         <BCol class="img-fornecedor img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
             <h2>Sou fornecedor</h2>
-            <NuxtLink href="https://lp.weplan.com.br/form-seja-fornecedor" class="button-link d-md-none" target="_blank">
-              Quero ser
-              parceiro</NuxtLink>
+            <span>
+              <NuxtLink href="https://lp.weplan.com.br/form-seja-fornecedor" target="_blank"
+                class="button-link d-md-none text-decoration-none navbutton text-white m-auto">
+                Quero ser
+                parceiro
+              </Nuxtlink>
+            </span>
           </div>
         </BCol>
         <BCol cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <NuxtLink href="https://lp.weplan.com.br/seja-parceiro" class="button-link" target="_blank">Quero ser
-            parceiro</NuxtLink>
+          <BButton href="https://lp.weplan.com.br/form-seja-fornecedor" class="button-link" target="_blank">Quero ser
+            parceiro
+          </BButton>
         </BCol>
       </BRow>
     </BContainer>
-    <LazyCookieBanner />
+    <CookieBanner />
   </div>
 </template>
 <style>
@@ -131,6 +150,17 @@ body {
 <style scoped>
 .section-1 {
   padding: 0;
+}
+
+.navbutton {
+  background-color: black !important;
+}
+
+.navbutton:hover,
+.navbutton:active,
+.navbutton:focus,
+.navbutton .nuxt-link-active {
+  background-color: #2b2b2b !important;
 }
 
 .section-3 {

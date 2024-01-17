@@ -35,7 +35,7 @@
       <span class="highlighted-words-yellow">e a entrega da solução completa</span>. Acompanhamos todos os processos
       para garantir a efetividade e
       assertividade no projeto."<br />
-      <b>- Ismael dos Santos, Head de Vendas da WePlan.</b>
+      <b>- Ismael dos Santos, Diretor de Vendas da WePlan.</b>
     </BCol>
   </Brow>
   <BRow v-show="step == 2">
@@ -67,7 +67,7 @@
       projeto até a finalização.<br />
       O cuidado com cada detalhe, o cumprimento de prazos e a entrega com qualidade nos destacam e fazem com que
       nossos clientes, tanto para projetos residenciais como corporativos confiem em nosso trabalho".<br />
-      <b>- Ismael dos Santos, Head de Vendas da WePlan.</b>
+      <b>- Ismael dos Santos, Diretor de Vendas da WePlan.</b>
     </BCol>
   </Brow>
 </template>
