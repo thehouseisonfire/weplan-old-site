@@ -115,7 +115,7 @@
           </div>
         </BCol>
         <BCol cols="12" md="6" class="align-self-center text-center d-none d-md-block">
-          <NuxtLink href="https://lp.weplan.com.br/seja-parceiro" class="button-link" target="_blank">Quero ser
+          <NuxtLink href="https://lp.weplan.com.br/form-seja-fornecedor" class="button-link" target="_blank">Quero ser
             parceiro</NuxtLink>
         </BCol>
       </BRow>

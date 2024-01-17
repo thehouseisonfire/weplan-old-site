@@ -62,8 +62,7 @@
         Investiments</a> é uma consultoria de investimentos de alta
       performance, alicerçada no atendimento humanizado, personalizado e tecnológico.<br />
       <span class="highlighted-words-yellow">Juntamente com nosso parceiro <a
-          href="https://www.instagram.com/weplan.guilherme/" target="_blank" class="highlighted-words-yellow">Guilherme
-          Zarpelon</a> fizemos a gestão completa da obra</span>, desde o
+          href="https://www.instagram.com/casa21gestaodeprojetos/" target="_blank" class="highlighted-words-yellow">Casa 21</a> fizemos a gestão completa da obra</span>, desde o
       projeto até a finalização.<br />
       O cuidado com cada detalhe, o cumprimento de prazos e a entrega com qualidade nos destacam e fazem com que
       nossos clientes, tanto para projetos residenciais como corporativos confiem em nosso trabalho".<br />

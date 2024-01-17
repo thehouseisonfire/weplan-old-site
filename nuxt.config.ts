@@ -128,30 +128,15 @@ export default defineNuxtConfig(
       display: 'swap',
     },
 
-
-
-    gtag: {
-      initialConsent: false,
-      loadingStrategy: 'defer',
-      // Additional configuration for the Google Analytics 4 property
-      // config: {
-      //   page_title: 'My Custom Page Title'
-      // },
-    },
-
-    facebook: {
-      autoPageView: true,
-      disabled: true,
-      debug: true,
-    },
-
     runtimeConfig: {
       public: {
         gtag: {
-          id: ''
+          id: process.env.GTAG_ID,
+          initialConsent: false,
+          loadingStrategy: 'defer',
         },
         gtm: {
-          id: '',
+          id: process.env.GTM_ID,
           // queryParams: {
           //   gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
           //   gtm_preview: 'env-4',
@@ -169,7 +154,10 @@ export default defineNuxtConfig(
           devtools: false,
         },
         facebook: {
-          pixelId: '',
+          pixelId: process.env.PIXEL_ID,
+          autoPageView: true,
+          disabled: true,
+          debug: true,
         },
       },
     },
@@ -203,7 +191,7 @@ export default defineNuxtConfig(
       'nuxt3-meta-pixel',
       'nuxt-gtag',
       '@zadigetvoltaire/nuxt-gtm',
-      // 'nuxt-clarity-analytics',
+      'nuxt-clarity-analytics',
     ],
 
     css: [
