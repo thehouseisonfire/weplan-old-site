@@ -121,7 +121,7 @@
             src="/images/team/ismael.jpg" alt="Ismael"></NuxtImg>
           <p>
             <span class="team-member-name">Ismael dos Santos</span><br />
-            <span class="team-member-position">Diretor de Vendas</span>
+            <span class="team-member-position">Head Comercial</span>
           </p>
           <p>
             <a class="button-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/" target="_blank">Mais
@@ -133,7 +133,7 @@
             src="/images/team/ueslei.jpg" alt="Ueslei"></NuxtImg>
           <p>
             <span class="team-member-name">Uéslei Budke</span><br />
-            <span class="team-member-position">Diretor de Expansão</span>
+            <span class="team-member-position">Head de Expansão</span>
           </p>
           <p>
             <a class="button-link" href="https://www.linkedin.com/in/u%C3%A9slei-budke-7393aa207/" target="_blank">Mais
@@ -146,7 +146,7 @@
             src="/images/team/karoline.jpg" alt="Karoline"></NuxtImg>
           <p>
             <span class="team-member-name">Karoline Destri</span><br />
-            <span class="team-member-position">Diretora de Educação</span>
+            <span class="team-member-position">Head de Educação</span>
           </p>
           <p>
             <a class="button-link" href="https://www.linkedin.com/in/karoline-cofferi-destri-052644197/"
@@ -158,7 +158,7 @@
             src="/images/team/amanda.jpg" alt="Amanda"></NuxtImg>
           <p>
             <span class="team-member-name">Amanda Moro</span><br />
-            <span class="team-member-position">Diretor de Operações</span>
+            <span class="team-member-position">Head de Operações</span>
           </p>
           <p>
             <a class="button-link" href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/"
@@ -170,7 +170,7 @@
             src="/images/team/juliano.jpg" alt="Juliano"></NuxtImg>
           <p>
             <span class="team-member-name">Juliano Schmitz</span><br />
-            <span class="team-member-position">Diretor de Tecnologia</span>
+            <span class="team-member-position">Head de Tecnologia</span>
           </p>
           <p>
             <a class="button-link" href="https://www.linkedin.com/in/juliano-luiz-schmitz/" target="_blank">Mais sobre o
@@ -229,7 +229,7 @@
             src="/images/team/pedro.jpg" alt="Pedro"></NuxtImg>
           <p>
             <span class="team-member-name">Pedro Spegiorin</span><br />
-            <span class="team-member-position">Desenvolvedor de software</span>
+            <span class="team-member-position">Desenvolvedor de Software</span>
           </p>
           <p>
             <a class="button-link" href="#" target="_blank">Mais sobre o Pedro</a>
@@ -239,11 +239,11 @@
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/weslei.jpg" alt="Weslei"></NuxtImg>
           <p>
-            <span class="team-member-name">Weslei Oliveira</span><br />
-            <span class="team-member-position">Marketing</span>
+            <span class="team-member-name">Wesley Oliveira</span><br />
+            <span class="team-member-position">Social Media</span>
           </p>
           <p>
-            <a class="button-link" href="#" target="_blank">Mais sobre o Weslei</a>
+            <a class="button-link" href="#" target="_blank">Mais sobre o Wesley</a>
           </p>
         </BCol>
       </BRow>
