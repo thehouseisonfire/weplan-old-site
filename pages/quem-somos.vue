@@ -202,18 +202,6 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/christian.jpg" alt="Christian"></NuxtImg>
-          <p>
-            <span class="team-member-name">Christian Matte</span><br />
-            <span class="team-member-position">Analista de Projetos</span>
-          </p>
-          <p>
-            <a class="button-link" href="https://www.linkedin.com/in/engchristianbm/" target="_blank">Mais sobre o
-              Christian</a>
-          </p>
-        </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/suianne.jpg" alt="Suianne"></NuxtImg>
           <p>
             <span class="team-member-name">Suianne Santos</span><br />

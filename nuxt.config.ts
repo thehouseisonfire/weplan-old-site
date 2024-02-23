@@ -128,49 +128,49 @@ export default defineNuxtConfig(
       display: 'swap',
     },
 
-    runtimeConfig: {
-      public: {
-        gtag: {
-          id: process.env.GTAG_ID,
-          initialConsent: false,
-          loadingStrategy: 'defer',
-        },
-        gtm: {
-          id: process.env.GTM_ID,
-          // queryParams: {
-          //   gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
-          //   gtm_preview: 'env-4',
-          //   gtm_cookies_win: 'x',
-          // },
-          defer: true,
-          compatibility: false,
-          nonce: '2726c7f26c',
-          enabled: false,
-          debug: false,
-          loadScript: true,
-          enableRouterSync: true,
-          ignoredViews: [],
-          trackOnNextTick: false,
-          devtools: false,
-        },
-        facebook: {
-          pixelId: process.env.PIXEL_ID,
-          autoPageView: true,
-          disabled: true,
-          debug: true,
-        },
-      },
-    },
+    // runtimeConfig: {
+    //   public: {
+    //     gtag: {
+    //       id: process.env.GTAG_ID,
+    //       initialConsent: false,
+    //       loadingStrategy: 'defer',
+    //     },
+    //     gtm: {
+    //       id: process.env.GTM_ID,
+    //       // queryParams: {
+    //       //   gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
+    //       //   gtm_preview: 'env-4',
+    //       //   gtm_cookies_win: 'x',
+    //       // },
+    //       defer: true,
+    //       compatibility: false,
+    //       nonce: '2726c7f26c',
+    //       enabled: false,
+    //       debug: false,
+    //       loadScript: true,
+    //       enableRouterSync: true,
+    //       ignoredViews: [],
+    //       trackOnNextTick: false,
+    //       devtools: false,
+    //     },
+    //     facebook: {
+    //       pixelId: process.env.PIXEL_ID,
+    //       autoPageView: true,
+    //       disabled: true,
+    //       debug: true,
+    //     },
+    //   },
+    // },
 
     modules: [
       '@nuxtjs/robots',
       '@bootstrap-vue-next/nuxt',
       '@nuxt/image',
       '@nuxtjs/google-fonts',
-      'nuxt3-meta-pixel',
-      'nuxt-gtag',
-      '@zadigetvoltaire/nuxt-gtm',
-      'nuxt-clarity-analytics',
+      // 'nuxt3-meta-pixel',
+      // 'nuxt-gtag',
+      // '@zadigetvoltaire/nuxt-gtm',
+      // 'nuxt-clarity-analytics',
     ],
 
     css: [
