@@ -99,9 +99,9 @@
             <span class="team-member-position">CEO e Cofundador</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/renan-assump%C3%A7%C3%A3o-b349841b0/"
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/renan-assump%C3%A7%C3%A3o-b349841b0/"
               target="_blank">Mais
-              sobre o Renan</a>
+              sobre o Renan</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -112,8 +112,9 @@
             <span class="team-member-position">COO e Cofundador</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/diego-pertile-6923501a8/" target="_blank">Mais sobre
-              o Diego</a>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/diego-pertile-6923501a8/" target="_blank">Mais
+              sobre
+              o Diego</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -124,8 +125,9 @@
             <span class="team-member-position">Head Comercial</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/" target="_blank">Mais
-              sobre o Ismael</a>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/" target="_blank">
+              Mais
+              sobre o Ismael</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -136,9 +138,10 @@
             <span class="team-member-position">Head de Expansão</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/u%C3%A9slei-budke-7393aa207/" target="_blank">Mais
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/u%C3%A9slei-budke-7393aa207/" target="_blank">
+              Mais
               sobre o
-              Uéslei</a>
+              Uéslei</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -149,8 +152,8 @@
             <span class="team-member-position">Head de Educação</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/karoline-cofferi-destri-052644197/"
-              target="_blank">Mais sobre a Karoline</a>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/karoline-cofferi-destri-052644197/"
+              target="_blank">Mais sobre a Karoline</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -158,11 +161,23 @@
             src="/images/team/amanda.jpg" alt="Amanda"></NuxtImg>
           <p>
             <span class="team-member-name">Amanda Moro</span><br />
-            <span class="team-member-position">Head de Operações</span>
+            <span class="team-member-position">Head de Projetos</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/"
-              target="_blank">Mais sobre a Amanda</a>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/"
+              target="_blank">Mais sobre a Amanda</NuxtLink>
+          </p>
+        </BCol>
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/pasqualli.jpg" alt="(Pasqualli)"></NuxtImg>
+          <p>
+            <span class="team-member-name">Lucas (Pasqualli)</span><br />
+            <span class="team-member-position">Head de Projetos</span>
+          </p>
+          <p>
+            <!-- <NuxtLink class="button-link" href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/" -->
+            <!--   target="_blank">Mais sobre o (Pasqualli)</NuxtLink> -->
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -173,8 +188,9 @@
             <span class="team-member-position">Head de Tecnologia</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/juliano-luiz-schmitz/" target="_blank">Mais sobre o
-              Juliano</a>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/juliano-luiz-schmitz/" target="_blank">Mais
+              sobre o
+              Juliano</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -185,7 +201,7 @@
             <span class="team-member-position">Supervisor de Montagem</span>
           </p>
           <p>
-            <a class="button-link" href="#" target="_blank">Mais sobre o João</a>
+            <NuxtLink class="button-link" href="#" target="_blank">Mais sobre o João</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -196,8 +212,8 @@
             <span class="team-member-position">Analista Financeira</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/sinara-m%C2%AA-camelo-turazzi-70745628a/"
-              target="_blank">Mais sobre a Sinara</a>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/sinara-m%C2%AA-camelo-turazzi-70745628a/"
+              target="_blank">Mais sobre a Sinara</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -208,8 +224,9 @@
             <span class="team-member-position">Analista de Projetos</span>
           </p>
           <p>
-            <a class="button-link" href="https://www.linkedin.com/in/suianne-dos-santos-199900226/" target="_blank">Mais
-              sobre a Suianne</a>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/suianne-dos-santos-199900226/"
+              target="_blank">Mais
+              sobre a Suianne</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -220,7 +237,7 @@
             <span class="team-member-position">Desenvolvedor de Software</span>
           </p>
           <p>
-            <a class="button-link" href="#" target="_blank">Mais sobre o Pedro</a>
+            <NuxtLink class="button-link" href="#" target="_blank">Mais sobre o Pedro</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -231,7 +248,7 @@
             <span class="team-member-position">Social Media</span>
           </p>
           <p>
-            <a class="button-link" href="#" target="_blank">Mais sobre o Wesley</a>
+            <NuxtLink class="button-link" href="#" target="_blank">Mais sobre o Wesley</NuxtLink>
           </p>
         </BCol>
       </BRow>
