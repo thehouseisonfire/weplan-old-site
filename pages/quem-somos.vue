@@ -170,14 +170,15 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/pasqualli.jpg" alt="(Pasqualli)"></NuxtImg>
+            src="/images/team/amanda.jpg" alt="Pascoali"></NuxtImg>
           <p>
-            <span class="team-member-name">Lucas (Pasqualli)</span><br />
+            <span class="team-member-name">Lucas Pascoali</span><br />
             <span class="team-member-position">Head de Projetos</span>
           </p>
           <p>
-            <!-- <NuxtLink class="button-link" href="https://www.linkedin.com/in/amanda-mascarello-moro-8a6aa6229/" -->
-            <!--   target="_blank">Mais sobre o (Pasqualli)</NuxtLink> -->
+            <NuxtLink class="button-link" href="https://www.linkedin.com/lucas-pascoali2395" target="_blank">Mais sobre o
+              Pascoali
+            </NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
