@@ -40,7 +40,17 @@ function initTracking() {
   if (gtm) {
     gtm.enable()
   }
-  useGtag().grantConsent() // Google Tag Manager
+
+  const { initialize, enableAnalytics, gtag } = useGtag() // Google Tag Manager
+  initialize()
+  enableAnalytics()
+  gtag('consent', 'update', {
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
+    ad_storage: 'granted',
+    analytics_storage: 'granted'
+  })
+
   nuxtApp.$fb.enable()   // Meta Pixel
   // window.clarity('consent') // Microsoft Clarity (heatmaps)
 }
