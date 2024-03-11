@@ -17,7 +17,8 @@
         <BCol cols="12" class="align-self-center text-center">
           <h2 class="section-title">O que é a WePlan?</h2>
           <p class="section-subtitle">
-            A <span class="highlighted-words-yellow">WePlan nasceu em 12 de maio de 2020 para ser um relevante ecossistema
+            A <span class="highlighted-words-yellow">WePlan nasceu em 12 de maio de 2020 para ser um relevante
+              ecossistema
               no setor moveleiro</span>.<br />
             Conectamos todas as pontas da operação em um mesmo lugar, cuidando de cada detalhe para entregar as melhores
             soluções aos nossos clientes.
@@ -37,7 +38,8 @@
         </BCol>
       </BRow>
       <BRow class="section-background-light-color">
-        <BCol class="img-visao img-height-600px img-background text-block-with-background-img d-md-none" cols="12" md="6">
+        <BCol class="img-visao img-height-600px img-background text-block-with-background-img d-md-none" cols="12"
+          md="6">
           <div>
             <h2>Visão</h2>
           </div>
@@ -45,8 +47,8 @@
         <BCol cols="12" md="6" class="align-self-center text-md-right text-block">
           Ser um relevante ecossistema do setor moveleiro.
         </BCol>
-        <BCol class="img-visao img-height-600px img-background text-block-with-background-img d-none d-md-block" cols="12"
-          md="6">
+        <BCol class="img-visao img-height-600px img-background text-block-with-background-img d-none d-md-block"
+          cols="12" md="6">
           <div>
             <h2>Visão</h2>
           </div>
@@ -112,7 +114,8 @@
             <span class="team-member-position">COO e Cofundador</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/in/diego-pertile-6923501a8/" target="_blank">Mais
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/diego-pertile-6923501a8/" target="_blank">
+              Mais
               sobre
               o Diego</NuxtLink>
           </p>
@@ -125,7 +128,8 @@
             <span class="team-member-position">Head Comercial</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/" target="_blank">
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/"
+              target="_blank">
               Mais
               sobre o Ismael</NuxtLink>
           </p>
@@ -138,7 +142,8 @@
             <span class="team-member-position">Head de Expansão</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/in/u%C3%A9slei-budke-7393aa207/" target="_blank">
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/u%C3%A9slei-budke-7393aa207/"
+              target="_blank">
               Mais
               sobre o
               Uéslei</NuxtLink>
@@ -173,10 +178,11 @@
             src="/images/team/amanda.jpg" alt="Pascoali"></NuxtImg>
           <p>
             <span class="team-member-name">Lucas Pascoali</span><br />
-            <span class="team-member-position">Head de Projetos</span>
+            <span class="team-member-position">Head de Operações</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/lucas-pascoali2395" target="_blank">Mais sobre o
+            <NuxtLink class="button-link" href="https://www.linkedin.com/lucas-pascoali2395" target="_blank">Mais sobre
+              o
               Pascoali
             </NuxtLink>
           </p>
