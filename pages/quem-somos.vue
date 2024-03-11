@@ -175,7 +175,7 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/amanda.jpg" alt="Pascoali"></NuxtImg>
+            src="/images/team/lucas.jpg" alt="Pascoali"></NuxtImg>
           <p>
             <span class="team-member-name">Lucas Pascoali</span><br />
             <span class="team-member-position">Head de Operações</span>
