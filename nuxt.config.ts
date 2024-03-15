@@ -7,6 +7,13 @@ export default defineNuxtConfig(
   {
     devtools: { enabled: false },
     ssr: true,
+
+    experimental: {
+      // viewTransition: true,
+      payloadExtraction: true,
+      renderJsonPayloads: true,
+      typedPages: true,
+    },
     app: {
       head: {
         title: 'WePlan | Móveis Planejados',

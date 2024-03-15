@@ -4,7 +4,7 @@
       <div class="carousel-container">
         <div class="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/QmiMFgIs6iw" title="Nexen Energia Solar"
-            frameborder="0"
+            frameborder="0" loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         </div>
@@ -43,7 +43,7 @@
       <div class="carousel-container">
         <div class="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/55YKDHmWdwY" title="Northin Investiments"
-            frameborder="0"
+            frameborder="0" loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         </div>
@@ -58,7 +58,8 @@
       </div>
     </BCol>
     <BCol cols="12" md="6">
-      "A <a href="https://www.instagram.com/northininvestments/" target="_blank" class="highlighted-words-yellow">Northin
+      "A <a href="https://www.instagram.com/northininvestments/" target="_blank"
+        class="highlighted-words-yellow">Northin
         Investiments</a> é uma consultoria de investimentos de alta
       performance, alicerçada no atendimento humanizado, personalizado e tecnológico.<br />
       <span class="highlighted-words-yellow">Juntamente com nosso parceiro <a
