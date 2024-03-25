@@ -83,6 +83,12 @@
                   <li>
                     <NuxtLink href="https://app.weplan.com.br/" target="_blank">Login no app do parceiro</NuxtLink>
                   </li>
+                  <li>
+                    <NuxtLink href="/termos-de-uso" target="_blank">Termos de uso</NuxtLink>
+                  </li>
+                  <li>
+                    <NuxtLink href="/aviso-de-privacidade" target="_blank">Aviso de privacidade</NuxtLink>
+                  </li>
                 </ul>
               </BRow>
             </BContainer>
@@ -124,14 +130,16 @@
                 </BCol>
                 <BCol cols="8" xs="9" sm="8" md="6" class="no-left-padding">
                   <BRow>
-                    <NuxtLink to="https://www.acate.com.br/associados/associado/?associado_id=2020178619" target="_blank">
+                    <NuxtLink to="https://www.acate.com.br/associados/associado/?associado_id=2020178619"
+                      target="_blank">
                       <NuxtImg src="/images/seloacateedtech.webp" width="120px" height="auto" alt="Selo Acate Edtech"
                         class="img-fluid mb-4" />
                     </NuxtLink>
                   </BRow>
                   <BRow>
                     <NuxtLink to="https://deatec.org.br/pt/associados?associated_name=weplan" target="_blank">
-                      <NuxtImg src="/images/selodeatec.webp" width="120px" height="auto" alt="Selo Deatec" class="img-fluid" />
+                      <NuxtImg src="/images/selodeatec.webp" width="120px" height="auto" alt="Selo Deatec"
+                        class="img-fluid" />
                     </NuxtLink>
                   </BRow>
                 </BCol>

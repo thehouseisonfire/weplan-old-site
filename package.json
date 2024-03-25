@@ -17,7 +17,7 @@
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "bootstrap": "^5.3.3",
     "bootstrap-vue-next": "^0.16.6",
-    "nuxt": "^3.10.3",
+    "nuxt": "^3.11.1",
     "nuxt-clarity-analytics": "^0.0.6",
     "nuxt-gtag": "^2.0.5",
     "vue": "^3.4.21",

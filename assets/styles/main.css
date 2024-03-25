@@ -11,6 +11,36 @@ a {
   transition-duration: 0.25s;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f7f7f7;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #606060;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.bg-grey {
+  background-color: #232323;
+}
 
 .page-title {
   font-weight: 700 !important;
