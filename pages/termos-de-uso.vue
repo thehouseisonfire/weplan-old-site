@@ -5,326 +5,164 @@
         Termos de uso
       </p>
       <br>
+      <p class="font-bold">
+        Bem-vindo (a)!
+      </p>
       <p class="mt-2">
-        A WEPLAN tem o compromisso de manter a privacidade e segurança dos dados de todos os clientes. Este aviso de
-        privacidade possui a finalidade de informar como tratamos os seus dados pessoais enquanto você navega no nosso
-        site.
+        Estes Termos e Condições de Uso disciplinam as regras para sua experiência no site da <strong>WEPLAN</strong>,
+        por isso é de
+        extrema importância que você leia todo o conteúdo antes de navegar no site.
         <br>
-        Ao acessar nosso site você está ciente e concorda com este Aviso de Privacidade e com a maneira que coletamos e
-        tratamos os seus dados, por tanto, leia com atenção.
-        <br>
-        Caso não concorde com este documento, você não poderá navegar no site da WEPLAN.
+        Os Termos e Condições de Uso são inteiramente publicizados, desta forma, não será considerado que seja alegado
+        desconhecimento das regras e obrigações aqui estabelecidas. Caso você discorde de qualquer condição ou
+        disposição do presente termo, ou no conteúdo do site, não acesse ou utilize-o.
       </p>
       <br>
       <p class="font-bold">
-        1. QUEM SOMOS?
+        OBJETIVO
       </p>
       <p>
-        WEPLAN MÓVEIS LTDA, pessoa jurídica de direito privado, registrada no CNPJ 37.124.126/0001-88, com sede à Rua
-        Clevelândia, 557, Letra: D; Sala 02, Jardim Itália, Chapecó- SC, CEP 89.802-405, como controladora de dados
-        pessoais, será responsável por tomar as decisões sobre o tratamento dos dados pessoais coletados através do uso
-        do site.
+        <strong>1.1.</strong> Estes Termos de Uso tem como objetivo regular as condições aplicáveis à sua utilização do
+        Site da <strong>WEPLAN</strong>.
+        No Site é possível encontrar informações institucionais sobre a empresa, serviços, cases e parcerias, formas de
+        trabalho e contato, seguindo os parâmetros da legislação brasileira vigente.
         <br>
-        Cumpriremos todas as leis e regulamentos aplicáveis à proteção de dados, com observância aos dispositivos da Lei
-        Geral de Proteção de Dados – LGPD (Lei no 13.709/18) e Marco Civil da Internet (Lei no 12.965/14), assim como
-        cooperaremos com as autoridades de proteção de dados. Na falta de legislação específica sobre o assunto,
-        agiremos
-        de acordo com as boas práticas internacionais que regem a proteção de dados.
+        <strong>1.2.</strong> Você declara que: (i) está ciente de que estes Termos de Uso e a Aviso de Privacidade
+        correspondem a um
+        contrato vinculante entre Você e a <strong>WEPLAN</strong>, (ii) que possui capacidade civil e jurídica para
+        executar o aceite
+        destes termos, e que o aceite é manifestado por uma pessoa com poderes para tanto.
       </p>
       <br>
       <p class="font-bold">
-        2. DEFINIÇÕES
+        2. OBRIGAÇÕES E DEVERES QUE VOCÊ DEVERÁ SEGUIR
       </p>
       <p>
-        Este tópico tem o intuito de explicar, de forma clara e com foco na comunicação deste aviso, conceitos definidos
-        na Lei Geral de Proteção de Dados Pessoais (LGPD).
+        <strong>2.1.</strong> Você deve respeitar todas as regras destes Termos de Uso e de toda legislação aplicável.
+        Mediante aceitação
+        dos Termos de Uso, Você compromete-se a:
         <br>
-        Dados pessoais: toda e qualquer informação que identifica ou possa identificar uma pessoa física.
+        2.1.1. Agir perante a <strong>WEPLAN</strong> e empresas parceiras com boa-fé, diligência, profissionalismo e
+        respeito;
         <br>
-        Tratamento de dados: qualquer ação ou operação que realizada com Dados Pessoais, como: coleta, produção,
-        recepção,
-        classificação, utilização, acesso, reprodução,
-        transmissão, distribuição, processamento, arquivamento, armazenamento, compartilhamento, eliminação, avaliação
-        ou
-        controle da informação, modificação, comunicação, transferência, difusão ou extração.
+        2.1.2. Obedecer a todas as exigências legais e regulatórias referentes aos serviços prestados pela
+        <strong>WEPLAN</strong>;
         <br>
-        Titular de dados: Pessoa física a quem se refere o dado pessoal.
+        2.1.3. Você se compromete, sob as penas da lei, a utilizar o Site apenas para fins estritamente legais,
+        legítimos e permitidos por estes Termos de Uso e pela lei.
         <br>
-        Controlador: É a pessoa física ou jurídica responsável pela tomada de decisões de como ocorrerão as operações de
-        tratamento com os Dados Pessoais dos titulares. No caso deste Aviso de Privacidade, a WEPLAN é a Controladora
-        dos
-        Dados.
+        <strong>2.2.</strong> Ainda, Você não poderá:
         <br>
-        Operador: É a pessoa física ou jurídica que recebe as diretrizes do controlador e age conforme as suas
-        orientações.
+        2.2.1. Modificar, destruir, danificar, copiar, distribuir, transmitir, exibir, reproduzir, publicar, decompilar,
+        realizar engenharia reversa, desmontar, desfazer a criptografia ou sublicenciar o Site <strong>WEPLAN</strong>
+        e/ou criar obras
+        derivadas a partir das informações coletadas no site <strong>WEPLAN</strong>;
         <br>
-        Agentes de tratamento: Controlador e Operador.
+        2.2.2. Praticar quaisquer condutas que possam causar danos e/ou interferir no bom funcionamento do Site
+        <strong>WEPLAN</strong>,
+        incluindo a inserção de qualquer programa malicioso, vírus ou malware;
         <br>
-        Encarregado: Profissional que exerce a comunicação entre o titular de dados e o controlador, bem como a ANPD.
+        2.2.3. Testar a vulnerabilidade do Site ou de qualquer sistema da <strong>WEPLAN</strong>, bem como violar, ou
+        tentar violar,
+        suas medidas de segurança ou autenticação;
         <br>
-        ANPD (Autoridade Nacional de Proteção de Dados Pessoais): é uma Autarquia Federal que possui responsabilidade em
-        relação à privacidade e proteção de dados, bem como competência para fiscalizar o cumprimento da legislação por
-        todos aqueles envolvidos no tratamento de Dados Pessoais.
-      </p>
-      <br>
-      <p class="font-bold">
-        3. QUAIS DADOS COLETAMOS?
-      </p>
-      <p>
-        A WEPLAN trata seus Dados para permitir que você participe de processos seletivos realizados pela WEPLAN e
-        integre
-        os nossos banco de talentos.
+        2.2.4. Utilizar o Site <strong>WEPLAN</strong> para qualquer outra finalidade que não seja permitida
+        expressamente por esses
+        Termos ou pelas leis aplicáveis e/ou utilizá-las em benefício de terceiros;
+        <br>
+        2.2.5. Coletar qualquer dado ou informação pessoal ou confidencial do site <strong>WEPLAN</strong> ou utilizar
+        os sistemas de
+        <br>
+        comunicação fornecidos para fins de solicitação comercial, envio ou
+        <br>
+        <strong>2.3.</strong> Sem prejuízo das demais hipóteses previstas nestes Termos, a prática de qualquer dos atos
+        listados
+        acima
+        poderá levar ao bloqueio, suspensão ou cancelamento e a utilização dos serviços <strong>WEPLAN</strong>.
 
-        Nunca coletamos Dados pessoais desnecessários e não trataremos suas informações de quaisquer outras formas que
-        não
-        as especificadas neste Aviso.
-
-        Você nos fornece os seguintes dados para se cadastrar no processo seletivo:
-
-        Weplan | Weplan Educação
-        Quando você entra em contato com a WEPLAN para obter informações adicionais sobre como tornar-se um Partner
-        Office
-        através do link "quero saber mais":
-
-        Nome, sobrenome, nome da empresa, telefone (WhatsApp), e-mail e cidade.
-
-        Forma
-
-        Dados coletados
       </p>
       <br>
       <p class="font-bold">
-        4. FINALIDADE DO TRATAMENTO
+        3. CONTEÚDO E SISTEMAS DE TERCEIROS
       </p>
       <p>
-        Utilizamos os seus Dados Pessoais fornecidos para as seguintes finalidades:
+        <strong>3.1.</strong> Assim como nos demais tópicos e para melhorar a sua experiência de navegação, a
+        <strong>WEPLAN</strong>
+        poderá apresentar
+        links para sites e plataformas parceiras, deixando declarado que o conteúdo e políticas lá implementadas não são
+        de nossa responsabilidade, cabendo a Você avaliar os avisos de privacidade ou informações de segurança, e demais
+        documentos de outros sites e plataformas.
+        <br>
+        <strong>3.2.</strong> Você declara e reconhece que a responsabilidade por quaisquer perdas, danos ou prejuízos,
+        diretos ou
+        indiretos serão diretamente de terceiros que respondem pelos links, sites, conteúdos ou sistemas.
+        <br>
+        <strong>3.3.</strong> Estes Termos e Condições não são aplicáveis a quaisquer terceiros, inclusive mídias
+        sociais como Facebook,
+        Instagram e YouTube, e afins. Ainda que você utilize tais mídias para se conectar conosco, você deve sempre se
+        atentar aos termos e políticas aplicáveis a quaisquer sites ou plataformas de terceiros que você visitar.
       </p>
-      <ul>
-        <li>
-          para entrar em contato com você para autenticar sua identidade, entrar em contato com você e garantir que você
-          tenha a idade mínima para participar do processo seletivo;
-        </li>
-        <li>
-          para confirmar sua participação no processo seletivo.
-        </li>
-      </ul>
       <br>
       <p class="font-bold">
-        5. BASE LEGAL
+        4. SUSPEITA DE FRAUDE
       </p>
       <p>
-        A WEPLAN poderá tratar seus dados com base no legítimo interesse ou no consentimento. Para qualquer finalidade
-        em
-        que o seu consentimento deva ser coletado nos termos da lei, o tratamento dos dados dependerá da sua
-        manifestação
-        livre e inequívoca.
+        <strong>4.1.</strong> A <strong>WEPLAN</strong> não se responsabiliza por quaisquer condutas fraudulentas por
+        sua parte ou de
+        terceiros mal
+        intencionados, podendo inclusive impedir, em razão delas, seu acesso ao site, bem como agir judicial ou
+        extrajudicialmente contra os envolvidos.
         <br>
-        Em situações específicas, podemos fundamentar o tratamento de dados na execução de um contrato, no cumprimento
-        de
-        obrigações legais e regulatórias e no exercício regular de direitos.
+        <strong>4.2.</strong> A <strong>WEPLAN</strong> analisa, caso a caso, as suspeitas de fraude de forma a evitar o
+        risco de dano à
+        <strong>WEPLAN</strong>, seus
+        parceiros e usuários.
       </p>
       <br>
       <p class="font-bold">
-        6. COOKIES
+        5. PROPRIEDADE INTELECTUAL
+      </p>
+      <p><strong>5.1.</strong> As marcas, nomes, logotipos, nomes de domínio e demais sinais distintivos, bem como todo
+        e qualquer
+        conteúdo, desenho, arte ou layout publicado no Site e o próprio Serviço, são de propriedade exclusiva da
+        <strong>WEPLAN</strong>.
+        São vedados quaisquer atos ou contribuições tendentes à descompilação, engenharia reversa, modificação das
+        características, ampliação, alteração, mesclagem ou incorporação em quaisquer outros programas ou sistemas do
+        Aplicativo ou Serviço. Enfim, toda e qualquer forma de reprodução da Plataforma ou Serviço, total ou parcial,
+        permanente, temporária ou provisória, de forma gratuita ou onerosa, sob quaisquer modalidades, formas ou títulos
+        é expressamente vedada, sob pena da aplicação das normas vigentes na legislação brasileira.
+      </p>
+      <br>
+      <p class="font-bold">
+        6. ALTERAÇÕES DOS TERMOS
       </p>
       <p>
-        Cookies são pequenos arquivos de dados armazenados no disco rígido do seu computador, ou dispositivo móvel no
-        seu
-        browser. Podemos usar tanto cookies (que expiram depois de fechar o browser) como cookies sem data de expiração
-        (que
-        ficam no seu computador, ou dispositivo móvel até que você os apague) para fornecer-lhe uma experiência mais
-        pessoal
-        e interativa no nosso website. Usamos dois tipos de cookies: primeiramente cookies inseridos por nós no seu
-        computador, ou dispositivo móvel, que nós utilizamos para reconhecer quando você voltar a visitar o nosso
-        website;
-        e
-        cookies de terceiros que são de serviços prestados por terceiros no nosso website, e que podem ser usados para
-        reconhecer quando o seu computador, ou dispositivo móvel visita o nosso e outros websites.
-      <ul>
-        <li>
-          Cookies essenciais. Estes cookies são necessários para fornecer os serviços disponíveis no nosso website, para
-          que
-          você seja capaz de utilizar algumas das suas funcionalidades. Por exemplo, para permitir que você carregue o
-          conteúdo do nosso website rapidamente. Sem estes cookies muitos dos serviços disponíveis no nosso website
-          poderão
-          não funcionar corretamente, e só usamos estes cookies para providenciar-lhe um bom serviço.
-        </li>
-        Cookies de funções. O propósito destes cookies é relembrar todas as escolhas que você fez de forma a criar uma
-        experiência mais personalizada sem ter que inserir novamente os seus dados no nosso website.
-        <li>
-          Cookies de análise e performance. Estes cookies servem para recolher dados sobre o tráfego do nosso website e
-          como os utilizadores navegam nele. A informação recolhida não identifica em particular nenhum utilizador,
-          incluindo
-          apenas o número de visitantes no nosso website, os websites nos indicam, as páginas que os utilizadores
-          visitam, os possíveis websites que eles visitaram anteriormente e outras informações similares. Ao utilizar
-          este site,
-          você consente com a coleta de cookies pelas ferramentas: Meta Pixel, Google Analytics, Google Tag Manager e
-          Microsoft Clarity. Esses cookies são utilizados para rastrear e analisar informações sobre o comportamento do
-          usuário,
-          incluindo as páginas acessadas, áreas clicadas e elementos com os quais houve maior interação na página.
-        </li>
-      </ul>
-      Como adotamos o Google Analytics, que, por sua vez, utiliza os seus próprios cookies você poderá saber mais
-      informação sobre os cookies do Google Analytics aqui e como o Google protege os seus dados aqui. Se quiser
-      gerenciar
-      o uso de cookies desta ferramenta, instale a extensão no Google Chrome.
-      <br>
-      A coleta de cookies tem como finalidade aprimorar a experiência do usuário, otimizando a navegação e
-      proporcionando
-      conteúdo mais relevante. As informações obtidas por meio dessas ferramentas são tratadas com a devida
-      confidencialidade e utilizadas exclusivamente para fins analíticos.
-      <br>
-      <br>
-      Desabilitando os cookies
-      <br>
-      <br>
-      Você pode remover, ou rejeitar cookies através das configurações do browser. Para fazer isso recomendamos que
-      siga
-      as instruções do seus browsers (normalmente pode encontrar estas informações nas “configurações” do seu browser
-      em
-      “ajuda”, ou “ferramentas”). A maior parte dos browsers aceitam os cookies automaticamente até você alterar as
-      configurações.
-      <br>
-      Caso rejeite os nossos cookies, não coletaremos dados, e a sua experiência no nosso site não será tão agradável,
-      mas tudo bem, viu? O importante é a sua privacidade e autonomia!
+        <strong>6.1.</strong> A <strong>WEPLAN</strong> reserva-se no direito de realizar unilateralmente alterações e
+        atualizações nos
+        Termos, a qualquer
+        momento, sem a necessidade de aviso prévio. Em caso de alterações dos Termos que restrinjam os seus direitos, a
+        <strong>WEPLAN</strong> comunicará tal alteração através dos meios de comunicação, no qual você deverá tomar
+        conhecimento e
+        aceitar para continuar com a navegação dos nossos serviços.
       </p>
       <br>
       <p class="font-bold">
-        7. COMPARTILHAMENTO DOS SEUS DADOS PESSOAIS
+        7. LEGISLAÇÃO APLICÁVEL E FORO COMPETENTE
       </p>
       <p>
-        Não divulgaremos seus Dados Pessoais a terceiros que não possuam vínculo jurídico com a WEPLAN .
-        <br>
-        Entretanto, poderemos compartilhar seus Dados Pessoais com terceiros que prestam serviços à WEPLAN, que atuarão
-        em
-        nome da WEPLAN como Operadores, os quais possuirão obrigações contratuais de sigilo, confidencialidade e de
-        proteção aos Dados Pessoais.
-        <br>
-        Caso seja solicitado por autoridade competente no cumprimento de suas atribuições legais, ou por ordem, decreto,
-        regulamento ou regra governamental, ou em caso de violações ou suspeita de violações desta ou da Lei, poderá ser
-        requerido à WEPLAN disponibilizar as Informações e Dados Pessoais que estiverem armazenadas em nosso poder. A
-        WEPLAN, porém, se compromete a revelar estritamente as Informações e Dados Pessoais necessários para atingir as
-        finalidades exigidas.
-        <br>
-        À medida que a WEPLAN se desenvolve e cresce, podendo ser através, mas não se limitando a uma transação
-        societária,
-        como uma aquisição, incorporação, fusão, cisão ou através da venda ou compra de empresas, produtos e/ou ativos,
-        os
-        seus dados poderão ser transferidos à nova companhia controladora sem, contudo, violar os termos do presente
-        Aviso
-        de Privacidade.
+        <strong>7.1.</strong> Este Termo de Uso está fundamentado na legislação brasileira vigente e ao acessar nosso
+        Site, você concorda
+        e entende que o foro escolhido para resolução de conflitos oriundos da utilização deste Site será o de
+        Chapecó/SC, com expressa renúncia de qualquer outro, por mais privilegiado que seja ou venha a ser.
       </p>
       <br>
-      <p class="font-bold">
-        8. TRANSFERÊNCIA DE DADOS INTERNACIONAL
-      </p>
-      <p>
-        A internet é um ambiente global, e alguns serviços da WEPLAN podem realizar transferências internacionais com
-        seus
-        dados, pois utiliza alguns produtos ou serviços (ou partes deles) que não estão hospedados no Brasil, ficando
-        localizados na [=].
-        <br>
-        Bem como, nossas subcontratadas ou parceiras podem não estar sediadas em território nacional, desta maneira
-        podem
-        ocorrer tratamento com seus Dados Pessoais em outros países.
-        <br>
-        Nestes casos, nas transferências internacionais realizadas pela WEPLAN, subcontratadas e parceiras são adotadas
-        medidas para garantir que quaisquer Dados Pessoais coletados sejam tratados com segurança, conforme os padrões
-        de
-        proteção de dados e estão submetidas a este Aviso de Privacidade, bem como a instrumentos jurídicos que
-        asseguram
-        o cumprimento de todas as obrigações legais..
-      </p>
       <br>
-      <p class="font-bold">
-        9. SEGURANÇA
-      </p>
-      <p>
-        Procuramos tomar sempre todas as medidas, técnicas e administrativas para proteger todos os seus dados da forma
-        mais
-        segura possível. Infelizmente nenhum sistema é 100% seguro e poderá garantir completamente a segurança dos seus
-        dados. Se você pensa que os seus dados já não estão seguros conosco (por exemplo, o acesso à sua conta foi
-        comprometido), por favor entre em contato imediatamente e relate o seu problema.
-      </p>
-      <br>
-      <p class="font-bold">
-        10. PERÍODO DE RETENÇÃO
-      </p>
-      <p>
-        Tendo em vista que, ao se candidatar a um Processo Seletivo, você passa a integrar o Banco de Talentos da
-        WEPLAN,
-        seus Dados Pessoais serão mantidos após a finalização do Processo Seletivo. Caso você queira sair do Banco de
-        Talentos ou ainda interromper o compartilhamento de suas informações, você poderá solicitar a exclusão dos seus
-        dados através do e-mail privacidade@weplan.com.br.
+      <p class="font-bold text-end">
+        Obrigado por chegar até aqui!
         <br>
-        Mesmo após a solicitação de exclusão de conta, algumas informações podem ser mantidas, para fins de cumprimento
-        de obrigações legais ou regulatórias ou para resguardar direitos da WEPLAN ou terceiros, inclusive considerando
-        eventuais disputas judiciais.
-      </p>
-      <br>
-      <p class="font-bold">
-        11. SEUS DIREITOS
-      </p>
-      <ul>
-        <li>
-          Revogação de consentimento. Você pode contatar-nos a qualquer momento para revogar seu consentimento quanto ao
-          tratamento de seus dados, bem como de comunicação de e-mail marketing.
-        </li>
-        <li>
-          Acesso. Você poderá ter acesso a todos os dados que nós possuímos sobre você a qualquer momento ao
-          contatar-nos.
-        </li>
-        <li>
-          Alteração. Você também poderá contatar-nos para atualizar ou corrigir qualquer dado pessoal que tenhamos.
-        </li>
-        <li>
-          Portabilidade. Os seus dados pessoais podem ser transferidos. Você tem a flexibilidade de mover os seus dados
-          para outro serviço/empresa se assim desejar.
-        </li>
-        <li>
-          Eliminação. Em algumas situações, por exemplo quando a informação que temos já não é relevante ou é incorreta,
-          você pode pedir para deletarmos os seus dados.
-        </li>
-        <li>
-          Se você quiser exercer qualquer um desses direitos por favor contate-nos, deixando claro no seu pedido: (i)
-          que informação quer; e (ii) quais dos direitos acima você quer exercer e, caso queira, o motivo para tanto.
-        </li>
-        <li>
-          Para a sua proteção apenas poderemos completar os seus pedidos, se estes forem feitos com o mesmo e-mail
-          associado aos seus dados, iremos verificar a identidade antes de efetuar qualquer alteração.
-        </li>
-      </ul>
-      <br>
-      <p class="font-bold">
-        12. ALTERAÇÕES NO AVISO DE PRIVACIDADE
-      </p>
-      <p>
-        A WEPLAN reserva-se o direito de alterar os termos deste Aviso de Privacidade a qualquer momento e coloca
-        quaisquer atualizações nesta página.
-      </p>
-      <br>
-      <p class="font-bold">
-        13. INFORMAÇÕES PARA CONTATO
-      </p>
-      <p class="mb-4">
-        A equipe WEPLAN está sempre empenhada em resolver qualquer queixa sobre a forma como recolhemos os seus dados
-        pessoais. Se tiver alguma queixa que queira fazer sobre a nossa política de privacidade, ou as nossas práticas
-        relacionadas com os seus dados pessoais, por favor contate-nos em: privacidade@weplan.com.br
-        <br>
-        Nós iremos responder ao seu contato o mais rápido possível, no máximo de 15 dias. Esperamos resolver qualquer
-        situação que nos seja trazida, em todo o caso, se verificarmos que a sua queixa não é aplicável, contacte a
-        Autoridade Nacional de Proteção de Dados (ANPD).
-        <br>
-        Todas as suas informações pessoais recolhidas, serão usadas para o ajudar a tornar a sua visita no nosso site a
-        mais produtiva e agradável possível. A garantia da confidencialidade dos dados pessoais dos utilizadores do
-        nosso
-        site é essencial para a WEPLAN.
-        <br>
-        <br>
-        Obrigada por chegar até aqui!
-        <br>
-        <br>
-        Um abraço!
+        <span style="font-size: smaller;">
+          Última atualização 14 de dez. de 2023
+        </span>
       </p>
     </div>
   </div>
