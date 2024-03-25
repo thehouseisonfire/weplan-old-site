@@ -1,4 +1,5 @@
 <template>
+  <LazyCookieBanner />
   <div class="bg-grey text-white">
     <div class="bg-grey text-justify margin-page">
       <p class="text-center fs-1 font-bold">

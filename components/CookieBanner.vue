@@ -5,8 +5,8 @@
         <p class="banner-message my-auto">
           Usamos cookies para personalizar conteúdos e melhorar a sua experiência.
           Para mais informações, confira nosso
-          <NuxtLink href="/termos-de-uso" target="_blank" class="text-white">termos de uso</NuxtLink> e <NuxtLink
-            href="/aviso-de-privacidade" target="_blank" class="text-white">aviso de
+          <NuxtLink href="/termos-de-uso" class="text-white">termos de uso</NuxtLink> e <NuxtLink
+            href="/aviso-de-privacidade" class="text-white">aviso de
             privacidade</NuxtLink>.
         </p>
       </BCol>

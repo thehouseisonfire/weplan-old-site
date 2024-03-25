@@ -1,8 +1,9 @@
 <template>
+  <LazyCookieBanner />
   <div class="bg-grey text-white">
     <div class="bg-grey text-justify margin-page">
       <p class="text-center fs-1 font-bold">
-        Termos de uso
+        Aviso de privacidade
       </p>
       <br>
       <p class="mt-2">
@@ -117,12 +118,28 @@
         </tr>
         <tr>
           <td class="py-2" style="padding-left: 30px; padding-right: 30px;">
-            Quando você entra em contato com a <strong>WEPLAN</strong> para obter informações adicionais sobre como
-            tornar-se um Partner
-            Officer através do link "quero saber mais":
+            Quando você entra em contato com o time comercial da <strong>WEPLAN</strong> através do link “contato”:
           </td>
           <td class="text-center border-double-white">
-            Nome completo, telefone, e-mail e cidade.
+            Nome, telefone e e-mail.
+          </td>
+        </tr>
+        <tr>
+          <td class="py-2 border-double-white" style="padding-left: 30px; padding-right: 30px;">
+            Quando você entra em contato com o time de RH da <strong>WEPLAN</strong> através do link “ contato” para
+            mostrar seu
+            interesse em trabalhar na <strong>WEPLAN</strong>:
+          </td>
+          <td class="text-center border-double-white">
+            Nome, E-mail, telefone, cidade, link para linkedin.
+          </td>
+        </tr>
+        <tr>
+          <td class="py-2" style="padding-left: 30px; padding-right: 30px;">
+            Quando você se cadastra para fazer parte da rede de parceiros da <strong>WEPLAN</strong>:
+          </td>
+          <td class="text-center border-double-white">
+            Nome e sobrenome, e-mail, telefone, profissão e cidade.
           </td>
         </tr>
       </table>
@@ -203,9 +220,16 @@
         </li>
       </ul>
       Como adotamos o Google Analytics, que, por sua vez, utiliza os seus próprios cookies você poderá saber mais
-      informação sobre os cookies do Google Analytics aqui e como o Google protege os seus dados aqui. Se quiser
+      informação sobre os cookies do Google Analytics
+      <NuxtLink to="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"
+        target="_blank" class="text-white">aqui</NuxtLink> e como o Google protege os seus dados
+      <NuxtLink to="http://www.google.com/analytics/learn/privacy.html" target="_blank
+          " class="text-white">aqui</NuxtLink>. Se quiser
       gerenciar
-      o uso de cookies desta ferramenta, instale a extensão no Google Chrome.
+      o uso de cookies desta ferramenta, instale a
+      <NuxtLink to="https://tools.google.com/dlpage/gaoptout?hl=pt-B" target="_blank" class="text-white">
+        extensão no Google Chrome.
+      </NuxtLink>
       <br>
       A coleta de cookies tem como finalidade aprimorar a experiência do usuário, otimizando a navegação e
       proporcionando
@@ -227,7 +251,16 @@
       </p>
       <br>
       <p class="font-bold">
-        6. COMPARTILHAMENTO DOS SEUS DADOS PESSOAIS
+        6. PUBLICIDADE
+      </p>
+      <p>
+        Nós poderemos utilizar terceiros para apresentar anúncios quando visita o nosso website. Estas empresas poderão
+        recolher informações como: tipo de browser, hora e dia, tipo de anúncio clicado, neste e outros websites de
+        forma a mostrar os anúncios mais relevantes a você.
+      </p>
+      <br>
+      <p class="font-bold">
+        7. COMPARTILHAMENTO DOS SEUS DADOS PESSOAIS
       </p>
       <p>
         Não divulgaremos seus Dados Pessoais a terceiros que não possuam vínculo jurídico com a <strong>WEPLAN</strong>.
@@ -251,7 +284,15 @@
       </p>
       <br>
       <p class="font-bold">
-        7. TRANSFERÊNCIA DE DADOS INTERNACIONAL
+        8. WEBSITE DE TERCEIROS
+      </p>
+      <p>
+        O nosso website e plataforma poderá conter links de terceiros, mas esta Política não cobre suas respectivas
+        Políticas de Privacidade.
+      </p>
+      <br>
+      <p class="font-bold">
+        9. TRANSFERÊNCIA DE DADOS INTERNACIONAL
       </p>
       <p>
         A internet é um ambiente global, e alguns serviços da <strong>WEPLAN</strong> podem realizar transferências
@@ -265,11 +306,11 @@
         parceiras são adotadas
         medidas para garantir que quaisquer Dados Pessoais coletados sejam tratados com segurança, conforme os padrões
         de proteção de dados e estão submetidas a este Aviso de Privacidade, bem como a instrumentos jurídicos que
-        asseguram o cumprimento de todas as obrigações legais..
+        asseguram o cumprimento de todas as obrigações legais.
       </p>
       <br>
       <p class="font-bold">
-        8. SEGURANÇA
+        10. SEGURANÇA
       </p>
       <p>
         Procuramos tomar sempre todas as medidas, técnicas e administrativas para proteger todos os seus dados da forma
@@ -291,7 +332,7 @@
       </p>
       <br>
       <p class="font-bold">
-        10. SEUS DIREITOS
+        12. SEUS DIREITOS
       </p>
       <ul>
         <li>
@@ -339,7 +380,7 @@
       </ul>
       <br>
       <p class="font-bold">
-        11. ALTERAÇÕES NO AVISO DE PRIVACIDADE
+        13. ALTERAÇÕES NO AVISO DE PRIVACIDADE
       </p>
       <p>
         A <strong>WEPLAN</strong> reserva-se o direito de alterar os termos deste Aviso de Privacidade a qualquer
@@ -348,7 +389,7 @@
       </p>
       <br>
       <p class="font-bold">
-        12. INFORMAÇÕES PARA CONTATO
+        14. INFORMAÇÕES PARA CONTATO
       </p>
       <p class="mb-4">
         A equipe <strong>WEPLAN</strong> está sempre empenhada em resolver qualquer queixa sobre a forma como recolhemos
@@ -358,7 +399,7 @@
         <br>
         Nós iremos responder ao seu contato o mais rápido possível, no máximo de 15 dias. Esperamos resolver qualquer
         situação que nos seja trazida, em todo o caso, se verificarmos que a sua queixa não é aplicável, contacte a
-        Autoridade Nacional de Proteção de Dados (ANPD) .
+        <i>Autoridade Nacional de Proteção de Dados (ANPD)</i>.
         <br>
         Todas as suas informações pessoais recolhidas, serão usadas para o ajudar a tornar a sua visita no nosso site a
         mais produtiva e agradável possível. A garantia da confidencialidade dos dados pessoais dos utilizadores do

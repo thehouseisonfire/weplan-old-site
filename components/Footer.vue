@@ -84,10 +84,10 @@
                     <NuxtLink href="https://app.weplan.com.br/" target="_blank">Login no app do parceiro</NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink href="/termos-de-uso" target="_blank">Termos de uso</NuxtLink>
+                    <NuxtLink href="/termos-de-uso">Termos de uso</NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink href="/aviso-de-privacidade" target="_blank">Aviso de privacidade</NuxtLink>
+                    <NuxtLink href="/aviso-de-privacidade">Aviso de privacidade</NuxtLink>
                   </li>
                 </ul>
               </BRow>
