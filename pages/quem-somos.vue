@@ -181,7 +181,7 @@
             <span class="team-member-position">Head de Operações</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/lucas-pascoali2395" target="_blank">Mais sobre
+            <NuxtLink class="button-link" href="https://www.linkedin.com/lucas-pascoali2395/" target="_blank">Mais sobre
               o
               Pascoali
             </NuxtLink>
@@ -208,7 +208,7 @@
             <span class="team-member-position">Supervisor de Montagem</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="#" target="_blank">Mais sobre o João</NuxtLink>
+            <NuxtLink class="button-link" href="#">Mais sobre o João</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -238,14 +238,15 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/suianne.jpg" alt="Suianne"></NuxtImg>
+            src="/images/team/ana.jpg" alt="Ana"></NuxtImg>
           <p>
             <span class="team-member-name">Ana Luisa Ceretra</span><br />
             <span class="team-member-position">Analista de Projetos</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="https://instagram.com/ana-luisa-ceretta/" target="_blank">Mais
-              sobre a Suianne</NuxtLink>
+            <NuxtLink class="button-link" href="https://www.linkedin.com/in/ana-luísa-ceretta-745a13201/"
+              target="_blank">Mais
+              sobre a Ana</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
@@ -256,7 +257,7 @@
             <span class="team-member-position">Desenvolvedor de Software</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="#" target="_blank">Mais sobre o Pedro</NuxtLink>
+            <NuxtLink class="button-link" href="#">Mais sobre o Pedro</NuxtLink>
           </p>
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">

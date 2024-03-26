@@ -54,7 +54,8 @@
           </strong>
           qualquer ação ou operação que realizada com Dados Pessoais, como: coleta, produção,
           recepção, classificação, utilização, acesso, reprodução,
-          transmissão,distribuição,processamento,arquivamento,armazenamento,compartilhamento, eliminação, avaliação ou
+          transmissão, distribuição, processamento, arquivamento, armazenamento, compartilhamento, eliminação, avaliação
+          ou
           controle da informação, modificação, comunicação, transferência, difusão ou extração.
         </li>
         <li>
@@ -422,8 +423,8 @@
   padding-top: 100px;
   padding-bottom: 16px;
   margin-bottom: 0;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .pr-25 {

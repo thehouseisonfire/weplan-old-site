@@ -174,7 +174,7 @@
   padding-top: 100px;
   padding-bottom: 16px;
   margin-bottom: 0;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 </style>
