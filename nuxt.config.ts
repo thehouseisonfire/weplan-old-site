@@ -7,15 +7,20 @@ export default defineNuxtConfig(
   {
     devtools: { enabled: false },
 
-    // devServer: {
-    //   port: 8000
-    // },
+    // given that the app has a PWA with caching, this is here
+    // so the browser does not try to fetch that cache on port 3000
+    devServer: {
+      port: 8000
+    },
 
     ssr: true,
+
+    // debug mode is *crazy* man, but might be useful
     // debug: true,
 
+    // mostly perf, check if they are already stabilized from time to time
     experimental: {
-      // viewTransition: true,
+      viewTransition: true,
       payloadExtraction: true,
       renderJsonPayloads: true,
       typedPages: true,
@@ -110,7 +115,7 @@ export default defineNuxtConfig(
       UserAgent: '*',
       Disallow: '',
     },
-    // this dependency is good because it already downloads the fonts by default
+    // this dependency is good because it already downloads the fonts locally by default (no fetching at runtime)
     googleFonts: {
       families: {
         Poppins: {
@@ -138,15 +143,15 @@ export default defineNuxtConfig(
           ],
         },
       },
-      display: 'swap',
+      display: 'swap', // don't block, swap when loaded
     },
 
     runtimeConfig: {
       public: {
         gtag: {
           id: process.env.GTAG_ID,
-          enabled: false,
-          loadingStrategy: 'defer',
+          enabled: false, // don't even load without consent (perf)
+          loadingStrategy: 'defer', // doesn't block page load
           initCommands: [
             // Setup up consent mode
             ['consent', 'default', {
@@ -166,7 +171,7 @@ export default defineNuxtConfig(
         //   //   gtm_cookies_win: 'x',
         //   // },
         //   defer: true,
-        //   compatibility: false,
+        //   compatibility: false, // IE stuff?
         //   nonce: '2726c7f26c',
         //   enabled: false,
         //   debug: false,
