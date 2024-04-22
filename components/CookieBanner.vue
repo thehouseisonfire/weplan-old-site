@@ -23,9 +23,6 @@
     <p class="mt-1 mb-0 fw-bold text-center fs-3">
       Configurações de cookies
     </p>
-    <!-- <p class="my-0 text-center"> -->
-    <!--   Você pode escolher quais cookies quer aceitar -->
-    <!-- </p> -->
     <!-- Mandatory -->
     <BRow class="mx-1 mt-4">
       <BCol cols="10" class="my-auto">
@@ -98,16 +95,6 @@ const { initialize, gtag } = useGtag() // Google Analytics
 
 const modal = ref(false)
 
-onMounted(() => {
-  watchEffect(() => {
-    // if (modal.value) document.body.style.position = 'fixed'
-    // else document.body.style.position = 'static'
-    // window.onscroll = function() {
-    //   window.scrollTo(scrollPosition[0], scrollPosition[1]);
-    // };
-  });
-})
-
 const consent = useCookie(
   'consent',
   {
@@ -133,8 +120,8 @@ function accept() {
 function checkAllowed() {
   if (consent.value.marketing || consent.value.analytics) initialize() // GA
   if (consent.value.marketing && consent.value.analytics) initializeAll()
-  if (consent.value.marketing) initMarketing()
-  if (consent.value.analytics) initAnalytics()
+  else if (consent.value.marketing) initMarketing()
+  else if (consent.value.analytics) initAnalytics()
 }
 
 // separate to minimize calls (mostly because of GA) (might not change much, depends on the library)
