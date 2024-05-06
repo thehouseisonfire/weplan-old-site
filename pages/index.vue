@@ -61,6 +61,8 @@
   </div>
 </template>
 
+
+
 <style scoped>
 .section-1 {
   background-image: url('/images/environments/sala-jantar.webp');

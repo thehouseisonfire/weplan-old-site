@@ -28,78 +28,76 @@ export default defineNuxtConfig(
     app: {
       head: {
         title: 'WePlan | Móveis Planejados',
+        charset: 'utf-8',
+        viewport: 'width=device-width, initial-scale=1',
         htmlAttrs: {
           lang: 'pt-br',
         },
         meta: [
-          { charset: 'utf-8' },
-          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
           {
-            hid: 'description',
+            key: 'description',
             name: 'description',
             content:
               'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
           },
           {
-            hid: 'twitter:url',
+            key: 'twitter:url',
             name: 'twitter:url',
             content: 'https://www.weplan.com.br/'
           },
           {
-            hid: 'twitter:title',
+            key: 'twitter:title',
             name: 'twitter:title',
             content: 'WePlan | Móveis Planejados'
           },
           {
-            hid: 'twitter:image',
+            key: 'twitter:image',
             name: 'twitter:image',
-            content:
-              'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.webp',
+            content: 'https://weplan.com.br/images/equipe-reuniao-weplan.webp',
           },
           {
-            hid: 'twitter:site',
+            key: 'twitter:site',
             name: 'twitter:site',
             content: 'WePlan | Móveis Planejados'
           },
           {
-            hid: 'twitter:description',
+            key: 'twitter:description',
             name: 'twitter:description',
             content:
               'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
           },
           {
-            hid: 'twitter:card',
+            key: 'twitter:card',
             name: 'twitter:card',
             content: 'summary'
           },
           {
-            hid: 'og:url',
+            key: 'og:url',
             name: 'og:url',
             content: 'https://www.weplan.com.br/'
           },
           {
-            hid: 'og:title',
+            key: 'og:title',
             name: 'og:title',
             content: 'WePlan | Móveis Planejados'
           },
           {
-            hid: 'og:image',
+            key: 'og:image',
             name: 'og:image',
-            content:
-              'https://www.weplan.com.br/_nuxt/img/equipe-reuniao-weplan.webp',
+            content: 'https://weplan.com.br/images/equipe-reuniao-weplan.webp',
           },
           {
-            hid: 'og:site_name',
+            key: 'og:site_name',
             name: 'og:site_name',
             content: 'WePlan | Móveis Planejados'
           },
           {
-            hid: 'og:type',
+            key: 'og:type',
             name: 'og:type',
             content: 'website'
           },
           {
-            hid: 'og:description',
+            key: 'og:description',
             name: 'og:description',
             content:
               'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
