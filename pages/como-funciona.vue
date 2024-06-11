@@ -126,7 +126,7 @@
         <BCol cols="12" md="6" class="align-self-center text-md-right text-block">
           <span class="highlighted-words-yellow">Nossos móveis</span> planejados são reconhecidos pelo <span
             class="highlighted-words-yellow">nível de qualidade</span> em que são fabricados e isso é ponto primordial
-          para nós e nossos parceiros.
+          para nós e nossos credenciados.
         </BCol>
         <BCol
           class="img-vantagem-qualidade img-height-600px img-background text-block-with-background-img d-none d-md-block"

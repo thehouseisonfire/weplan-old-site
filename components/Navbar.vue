@@ -30,7 +30,7 @@
           </BNavItem>
           <BNavItem to="/seja-nosso-parceiro">
             <span class="navlink">
-              Seja nosso parceiro
+              Seja nosso credenciado
             </span>
           </BNavItem>
           <BNavItem to="/quem-somos">

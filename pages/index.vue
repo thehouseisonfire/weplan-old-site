@@ -34,7 +34,7 @@
             Todos os nossos atendimentos são avaliados para garantir que estamos
             prestando o melhor serviço e entregando as melhores soluções.
             Estamos sempre atentos aos feedbacks que recebemos de nossos
-            parceiros e clientes.
+            credenciados e clientes.
           </p>
           <p class="mx-5">
             Para isso,

@@ -117,7 +117,7 @@
         <strong>4.2.</strong> A <strong>WEPLAN</strong> analisa, caso a caso, as suspeitas de fraude de forma a evitar o
         risco de dano à
         <strong>WEPLAN</strong>, seus
-        parceiros e usuários.
+        credenciados e usuários.
       </p>
       <br>
       <p class="font-bold">

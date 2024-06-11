@@ -9,8 +9,8 @@
           </NuxtLink>
         </BCol>
         <BCol class="img-montador img-background text-block-with-background-img" cols="4">
-          <NuxtLink href="https://lp.weplan.com.br/form-seja-montador-parceiro" role="button" class="text-decoration-none"
-            target="_blank">
+          <NuxtLink href="https://lp.weplan.com.br/form-seja-montador-parceiro" role="button"
+            class="text-decoration-none" target="_blank">
             <h2>Sou montador</h2>
           </NuxtLink>
         </BCol>
@@ -27,7 +27,8 @@
         <BCol cols="12" class="align-self-center text-center">
           <h2 class="section-title">Oportunidades no setor</h2>
           <p class="section-subtitle">
-            “A <span class="highlighted-words-yellow">alta demanda de reformas e compra de móveis planejados</span> desde
+            “A <span class="highlighted-words-yellow">alta demanda de reformas e compra de móveis planejados</span>
+            desde
             2021 fez com que o setor de marcenaria <span class="highlighted-words-yellow">alcançasse 14,7% de
               crescimento</span> em relação a anos anteriores.”<br />
             - Valor Globo, 2022
@@ -74,7 +75,7 @@
           <h2 class="section-title">Aqui na WePlan já temos resultados consolidados</h2>
           <p>
             <span class="weplan-result">+ de <span class="highlighted">R$ 1.2 milhões</span></span><br />
-            <span class="weplan-result-description">distribuído aos parceiros da WePlan</span><br />
+            <span class="weplan-result-description">distribuído aos credenciados da WePlan</span><br />
             - Até Abril de 2023
           </p>
         </BCol>
@@ -82,29 +83,29 @@
     </BContainer>
     <BContainer fluid class="section-5 section-background-light-color">
       <BRow id="profissional-interiores" class="inverted-colors">
-        <BCol class="img-profissional-interiores img-height-600px img-background text-block-with-background-img" cols="12"
-          md="6">
+        <BCol class="img-profissional-interiores img-height-600px img-background text-block-with-background-img"
+          cols="12" md="6">
           <div>
             <h2>Sou profissional de interiores</h2>
             <span>
               <NuxtLink href="https://lp.weplan.com.br/seja-parceiro" target="_blank"
                 class="button-link d-md-none text-decoration-none navbutton text-white m-auto">
                 Quero ser
-                parceiro
+                credenciado
               </Nuxtlink>
             </span>
           </div>
         </BCol>
         <BCol cols="12" md="6" class="align-self-center text-center d-none d-md-block">
           <BButton href="https://lp.weplan.com.br/seja-parceiro" class="button-link" target="_blank">Quero ser
-            parceiro</BButton>
+            credenciado</BButton>
         </BCol>
       </BRow>
       <BRow id="montador">
         <BCol cols="12" md="6" class="align-self-center text-center d-none d-md-block">
           <BButton href="https://lp.weplan.com.br/form-seja-montador-parceiro" class="button-link" target="_blank">Quero
             ser
-            parceiro</BButton>
+            credenciado</BButton>
         </BCol>
         <BCol class="img-montador img-height-600px img-background text-block-with-background-img" cols="12" md="6">
           <div>
@@ -113,7 +114,7 @@
               <NuxtLink href="https://lp.weplan.com.br/form-seja-montador-parceiro" target="_blank"
                 class="button-link d-md-none text-decoration-none navbutton text-white m-auto">
                 Quero ser
-                parceiro
+                credenciado
               </Nuxtlink>
             </span>
           </div>
@@ -127,14 +128,14 @@
               <NuxtLink href="https://lp.weplan.com.br/form-seja-fornecedor" target="_blank"
                 class="button-link d-md-none text-decoration-none navbutton text-white m-auto">
                 Quero ser
-                parceiro
+                credenciado
               </Nuxtlink>
             </span>
           </div>
         </BCol>
         <BCol cols="12" md="6" class="align-self-center text-center d-none d-md-block">
           <BButton href="https://lp.weplan.com.br/form-seja-fornecedor" class="button-link" target="_blank">Quero ser
-            parceiro
+            credenciado
           </BButton>
         </BCol>
       </BRow>

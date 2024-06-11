@@ -62,7 +62,7 @@
         class="highlighted-words-yellow">Northin
         Investiments</a> é uma consultoria de investimentos de alta
       performance, alicerçada no atendimento humanizado, personalizado e tecnológico.<br />
-      <span class="highlighted-words-yellow">Juntamente com nosso parceiro <a
+      <span class="highlighted-words-yellow">Juntamente com nosso credenciado <a
           href="https://www.instagram.com/casa21gestaodeprojetos/" target="_blank" class="highlighted-words-yellow">Casa
           21</a> fizemos a gestão completa da obra</span>, desde o
       projeto até a finalização.<br />

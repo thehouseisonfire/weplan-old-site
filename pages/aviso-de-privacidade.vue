@@ -137,7 +137,7 @@
         </tr>
         <tr>
           <td class="py-2" style="padding-left: 30px; padding-right: 30px;">
-            Quando você se cadastra para fazer parte da rede de parceiros da <strong>WEPLAN</strong>:
+            Quando você se cadastra para fazer parte da rede de credenciados da <strong>WEPLAN</strong>:
           </td>
           <td class="text-center border-double-white">
             Nome e sobrenome, e-mail, telefone, profissão e cidade.

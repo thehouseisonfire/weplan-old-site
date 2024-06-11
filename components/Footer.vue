@@ -72,7 +72,7 @@
                     <NuxtLink to="/contato">Contato</NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="/seja-nosso-parceiro">Seja nosso parceiro</NuxtLink>
+                    <NuxtLink to="/seja-nosso-parceiro">Seja nosso credenciado</NuxtLink>
                   </li>
                   <li>
                     <NuxtLink to="/contato#trabalhe-conosco">Trabalhe conosco</NuxtLink>
@@ -81,7 +81,7 @@
                     <NuxtLink href="https://weplan.com.br/blog/" target="_blank">Blog</NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink href="https://app.weplan.com.br/" target="_blank">Login no app do parceiro</NuxtLink>
+                    <NuxtLink href="https://app.weplan.com.br/" target="_blank">Login no app do credenciado</NuxtLink>
                   </li>
                   <li>
                     <NuxtLink href="/termos-de-uso">Termos de uso</NuxtLink>

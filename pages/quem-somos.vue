@@ -249,6 +249,19 @@
               sobre a Ana</NuxtLink>
           </p>
         </BCol>
+        <!-- // TODO! compress sandrini image -->
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/sandrini.jpeg" alt="Sandrini"></NuxtImg>
+          <p>
+            <span class="team-member-name">Sandrini Birk Belo</span><br />
+            <span class="team-member-position">Conferente de Projetos</span>
+          </p>
+          <p>
+            <NuxtLink class="button-link" href="" target="_blank">Mais
+              sobre a Sandrini</NuxtLink>
+          </p>
+        </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/pedro.jpg" alt="Pedro"></NuxtImg>
