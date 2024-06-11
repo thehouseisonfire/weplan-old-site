@@ -258,7 +258,7 @@
             <span class="team-member-position">Conferente de Projetos</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="" target="_blank">Mais
+            <NuxtLink class="button-link" href="http://linkedin.com/in/sandrini-b-78402b14a" target="_blank">Mais
               sobre a Sandrini</NuxtLink>
           </p>
         </BCol>
