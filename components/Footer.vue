@@ -78,7 +78,8 @@
                     <NuxtLink to="/contato#trabalhe-conosco">Trabalhe conosco</NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink href="https://weplan.com.br/blog/" target="_blank">Blog</NuxtLink>
+                    <NuxtLink href="https://www.linkedin.com/newsletters/7163529937117773824/?displayConfirmation=true"
+                      target="_blank">Blog</NuxtLink>
                   </li>
                   <li>
                     <NuxtLink href="https://app.weplan.com.br/" target="_blank">Login no app do credenciado</NuxtLink>
