@@ -11,17 +11,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@bootstrap-vue-next/nuxt": "^0.17.5",
+    "@bootstrap-vue-next/nuxt": "^0.17.6",
     "@nuxt/devtools": "latest",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "bootstrap": "^5.3.3",
-    "bootstrap-vue-next": "^0.17.5",
-    "nuxt": "^3.11.2",
+    "bootstrap-vue-next": "^0.17.6",
+    "nuxt": "^3.12.1",
     "nuxt-clarity-analytics": "^0.0.6",
-    "nuxt-gtag": "^2.0.5",
-    "vue": "^3.4.26",
-    "vue-router": "^4.3.2"
+    "nuxt-gtag": "^2.0.6",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.3"
   },
   "dependencies": {
     "@nuxt/image": "^1.7.0",
