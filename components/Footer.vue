@@ -3,30 +3,31 @@
     <footer class="footer">
       <BContainer fluid>
         <BRow>
-          <BCol cols="12" md="3" class="mb-3 col-center">
+          <BCol cols="12" md="3" class="mb-4">
             <BContainer>
               <BRow class="mb-1">
-                <NuxtLink to="/">
-                  <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
+                <NuxtLink to="/" class="pt-0 leftmost-padding">
+                  <NuxtImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
                 </NuxtLink>
               </BRow>
-              <BRow>
-                <a href="https://www.google.com/maps/place/WePlan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
-                  target="_blank">
+              <BRow class="footerlinks leftmost-padding">
+                <NuxtLink
+                  to="https://www.google.com/maps/place/WePlan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
+                  target="_blank" class="ps-0">
                   Rua Clevelândia, 557-D, Sala 02<br />
                   Jardim Itália, Chapecó - SC<br />
                   CEP: 89802-405<br />
                   CNPJ: 37.124.126/0001-88
-                </a>
+                </NuxtLink>
               </BRow>
-              <BRow>
-                <a href="tel:+5549998080271" target="_blank">
+              <BRow class="footerlinks">
+                <NuxtLink to="tel:+5549988568819" class="fw-bold leftmost-padding" target="_blank">
                   (49) 9 9808-0271
-                </a>
+                </NuxtLink>
               </BRow>
             </BContainer>
           </BCol>
-          <BCol cols="12" md="3" class="mb-3 col-center">
+          <BCol cols="12" md="3" class="mb-4 col-center">
             <BContainer>
               <BRow class="title-footer">
                 Sobre a WePlan
@@ -58,7 +59,7 @@
               </BRow>
             </BContainer>
           </BCol>
-          <BCol cols="12" md="3" class="mb-3 col-center">
+          <BCol cols="12" md="3" class="mb-4 col-center">
             <BContainer>
               <BRow class="title-footer">
                 Links úteis
@@ -95,14 +96,13 @@
             </BContainer>
           </BCol>
           <BCol cols="12" md="3" class="col-center">
-            <BContainer class="no-left-padding">
-              <BRow class="title-footer left-padding">
+            <BContainer class="ps-0">
+              <BRow class="title-footer ps-2">
                 Acompanhe-nos nas redes:
               </BRow>
               <div>
                 <a href="https://www.instagram.com/weplanmob/" target="_blank" class="footer-icon">
-                  <BImg class="no-left-spacing" src="/images/icons/instagram.svg" width="25px" height="25px"
-                    alt="Instagram"></BImg>
+                  <BImg src="/images/icons/instagram.svg" width="25px" height="25px" alt="Instagram"></BImg>
                 </a>
                 <a href="https://www.facebook.com/weplanmob/" target="_blank" class="footer-icon">
                   <BImg src="/images/icons/facebook.svg" width="25px" height="25px" alt="Facebook"></BImg>
@@ -123,13 +123,13 @@
                 </a>
               </div>
               <BRow>
-                <BCol class="no-left-padding no-right-padding" cols="4" xs="3" sm="4" md="6">
+                <BCol class="ps-0 pe-0" cols="4" xs="3" sm="4" md="6">
                   <NuxtLink class="" to="/#nps">
                     <NuxtImg src="/images/nps-footer.webp" width="80px" height="auto" alt="Net Promoter Score da WePlan"
                       class="img-fluid" />
                   </NuxtLink>
                 </BCol>
-                <BCol cols="8" xs="9" sm="8" md="6" class="no-left-padding">
+                <BCol cols="8" xs="9" sm="8" md="6" class="ps-0">
                   <BRow>
                     <NuxtLink to="https://www.acate.com.br/associados/associado/?associado_id=2020178619"
                       target="_blank">
@@ -245,21 +245,19 @@ const currentYear = ref(new Date().getFullYear())
   justify-content: center;
 }
 
-.left-padding {
-  padding-left: 10px;
-}
-
-.no-left-padding {
+.leftmost-padding {
   padding-left: 0px;
-}
-
-.no-right-padding {
-  padding-right: 0px;
 }
 
 @media only screen and (max-width: 768px) {
   .col-center {
     justify-content: initial;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .leftmost-padding {
+    padding-left: 12px;
   }
 }
 </style>
