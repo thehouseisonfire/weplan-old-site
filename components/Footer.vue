@@ -3,7 +3,7 @@
     <footer class="footer">
       <BContainer fluid>
         <BRow>
-          <BCol cols="12" md="3" class="mb-4">
+          <BCol cols="12" md="3" class="mb-4 col-center">
             <BContainer>
               <BRow class="mb-1">
                 <NuxtLink to="/" class="pt-0 leftmost-padding">
