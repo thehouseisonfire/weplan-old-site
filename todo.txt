@@ -1,1 +1,2 @@
 diminuir tamanho das fotos e font-size
+top-padding-on-mobile
