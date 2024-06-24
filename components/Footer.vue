@@ -6,7 +6,7 @@
           <BCol cols="12" md="3" class="mb-4 col-center">
             <BContainer>
               <BRow class="mb-1">
-                <NuxtLink to="/" class="pt-0 leftmost-padding">
+                <NuxtLink to="/" class="leftmost-padding" style="padding-top: 2px;">
                   <NuxtImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
                 </NuxtLink>
               </BRow>
@@ -253,6 +253,7 @@ const currentYear = ref(new Date().getFullYear())
   .col-center {
     justify-content: initial;
   }
+
 }
 
 @media only screen and (min-width: 768px) {

@@ -252,7 +252,7 @@
         <!-- // TODO! compress sandrini image -->
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/sandrini.jpeg" alt="Sandrini"></NuxtImg>
+            src="/images/team/sandrini.jpg" alt="Sandrini"></NuxtImg>
           <p>
             <span class="team-member-name">Sandrini Birk Belo</span><br />
             <span class="team-member-position">Conferente de Projetos</span>
@@ -275,13 +275,14 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/weslei.jpg" alt="Weslei"></NuxtImg>
+            src="/images/team/wesley.jpg" alt="Wesley"></NuxtImg>
           <p>
-            <span class="team-member-name">Wesley Oliveira</span><br />
+            <span class="team-member-name">Wesley de Oliveira</span><br />
             <span class="team-member-position">Social Media</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="#" target="_blank">Mais sobre o Wesley</NuxtLink>
+            <NuxtLink class="button-link" href="https://www.instagram.com/owesleymvp/" target="_blank">Mais sobre o
+              Wesley</NuxtLink>
           </p>
         </BCol>
       </BRow>

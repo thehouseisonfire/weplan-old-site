@@ -9,9 +9,10 @@ export default defineNuxtConfig(
 
     // given that the app has a PWA with caching, this is here
     // so the browser does not try to fetch that cache on port 3000
-    devServer: {
-      port: 8000
-    },
+
+    // devServer: {
+    //   port: 8000
+    // },
 
     ssr: true,
 
