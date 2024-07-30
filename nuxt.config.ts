@@ -7,6 +7,19 @@ export default defineNuxtConfig(
   {
     devtools: { enabled: false },
 
+    // bootstrapVueNext: {
+    //   plugin: {
+    //     components: {
+    //       // BLink: {
+    //       //   routerComponentName: 'NuxtLink',
+    //       // },
+    //       BImg: {
+    //         tag: 'NuxtImg',
+    //       },
+    //     },
+    //   },
+    // },
+
     // given that the app has a PWA with caching, this is here
     // so the browser does not try to fetch that cache on port 3000
 
@@ -26,6 +39,7 @@ export default defineNuxtConfig(
       renderJsonPayloads: true,
       typedPages: true,
     },
+
     app: {
       head: {
         title: 'WePlan | Móveis Planejados',
@@ -106,14 +120,17 @@ export default defineNuxtConfig(
         ],
       },
     },
+
     image: {
       dir: 'public/',
       format: ['webp', 'jpg'],
     },
+
     robots: {
       UserAgent: '*',
       Disallow: '',
     },
+
     // this dependency is good because it already downloads the fonts locally by default (no fetching at runtime)
     googleFonts: {
       families: {
@@ -204,4 +221,6 @@ export default defineNuxtConfig(
       'bootstrap/dist/css/bootstrap.min.css',
       'assets/styles/main.css'
     ],
+
+    compatibilityDate: '2024-07-02'
   })

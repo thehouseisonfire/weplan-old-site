@@ -1,1 +1,3 @@
-diminuir tamanho das fotos e font-size
+1. Analizar uso de v-once e v-memo
+
+2. diminuir tamanho das fotos e font-size
