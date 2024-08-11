@@ -122,20 +122,6 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/ismael.jpg" alt="Ismael"></NuxtImg>
-          <p>
-            <span class="team-member-name">Ismael dos Santos</span><br />
-            <span class="team-member-position">Head Comercial</span>
-          </p>
-          <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/in/ismael-dos-santos-66b211207/"
-              target="_blank">
-              Mais
-              sobre o Ismael</NuxtLink>
-          </p>
-        </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/ueslei.jpg" alt="Ueslei"></NuxtImg>
           <p>
             <span class="team-member-name">Uéslei Budke</span><br />
@@ -213,18 +199,6 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/sinara.jpg" alt="Sinara"></NuxtImg>
-          <p>
-            <span class="team-member-name">Sinara Turazzi</span><br />
-            <span class="team-member-position">Analista Financeira</span>
-          </p>
-          <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/in/sinara-m%C2%AA-camelo-turazzi-70745628a/"
-              target="_blank">Mais sobre a Sinara</NuxtLink>
-          </p>
-        </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/suianne.jpg" alt="Suianne"></NuxtImg>
           <p>
             <span class="team-member-name">Suianne Santos</span><br />
@@ -271,18 +245,6 @@
           </p>
           <p>
             <NuxtLink class="button-link" href="#">Mais sobre o Pedro</NuxtLink>
-          </p>
-        </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/wesley.jpg" alt="Wesley"></NuxtImg>
-          <p>
-            <span class="team-member-name">Wesley de Oliveira</span><br />
-            <span class="team-member-position">Social Media</span>
-          </p>
-          <p>
-            <NuxtLink class="button-link" href="https://www.instagram.com/owesleymvp/" target="_blank">Mais sobre o
-              Wesley</NuxtLink>
           </p>
         </BCol>
       </BRow>
