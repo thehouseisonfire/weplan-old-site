@@ -27,7 +27,7 @@ export default defineNuxtConfig(
     //   port: 8000
     // },
 
-    ssr: false,
+    ssr: true,
 
     nitro: {
       compressPublicAssets: { gzip: false, brotli: true },

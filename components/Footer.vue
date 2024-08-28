@@ -6,24 +6,24 @@
           <BCol cols="12" md="3" class="mb-4 col-center">
             <BContainer>
               <BRow class="mb-1">
-                <NuxtLink to="/" class="leftmost-padding" style="padding-top: 2px;">
-                  <NuxtImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
+                <NuxtLink to="/">
+                  <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
                 </NuxtLink>
               </BRow>
-              <BRow class="footerlinks leftmost-padding">
-                <NuxtLink
-                  to="https://www.google.com/maps/place/WePlan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
-                  target="_blank" class="ps-0">
+              <BRow>
+                <a href="https://www.google.com/maps/place/WePlan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
+                  target="_blank">
                   Rua Clevelândia, 557-D, Sala 02<br />
                   Jardim Itália, Chapecó - SC<br />
                   CEP: 89802-405<br />
                   CNPJ: 37.124.126/0001-88
-                </NuxtLink>
+                </a>
               </BRow>
-              <BRow class="footerlinks">
-                <NuxtLink to="tel:+5549988568819" class="fw-bold leftmost-padding" target="_blank">
-                  (49) 9 9808-0271
-                </NuxtLink>
+              <BRow>
+
+                <a href="tel:+5549988568819" target="_blank">
+                  (49) 9 8856-8819
+                </a>
               </BRow>
             </BContainer>
           </BCol>
