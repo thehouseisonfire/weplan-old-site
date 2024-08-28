@@ -27,13 +27,18 @@ export default defineNuxtConfig(
     //   port: 8000
     // },
 
-    ssr: true,
+    ssr: false,
+
+    nitro: {
+      compressPublicAssets: { gzip: false, brotli: true },
+    },
 
     // debug mode is *crazy* man, but might be useful
     // debug: true,
 
     // mostly perf, check if they are already stabilized from time to time
     experimental: {
+      // componentIslands: true,
       viewTransition: true,
       payloadExtraction: true,
       renderJsonPayloads: true,

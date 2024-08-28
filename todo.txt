@@ -1,3 +1,5 @@
 1. Analizar uso de v-once e v-memo
 
+1.5. Usar NuxtIsland
+
 2. diminuir tamanho das fotos e font-size
