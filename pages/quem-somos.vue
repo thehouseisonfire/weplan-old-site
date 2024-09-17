@@ -188,17 +188,6 @@
         </BCol>
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/joao.jpg" alt="João"></NuxtImg>
-          <p>
-            <span class="team-member-name">João Marolli</span><br />
-            <span class="team-member-position">Supervisor de Montagem</span>
-          </p>
-          <p>
-            <NuxtLink class="button-link" href="#">Mais sobre o João</NuxtLink>
-          </p>
-        </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/suianne.jpg" alt="Suianne"></NuxtImg>
           <p>
             <span class="team-member-name">Suianne Santos</span><br />
@@ -236,6 +225,22 @@
               sobre a Sandrini</NuxtLink>
           </p>
         </BCol>
+
+
+        <BCol cols="12" md="3" class="text-center pb-3">
+          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
+            src="/images/team/sandrini.jpg" alt="Maria">
+          </NuxtImg>
+          <p>
+            <span class="team-member-name">Maria</span><br />
+            <span class="team-member-position">Financeiro</span>
+          </p>
+          <p>
+            <NuxtLink class="button-link" href="#" target="_blank">Mais
+              sobre a Maria</NuxtLink>
+          </p>
+        </BCol>
+
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/pedro.jpg" alt="Pedro"></NuxtImg>

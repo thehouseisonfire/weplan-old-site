@@ -49,7 +49,7 @@
     </BNavbar>
   </div>
 </template>
-<script setup>
+<script setup lang="ts">
 const navbarIsColored = ref(false)
 function handleScroll() { navbarIsColored.value = window.scrollY >= 200 }
 onMounted(() => window.addEventListener('scroll', handleScroll))
