@@ -186,33 +186,7 @@
               Juliano</NuxtLink>
           </p>
         </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/suianne.jpg" alt="Suianne"></NuxtImg>
-          <p>
-            <span class="team-member-name">Suianne Santos</span><br />
-            <span class="team-member-position">Analista de Projetos</span>
-          </p>
-          <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/in/suianne-dos-santos-199900226/"
-              target="_blank">Mais
-              sobre a Suianne</NuxtLink>
-          </p>
-        </BCol>
-        <BCol cols="12" md="3" class="text-center pb-3">
-          <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/ana.jpg" alt="Ana"></NuxtImg>
-          <p>
-            <span class="team-member-name">Ana Luisa Ceretra</span><br />
-            <span class="team-member-position">Analista de Projetos</span>
-          </p>
-          <p>
-            <NuxtLink class="button-link" href="https://www.linkedin.com/in/ana-luísa-ceretta-745a13201/"
-              target="_blank">Mais
-              sobre a Ana</NuxtLink>
-          </p>
-        </BCol>
-        <!-- // TODO! compress sandrini image -->
+
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/sandrini.jpg" alt="Sandrini"></NuxtImg>
@@ -226,18 +200,18 @@
           </p>
         </BCol>
 
-
+        <!-- TODO: add photo -->
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
-            src="/images/team/sandrini.jpg" alt="Maria">
+            src="/images/team/leo.jpg" alt="Maria">
           </NuxtImg>
           <p>
-            <span class="team-member-name">Maria</span><br />
+            <span class="team-member-name">Leo</span><br />
             <span class="team-member-position">Financeiro</span>
           </p>
           <p>
             <NuxtLink class="button-link" href="#" target="_blank">Mais
-              sobre a Maria</NuxtLink>
+              sobre o Leo</NuxtLink>
           </p>
         </BCol>
 

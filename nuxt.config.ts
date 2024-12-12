@@ -171,7 +171,7 @@ export default defineNuxtConfig(
       public: {
         gtag: {
           id: process.env.GTAG_ID,
-          enabled: false, // don't even load without consent (perf)
+          initMode: 'manual', // don't even load without consent (perf)
           loadingStrategy: 'defer', // doesn't block page load
           initCommands: [
             // Setup up consent mode
