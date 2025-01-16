@@ -200,7 +200,6 @@
           </p>
         </BCol>
 
-        <!-- TODO: add photo -->
         <BCol cols="12" md="3" class="text-center pb-3">
           <NuxtImg class="bd-placeholder-img rounded-circle img-fluid" width="130px" height="130px"
             src="/images/team/leo.jpg" alt="Maria">
@@ -223,7 +222,7 @@
             <span class="team-member-position">Desenvolvedor de Software</span>
           </p>
           <p>
-            <NuxtLink class="button-link" href="#">Mais sobre o Pedro</NuxtLink>
+            <NuxtLink class="button-link" href="https://wa.me/49999118330>">Mais sobre o Pedro</NuxtLink>
           </p>
         </BCol>
       </BRow>
