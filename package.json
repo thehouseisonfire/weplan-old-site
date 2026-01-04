@@ -11,7 +11,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@bootstrap-vue-next/nuxt": "0.17.6",
+    "@bootstrap-vue-next/nuxt": "0.42.0",
     "@nuxt/devtools": "latest",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
