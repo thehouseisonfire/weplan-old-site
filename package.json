@@ -16,7 +16,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
     "bootstrap": "^5.3.8",
-    "bootstrap-vue-next": "^0.43.0",
+    "bootstrap-vue-next": "^0.45.6",
     "nuxt": "^4.2.2",
     "nuxt-clarity-analytics": "^0.0.9",
     "nuxt-gtag": "^4.1.0",
