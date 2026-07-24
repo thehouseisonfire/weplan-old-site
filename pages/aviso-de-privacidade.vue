@@ -88,10 +88,13 @@
         Coletamos seus Dados Pessoais das seguintes formas:
       </p>
       <table class="w-100 border-double-white" style="table-layout: fixed">
-        <tr>
-          <th class="border-double-white text-center">Forma</th>
-          <th class="text-center">Dados Coletados</th>
-        </tr>
+        <thead>
+          <tr>
+            <th class="border-double-white text-center">Forma</th>
+            <th class="text-center">Dados Coletados</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
           <td class="py-2" style="padding-left: 30px; padding-right: 30px">
             Quando você entra em contato com o time comercial da <strong>WEPLAN</strong> através do
@@ -117,6 +120,7 @@
             Nome e sobrenome, e-mail, telefone, profissão e cidade.
           </td>
         </tr>
+        </tbody>
       </table>
       <br />
       <br />
