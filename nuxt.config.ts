@@ -183,4 +183,8 @@ export default defineNuxtConfig({
   css: ['bootstrap/dist/css/bootstrap.min.css', 'assets/styles/main.css'],
 
   compatibilityDate: '2026-07-24',
+  site: {
+    name: 'WePlan | Móveis Planejados',
+    url: 'https://www.weplan.com.br',
+  },
 })
