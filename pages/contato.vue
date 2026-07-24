@@ -16,8 +16,12 @@
     <BContainer fluid class="section-2 section-background-light-color">
       <BRow>
         <BCol cols="12" md="6">
-          <iframe style="width: 100%; height: 100vh; min-height: 800px;" scrolling="no" frameborder="0"
-            src="https://pages.weplan.com.br/contato"></iframe>
+          <iframe
+            style="width: 100%; height: 100vh; min-height: 800px"
+            scrolling="no"
+            frameborder="0"
+            src="https://pages.weplan.com.br/contato"
+          ></iframe>
         </BCol>
         <BCol class="img-entre-contato img-background" cols="12" md="6"></BCol>
         <!-- <BCol cols="12" md="6" style="padding: 0;">
@@ -36,8 +40,12 @@
       <BRow>
         <BCol class="img-conversa img-background" cols="12" md="6"></BCol>
         <BCol cols="12" md="6">
-          <iframe style="width: 100%; height: 100vh; min-height: 1000px;" scrolling="no" frameborder="0"
-            src="https://pages.weplan.com.br/trabalhe-conosco"></iframe>
+          <iframe
+            style="width: 100%; height: 100vh; min-height: 1000px"
+            scrolling="no"
+            frameborder="0"
+            src="https://pages.weplan.com.br/trabalhe-conosco"
+          ></iframe>
         </BCol>
       </BRow>
     </BContainer>

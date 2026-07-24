@@ -1,6 +1,11 @@
 <template>
   <div>
-    <BNavbar id="navbar" toggleable="lg" type="dark" :class="`fixed-top ${navbarIsColored ? 'navbar-colored' : ''}`">
+    <BNavbar
+      id="navbar"
+      toggleable="lg"
+      type="dark"
+      :class="`fixed-top ${navbarIsColored ? 'navbar-colored' : ''}`"
+    >
       <BNavbarBrand to="/">
         <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
       </BNavbarBrand>
@@ -14,35 +19,23 @@
       <BCollapse id="nav-collapse" is-nav class="py-2">
         <BNavbarNav class="ms-auto mb-2 mb-lg-0">
           <BNavItem class="navlink" to="/como-funciona">
-            <span class="navlink">
-              Como funciona
-            </span>
+            <span class="navlink"> Como funciona </span>
           </BNavItem>
           <BNavItem to="/para-voce">
-            <span class="navlink">
-              Para você
-            </span>
+            <span class="navlink"> Para você </span>
           </BNavItem>
           <BNavItem to="/para-seu-negocio">
-            <span class="navlink">
-              Para seu negócio
-            </span>
+            <span class="navlink"> Para seu negócio </span>
           </BNavItem>
           <BNavItem to="/seja-nosso-parceiro">
-            <span class="navlink">
-              Seja nosso credenciado
-            </span>
+            <span class="navlink"> Seja nosso credenciado </span>
           </BNavItem>
           <BNavItem to="/quem-somos">
-            <span class="navlink">
-              Quem somos
-            </span>
+            <span class="navlink"> Quem somos </span>
           </BNavItem>
           <!-- <NuxtLink class="navlink" to="/projetos">Projetos</NuxtLink> // nothing here yet -->
           <BNavItem to="/contato">
-            <span class="navlink">
-              Contato
-            </span>
+            <span class="navlink"> Contato </span>
           </BNavItem>
         </BNavbarNav>
       </BCollapse>
@@ -51,7 +44,9 @@
 </template>
 <script setup lang="ts">
 const navbarIsColored = ref(false)
-function handleScroll() { navbarIsColored.value = window.scrollY >= 200 }
+function handleScroll() {
+  navbarIsColored.value = window.scrollY >= 200
+}
 onMounted(() => window.addEventListener('scroll', handleScroll))
 onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
 </script>
@@ -62,7 +57,6 @@ onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
   padding: 1rem;
   transition-duration: 0.25s;
 }
-
 
 .navbar-toggler {
   border: 0;
@@ -93,12 +87,10 @@ onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
   text-decoration-skip-ink: none;
 }
 
-
 button.navbar-toggler {
   border: 0px;
   box-shadow: 0px;
 }
-
 
 @media only screen and (max-width: 997px) {
   .navbar {

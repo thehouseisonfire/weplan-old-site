@@ -12,7 +12,14 @@
     </BContainer>
     <BContainer fluid class="section-2">
       <BRow class="mt-5 pt-5" v-if="loading">
-        <BCol cols="12" md="6" lg="4" class="mt-5 projects-loader" v-for="loader in Array(9).keys()" :key="loader">
+        <BCol
+          cols="12"
+          md="6"
+          lg="4"
+          class="mt-5 projects-loader"
+          v-for="loader in Array(9).keys()"
+          :key="loader"
+        >
           <BSkeletonImg card-img="top" aspect="3:2"></BSkeletonImg>
         </BCol>
       </BRow>

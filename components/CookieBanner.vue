@@ -3,40 +3,46 @@
     <BRow>
       <BCol cols="12" lg="8" class="my-auto">
         <p class="banner-message my-auto">
-          Usamos cookies para personalizar conteúdos e melhorar a sua experiência.
-          Para mais informações, confira nosso
-          <NuxtLink href="/termos-de-uso" class="text-white">termos de uso</NuxtLink> e <NuxtLink
-            href="/aviso-de-privacidade" class="text-white">aviso de
-            privacidade</NuxtLink>.
+          Usamos cookies para personalizar conteúdos e melhorar a sua experiência. Para mais
+          informações, confira nosso
+          <NuxtLink href="/termos-de-uso" class="text-white">termos de uso</NuxtLink> e
+          <NuxtLink href="/aviso-de-privacidade" class="text-white">aviso de privacidade</NuxtLink>.
         </p>
       </BCol>
       <BCol cols="12" lg="4" class="px-0 m-auto">
-        <button type="button" @click="modal = true"
-          class="bg-white text-black button-link banner-button mx-3">Configurar</button>
+        <button
+          type="button"
+          @click="modal = true"
+          class="bg-white text-black button-link banner-button mx-3"
+        >
+          Configurar
+        </button>
         <button type="button" @click="accept()" class="button-link banner-button">Aceitar</button>
       </BCol>
     </BRow>
   </BCol>
 
-  <BModal v-model="modal" hideFooter hideHeader centered hideBackdrop :noFade="consent.accepted" @cancel="modal = false"
-    style="backdrop-filter: blur(5px); background-color: #000000b3;">
-    <p class="mt-1 mb-0 fw-bold text-center fs-3">
-      Configurações de cookies
-    </p>
+  <BModal
+    v-model="modal"
+    hideFooter
+    hideHeader
+    centered
+    hideBackdrop
+    :noFade="consent.accepted"
+    @cancel="modal = false"
+    style="backdrop-filter: blur(5px); background-color: #000000b3"
+  >
+    <p class="mt-1 mb-0 fw-bold text-center fs-3">Configurações de cookies</p>
     <!-- Mandatory -->
     <BRow class="mx-1 mt-4">
       <BCol cols="10" class="my-auto">
-        <p class="fs-4 font-normal mb-0">
-          Cookies obrigatórios
-        </p>
-        <p>
-          São cookies para garantir o funcionamento adequado do site.
-        </p>
+        <p class="fs-4 font-normal mb-0">Cookies obrigatórios</p>
+        <p>São cookies para garantir o funcionamento adequado do site.</p>
       </BCol>
       <BCol cols="2" class="my-auto">
         <label class="switch">
-          <input type="checkbox" checked disabled>
-          <span class="slider round" style="background-color: grey;"></span>
+          <input type="checkbox" checked disabled />
+          <span class="slider round" style="background-color: grey"></span>
         </label>
       </BCol>
     </BRow>
@@ -44,17 +50,15 @@
     <!-- Marketing -->
     <BRow class="mx-1">
       <BCol cols="10" class="my-auto">
-        <p class="fs-4 font-normal mb-0">
-          Cookies de estatísticas
-        </p>
+        <p class="fs-4 font-normal mb-0">Cookies de estatísticas</p>
         <p>
-          São usados para coletar informações para exibir conteúdos específicos para um navegador em particular ao criar
-          diferentes grupos-alvo.
+          São usados para coletar informações para exibir conteúdos específicos para um navegador em
+          particular ao criar diferentes grupos-alvo.
         </p>
       </BCol>
       <BCol cols="2" class="my-auto">
         <label class="switch">
-          <input type="checkbox" v-model="consent.marketing" checked>
+          <input type="checkbox" v-model="consent.marketing" checked />
           <span class="slider round"></span>
         </label>
       </BCol>
@@ -63,28 +67,31 @@
     <!-- Analytics -->
     <BRow class="mx-1">
       <BCol cols="10" class="my-auto">
-        <p class="fs-4 font-normal mb-0">
-          Cookies de marketing
-        </p>
+        <p class="fs-4 font-normal mb-0">Cookies de marketing</p>
         <p>
-          São usados para coletar informações para exibir publicidade ou conteúdos específicos para um navegador em
-          particular ao criar diferentes grupos-alvo.
+          São usados para coletar informações para exibir publicidade ou conteúdos específicos para
+          um navegador em particular ao criar diferentes grupos-alvo.
         </p>
       </BCol>
       <BCol cols="2" class="my-auto">
         <label class="switch">
-          <input type="checkbox" v-model="consent.analytics" checked>
+          <input type="checkbox" v-model="consent.analytics" checked />
           <span class="slider round"></span>
         </label>
       </BCol>
     </BRow>
 
-    <div class="mt-0" style="position: relative;">
-      <button type="button" @click="accept()" class="button-link banner-button mt-0"
-        style="float: right; margin-right: 8px;">Aceitar</button>
+    <div class="mt-0" style="position: relative">
+      <button
+        type="button"
+        @click="accept()"
+        class="button-link banner-button mt-0"
+        style="float: right; margin-right: 8px"
+      >
+        Aceitar
+      </button>
     </div>
   </BModal>
-
 </template>
 
 <script setup lang="ts">
@@ -93,18 +100,15 @@ const nuxtApp = useNuxtApp()
 
 const modal = ref(false)
 
-const consent = useCookie(
-  'consent',
-  {
-    default: () => {
-      return {
-        accepted: false,
-        marketing: true,
-        analytics: true,
-      }
-    },
-  }
-)
+const consent = useCookie('consent', {
+  default: () => {
+    return {
+      accepted: false,
+      marketing: true,
+      analytics: true,
+    }
+  },
+})
 
 // if page was changed and permission already given
 if (consent.value.accepted) checkAllowed()
@@ -124,13 +128,12 @@ function checkAllowed() {
 
 // separate to minimize calls (mostly because of GA) (might not change much, depends on the library)
 function initializeAll() {
-
   // Google Analytics
   gtag('consent', 'update', {
     ad_user_data: 'granted',
     ad_personalization: 'granted',
     ad_storage: 'granted',
-    analytics_storage: 'granted'
+    analytics_storage: 'granted',
   })
 
   // Meta Pixel
@@ -138,15 +141,13 @@ function initializeAll() {
 }
 
 function initAnalytics() {
-
   gtag('consent', 'update', {
-    analytics_storage: 'granted'
+    analytics_storage: 'granted',
   })
   // window.clarity('consent')
 }
 
 function initMarketing() {
-
   gtag('consent', 'update', {
     ad_user_data: 'granted',
     ad_personalization: 'granted',
@@ -155,7 +156,6 @@ function initMarketing() {
 
   nuxtApp.$fb.enable()
 }
-
 </script>
 
 <style scoped>
@@ -209,31 +209,31 @@ function initMarketing() {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .17s;
-  transition: .17s;
+  -webkit-transition: 0.17s;
+  transition: 0.17s;
 }
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 22px;
   width: 22px;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .17s;
-  transition: .17s;
+  -webkit-transition: 0.17s;
+  transition: 0.17s;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background-color: #000000;
 }
 
-input:focus+.slider {
+input:focus + .slider {
   box-shadow: 0 0 1px #000000;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
   -webkit-transform: translateX(20px);
   -ms-transform: translateX(20px);
   transform: translateX(20px);
