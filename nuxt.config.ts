@@ -132,8 +132,7 @@ export default defineNuxtConfig(
     },
 
     robots: {
-      UserAgent: '*',
-      Disallow: '',
+      allow: '/',
     },
 
     // this dependency is good because it already downloads the fonts locally by default (no fetching at runtime)
@@ -184,24 +183,6 @@ export default defineNuxtConfig(
             }]
           ]
         },
-        // gtm: {
-        //   id: process.env.GTM_ID,
-        //   // queryParams: {
-        //   //   gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
-        //   //   gtm_preview: 'env-4',
-        //   //   gtm_cookies_win: 'x',
-        //   // },
-        //   defer: true,
-        //   compatibility: false, // IE stuff?
-        //   nonce: '2726c7f26c',
-        //   enabled: false,
-        //   debug: false,
-        //   loadScript: true,
-        //   enableRouterSync: true,
-        //   ignoredViews: [],
-        //   trackOnNextTick: false,
-        //   devtools: false,
-        // },
         facebook: {
           pixelId: process.env.PIXEL_ID,
           autoPageView: true,
@@ -218,7 +199,6 @@ export default defineNuxtConfig(
       '@nuxtjs/google-fonts',
       'nuxt3-meta-pixel',
       'nuxt-gtag',
-      // '@zadigetvoltaire/nuxt-gtm',
       'nuxt-clarity-analytics',
     ],
 

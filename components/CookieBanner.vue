@@ -135,15 +135,8 @@ function initializeAll() {
     analytics_storage: 'granted'
   })
 
-  // Google Tag Manager
-  const gtm = useGtm()
-  if (gtm) gtm.enable()
-
   // Meta Pixel
   nuxtApp.$fb.enable()
-
-  // Microsoft Clarity (heatmaps)
-  // window.clarity('consent')
 }
 
 function initAnalytics() {
@@ -155,9 +148,6 @@ function initAnalytics() {
 }
 
 function initMarketing() {
-
-  const gtm = useGtm()
-  if (gtm) gtm.enable()
 
   gtag('consent', 'update', {
     ad_user_data: 'granted',
