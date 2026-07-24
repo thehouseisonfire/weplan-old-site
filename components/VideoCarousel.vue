@@ -73,7 +73,7 @@
   </Brow>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const step = ref(1)
 const lastStep = 2
 const nextStep = () => step.value == lastStep ? step.value = 1 : step.value++

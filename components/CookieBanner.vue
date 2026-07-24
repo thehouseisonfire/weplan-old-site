@@ -88,10 +88,8 @@
 </template>
 
 <script setup lang="ts">
-
-import { useNuxtApp } from '#app';
-const nuxtApp = useNuxtApp()
 const { initialize, gtag } = useGtag() // Google Analytics
+const nuxtApp = useNuxtApp()
 
 const modal = ref(false)
 

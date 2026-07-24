@@ -36,12 +36,8 @@ export default defineNuxtConfig(
     // debug mode is *crazy* man, but might be useful
     // debug: true,
 
-    // mostly perf, check if they are already stabilized from time to time
     experimental: {
-      // componentIslands: true,
       viewTransition: true,
-      payloadExtraction: true,
-      renderJsonPayloads: true,
       typedPages: true,
     },
 
@@ -127,7 +123,6 @@ export default defineNuxtConfig(
     },
 
     image: {
-      dir: 'public/',
       format: ['webp', 'jpg'],
     },
 
@@ -207,5 +202,5 @@ export default defineNuxtConfig(
       'assets/styles/main.css'
     ],
 
-    compatibilityDate: '2024-07-02'
+    compatibilityDate: '2026-07-24'
   })

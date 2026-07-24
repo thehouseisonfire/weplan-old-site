@@ -20,7 +20,8 @@
     <LazyCookieBanner />
   </div>
 </template>
-<script setup>
+<script setup lang="ts">
+const loading = ref(false)
 </script>
 <style scoped>
 .section-1 {
