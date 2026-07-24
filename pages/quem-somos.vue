@@ -6,7 +6,7 @@
           <BContainer>
             <h1 class="page-title">Quem somos?</h1>
             <p class="page-subtitle">
-              A WePlan nasceu para ser um relevante ecossistema no setor moveleiro.
+              A Weplan nasceu para ser um relevante ecossistema no setor moveleiro.
             </p>
           </BContainer>
         </BCol>
@@ -15,11 +15,11 @@
     <BContainer fluid class="section-2 section-spacing">
       <BRow>
         <BCol cols="12" class="align-self-center text-center">
-          <h2 class="section-title">O que é a WePlan?</h2>
+          <h2 class="section-title">O que é a Weplan?</h2>
           <p class="section-subtitle">
             A
             <span class="highlighted-words-yellow"
-              >WePlan nasceu em 12 de maio de 2020 para ser um relevante ecossistema no setor
+              >Weplan nasceu em 12 de maio de 2020 para ser um relevante ecossistema no setor
               moveleiro</span
             >.<br />
             Conectamos todas as pontas da operação em um mesmo lugar, cuidando de cada detalhe para
@@ -95,7 +95,7 @@
     >
       <BRow class="mb-5">
         <BCol cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Quem faz a WePlan?</h2>
+          <h2 class="section-title">Quem faz a Weplan?</h2>
           <span
             >Esta é a nossa equipe interna de especialistas que está preparada para atender à você,
             cliente ou parceiro.</span

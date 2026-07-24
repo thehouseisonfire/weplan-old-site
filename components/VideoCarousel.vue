@@ -49,7 +49,7 @@
       >
       é uma empresa fundada em 2018, no Sul do Brasil, que tem o propósito de levar energia limpa
       para todos.<br />
-      <span class="highlighted-words-yellow">Eles vieram até a WePlan com uma necessidade</span>:
+      <span class="highlighted-words-yellow">Eles vieram até a Weplan com uma necessidade</span>:
       precisavam de móveis planejados. Para isso,
       <span class="highlighted-words-yellow">conectamos a Arquiteta Talita Dal Santo</span>, que fez
       toda a gestão da obra, desde o mobiliário solto, o mobiliário planejado, a decoração até a
@@ -62,7 +62,7 @@
       indústria,
       <span class="highlighted-words-yellow">e a entrega da solução completa</span>. Acompanhamos
       todos os processos para garantir a efetividade e assertividade no projeto."<br />
-      <b>- Ismael dos Santos, Head Comercial da WePlan.</b>
+      <b>- Ismael dos Santos, Head Comercial da Weplan.</b>
     </BCol>
   </BRow>
   <BRow v-show="step == 2">
@@ -131,7 +131,7 @@
       O cuidado com cada detalhe, o cumprimento de prazos e a entrega com qualidade nos destacam e
       fazem com que nossos clientes, tanto para projetos residenciais como corporativos confiem em
       nosso trabalho".<br />
-      <b>- Ismael dos Santos, Head Comercial da WePlan.</b>
+      <b>- Ismael dos Santos, Head Comercial da Weplan.</b>
     </BCol>
   </BRow>
 </template>

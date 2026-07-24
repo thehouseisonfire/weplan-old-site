@@ -105,11 +105,11 @@
     <BContainer fluid class="section-4 section-spacing">
       <BRow>
         <BCol cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Aqui na WePlan já temos resultados consolidados</h2>
+          <h2 class="section-title">Aqui na Weplan já temos resultados consolidados</h2>
           <p>
             <span class="weplan-result">+ de <span class="highlighted">R$ 1.2 milhões</span></span
             ><br />
-            <span class="weplan-result-description">distribuído aos credenciados da WePlan</span
+            <span class="weplan-result-description">distribuído aos credenciados da Weplan</span
             ><br />
             - Até Abril de 2023
           </p>

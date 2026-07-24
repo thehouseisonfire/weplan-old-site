@@ -14,7 +14,7 @@
     <BContainer id="nosso-processo" fluid class="section-2 section-spacing">
       <BRow>
         <BCol cols="12" class="align-self-center text-center">
-          <h2 class="section-title">O processo da WePlan</h2>
+          <h2 class="section-title">O processo da Weplan</h2>
           <p class="section-subtitle">
             Todo <span class="highlighted-words-yellow">processo</span> desde o projeto até a
             montagem foi
@@ -53,7 +53,7 @@
         </BCol>
         <BCol cols="12" md="6" class="align-self-center text-md-right text-block">
           Profissional credenciado inicia o projeto e utiliza toda a plataforma de controle da
-          WePlan.
+          Weplan.
         </BCol>
         <BCol
           class="img-2-etapa img-height-600px img-background text-block-with-background-img d-none d-md-block"

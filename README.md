@@ -1,4 +1,4 @@
-# WePlan — Site Institucional
+# Weplan — Site Institucional
 
 Repositório do site [weplan.com.br](https://www.weplan.com.br/), empresa de móveis planejados.
 

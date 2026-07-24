@@ -7,7 +7,7 @@
       :class="`fixed-top ${navbarIsColored ? 'navbar-colored' : ''}`"
     >
       <BNavbarBrand to="/">
-        <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
+        <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="Weplan" />
       </BNavbarBrand>
       <BNavbarToggle target="nav-collapse">
         <svg width="30" height="30">

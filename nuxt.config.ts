@@ -42,7 +42,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'WePlan | Móveis Planejados',
+      title: 'Weplan | Móveis Planejados',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       htmlAttrs: {
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
           key: 'description',
           name: 'description',
           content:
-            'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
+            'A Weplan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
         },
         {
           key: 'twitter:url',
@@ -63,7 +63,7 @@ export default defineNuxtConfig({
         {
           key: 'twitter:title',
           name: 'twitter:title',
-          content: 'WePlan | Móveis Planejados',
+          content: 'Weplan | Móveis Planejados',
         },
         {
           key: 'twitter:image',
@@ -73,13 +73,13 @@ export default defineNuxtConfig({
         {
           key: 'twitter:site',
           name: 'twitter:site',
-          content: 'WePlan | Móveis Planejados',
+          content: 'Weplan | Móveis Planejados',
         },
         {
           key: 'twitter:description',
           name: 'twitter:description',
           content:
-            'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
+            'A Weplan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
         },
         {
           key: 'twitter:card',
@@ -94,7 +94,7 @@ export default defineNuxtConfig({
         {
           key: 'og:title',
           name: 'og:title',
-          content: 'WePlan | Móveis Planejados',
+          content: 'Weplan | Móveis Planejados',
         },
         {
           key: 'og:image',
@@ -104,7 +104,7 @@ export default defineNuxtConfig({
         {
           key: 'og:site_name',
           name: 'og:site_name',
-          content: 'WePlan | Móveis Planejados',
+          content: 'Weplan | Móveis Planejados',
         },
         {
           key: 'og:type',
@@ -115,7 +115,7 @@ export default defineNuxtConfig({
           key: 'og:description',
           name: 'og:description',
           content:
-            'A WePlan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
+            'A Weplan nasceu para ser um relevante ecossistema no setor moveleiro. Conectamos todas as pontas da operação em um mesmo lugar, cuidando e abrindo cada detalhe para entregar as melhores soluções aos nossos clientes.',
         },
       ],
     },

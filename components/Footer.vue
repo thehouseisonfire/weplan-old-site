@@ -7,12 +7,12 @@
             <BContainer>
               <BRow class="mb-1">
                 <NuxtLink to="/">
-                  <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="WePlan" />
+                  <BImg src="/images/logo/white.svg" width="140px" height="39.19px" alt="Weplan" />
                 </NuxtLink>
               </BRow>
               <BRow>
                 <a
-                  href="https://www.google.com/maps/place/WePlan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
+                  href="https://www.google.com/maps/place/Weplan/@-27.107929,-52.6217086,17z/data=!3m1!4b1!4m6!3m5!1s0x94e4b53885c1fc7b:0x8175b694e5a93f9c!8m2!3d-27.1079338!4d-52.6191337!16s%2Fg%2F11jp5cq8_q"
                   target="_blank"
                 >
                   Rua Clevelândia, 557-D, Sala 02<br />
@@ -28,7 +28,7 @@
           </BCol>
           <BCol cols="12" md="3" class="mb-4 col-center">
             <BContainer>
-              <BRow class="title-footer"> Sobre a WePlan </BRow>
+              <BRow class="title-footer"> Sobre a Weplan </BRow>
               <BRow>
                 <ul class="footerlinks">
                   <li>
@@ -38,7 +38,7 @@
                     <NuxtLink to="/como-funciona#nosso-processo">Nosso processo</NuxtLink>
                   </li>
                   <li>
-                    <NuxtLink to="/como-funciona#vantagens-weplan">Vantagens da WePlan</NuxtLink>
+                    <NuxtLink to="/como-funciona#vantagens-weplan">Vantagens da Weplan</NuxtLink>
                   </li>
                   <li>
                     <NuxtLink to="/quem-somos">Quem somos</NuxtLink>
@@ -51,7 +51,7 @@
                   </li>
                   <li>
                     <NuxtLink href="https://www.weplaneducacao.com.br/" target="_blank"
-                      >WePlan Educação</NuxtLink
+                      >Weplan Educação</NuxtLink
                     >
                   </li>
                 </ul>
@@ -173,7 +173,7 @@
                       src="/images/nps-footer.webp"
                       width="80px"
                       height="auto"
-                      alt="Net Promoter Score da WePlan"
+                      alt="Net Promoter Score da Weplan"
                       class="img-fluid"
                     />
                   </NuxtLink>
@@ -216,9 +216,9 @@
       <BContainer fluid class="copyright">
         <BRow>
           <BCol cols="12" md="6" class="text-center">
-            © {{ currentYear }} Todos os direitos reservados. WePlan Móveis Planejados.
+            © {{ currentYear }} Todos os direitos reservados. Weplan Móveis Planejados.
           </BCol>
-          <BCol cols="12" md="6" class="text-center"> Desenvolvido pela WePlan Tech 💜 </BCol>
+          <BCol cols="12" md="6" class="text-center"> Desenvolvido pela Weplan Tech 💜 </BCol>
         </BRow>
       </BContainer>
     </footer>

@@ -16,7 +16,7 @@
       <BRow>
         <BCol cols="12" class="align-self-center text-center">
           <h2 class="section-title">
-            O que a <span class="highlighted-words-yellow">WePlan entrega</span> a você?
+            O que a <span class="highlighted-words-yellow">Weplan entrega</span> a você?
           </h2>
         </BCol>
       </BRow>
@@ -117,7 +117,7 @@
           <p>
             <span class="weplan-result">+ de <span class="highlighted">4 mil m²</span></span
             ><br />
-            <span class="weplan-result-description">mobiliados pela WePlan</span><br />
+            <span class="weplan-result-description">mobiliados pela Weplan</span><br />
             - Até Abril de 2023
           </p>
         </BCol>
@@ -126,7 +126,7 @@
             <BImg
               src="/images/nps.webp"
               class="img-fluid"
-              alt="Net Promoter Score da WePlan"
+              alt="Net Promoter Score da Weplan"
               style="max-height: 300px"
             />
             <br />
@@ -193,7 +193,7 @@
     <BContainer fluid class="section-7 section-spacing pad carousel-container">
       <BRow class="mb-5">
         <BCol cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Quem confia na WePlan</h2>
+          <h2 class="section-title">Quem confia na Weplan</h2>
         </BCol>
       </BRow>
       <LazyVideoCarousel />

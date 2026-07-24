@@ -31,7 +31,7 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             frameborder="0"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7103.071279581198!2d-52.619134!3d-27.107934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b53885c1fc7b%3A0x8175b694e5a93f9c!2sWePlan%20M%C3%B3veis%20Planejados!5e0!3m2!1spt-BR!2sbr!4v1687971227694!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7103.071279581198!2d-52.619134!3d-27.107934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b53885c1fc7b%3A0x8175b694e5a93f9c!2sWeplan%20M%C3%B3veis%20Planejados!5e0!3m2!1spt-BR!2sbr!4v1687971227694!5m2!1spt-BR!2sbr"
           ></iframe>
         </BCol> -->
       </BRow>

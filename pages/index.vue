@@ -22,7 +22,7 @@
     >
       <BRow class="mb-5">
         <BCol cols="12" class="align-self-center text-center">
-          <h2 class="section-title">Quem confia na WePlan</h2>
+          <h2 class="section-title">Quem confia na Weplan</h2>
         </BCol>
       </BRow>
       <LazyVideoCarousel />
@@ -30,7 +30,7 @@
     <BContainer id="nps" fluid class="section-3 section-spacing">
       <BRow>
         <BCol cols="12" md="6" class="align-self-center">
-          <h3 class="section-title mx-5">A WePlan encanta seus clientes</h3>
+          <h3 class="section-title mx-5">A Weplan encanta seus clientes</h3>
           <p class="mx-5">
             Todos os nossos atendimentos são avaliados para garantir que estamos prestando o melhor
             serviço e entregando as melhores soluções. Estamos sempre atentos aos feedbacks que
@@ -51,7 +51,7 @@
             <span class="highlighted-words-yellow"
               >nosso padrão de atendimento está na Zona de Encantamento</span
             >. Para uma empresa entrar na Zona de Encantamento o NPS precisa estar entre 91 e 100.
-            <span class="highlighted-words-yellow">O NPS atual da WePlan é 93</span>.
+            <span class="highlighted-words-yellow">O NPS atual da Weplan é 93</span>.
           </p>
         </BCol>
         <BCol cols="12" md="6" class="text-center">
@@ -60,7 +60,7 @@
             class="img-fluid"
             width="225px"
             height="400px"
-            alt="Net Promoter Score da WePlan"
+            alt="Net Promoter Score da Weplan"
           />
         </BCol>
       </BRow>
