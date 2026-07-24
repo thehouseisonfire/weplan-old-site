@@ -25,17 +25,17 @@ bun run postinstall
 
 ## Scripts
 
-| Comando              | Descrição                              |
-| -------------------- | -------------------------------------- |
-| `bun run dev`        | Servidor de desenvolvimento            |
-| `bun run build`      | Build de produção                      |
-| `bun run generate`   | Geração estática                       |
-| `bun run preview`    | Preview do build de produção           |
-| `bun run analyze`    | Análise do bundle                      |
-| `bun run lint`       | Verificação de código com oxlint       |
-| `bun run lint:fix`   | Correção automática de problemas       |
-| `bun run format`     | Formatação com oxfmt                   |
-| `bun run format:check` | Verifica formatação sem alterar      |
+| Comando                | Descrição                        |
+| ---------------------- | -------------------------------- |
+| `bun run dev`          | Servidor de desenvolvimento      |
+| `bun run build`        | Build de produção                |
+| `bun run generate`     | Geração estática                 |
+| `bun run preview`      | Preview do build de produção     |
+| `bun run analyze`      | Análise do bundle                |
+| `bun run lint`         | Verificação de código com oxlint |
+| `bun run lint:fix`     | Correção automática de problemas |
+| `bun run format`       | Formatação com oxfmt             |
+| `bun run format:check` | Verifica formatação sem alterar  |
 
 ## Estrutura
 
@@ -60,10 +60,10 @@ components/
 
 ## Variáveis de ambiente
 
-| Variável    | Descrição               |
-| ----------- | ----------------------- |
-| `PIXEL_ID`  | ID do Meta Pixel        |
-| `GTAG_ID`   | ID do Google Analytics  |
+| Variável   | Descrição              |
+| ---------- | ---------------------- |
+| `PIXEL_ID` | ID do Meta Pixel       |
+| `GTAG_ID`  | ID do Google Analytics |
 
 ## Deploy
 

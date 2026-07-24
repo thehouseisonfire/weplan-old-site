@@ -95,31 +95,31 @@
           </tr>
         </thead>
         <tbody>
-        <tr>
-          <td class="py-2" style="padding-left: 30px; padding-right: 30px">
-            Quando você entra em contato com o time comercial da <strong>WEPLAN</strong> através do
-            link “contato”:
-          </td>
-          <td class="text-center border-double-white">Nome, telefone e e-mail.</td>
-        </tr>
-        <tr>
-          <td class="py-2 border-double-white" style="padding-left: 30px; padding-right: 30px">
-            Quando você entra em contato com o time de RH da <strong>WEPLAN</strong> através do link
-            “ contato” para mostrar seu interesse em trabalhar na <strong>WEPLAN</strong>:
-          </td>
-          <td class="text-center border-double-white">
-            Nome, E-mail, telefone, cidade, link para linkedin.
-          </td>
-        </tr>
-        <tr>
-          <td class="py-2" style="padding-left: 30px; padding-right: 30px">
-            Quando você se cadastra para fazer parte da rede de credenciados da
-            <strong>WEPLAN</strong>:
-          </td>
-          <td class="text-center border-double-white">
-            Nome e sobrenome, e-mail, telefone, profissão e cidade.
-          </td>
-        </tr>
+          <tr>
+            <td class="py-2" style="padding-left: 30px; padding-right: 30px">
+              Quando você entra em contato com o time comercial da <strong>WEPLAN</strong> através
+              do link “contato”:
+            </td>
+            <td class="text-center border-double-white">Nome, telefone e e-mail.</td>
+          </tr>
+          <tr>
+            <td class="py-2 border-double-white" style="padding-left: 30px; padding-right: 30px">
+              Quando você entra em contato com o time de RH da <strong>WEPLAN</strong> através do
+              link “ contato” para mostrar seu interesse em trabalhar na <strong>WEPLAN</strong>:
+            </td>
+            <td class="text-center border-double-white">
+              Nome, E-mail, telefone, cidade, link para linkedin.
+            </td>
+          </tr>
+          <tr>
+            <td class="py-2" style="padding-left: 30px; padding-right: 30px">
+              Quando você se cadastra para fazer parte da rede de credenciados da
+              <strong>WEPLAN</strong>:
+            </td>
+            <td class="text-center border-double-white">
+              Nome e sobrenome, e-mail, telefone, profissão e cidade.
+            </td>
+          </tr>
         </tbody>
       </table>
       <br />
