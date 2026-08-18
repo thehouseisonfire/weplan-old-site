@@ -21,7 +21,7 @@
     "nuxt3-meta-pixel": "^1.0.9"
   },
   "devDependencies": {
-    "@bootstrap-vue-next/nuxt": "^0.45.8",
+    "@bootstrap-vue-next/nuxt": "^0.46.1",
     "@nuxt/devtools": "4.0.0-alpha.9",
     "@nuxtjs/google-fonts": "^3.2.0",
     "bootstrap": "^5.3.8",
